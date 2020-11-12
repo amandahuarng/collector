@@ -1,0 +1,513 @@
+{
+  "title": "Blacklight Inspection",
+  "uri_ins": "http://banxia.co",
+  "uri_dest": "https://www.banxia.co/",
+  "uri_redirects": [
+    "http://banxia.co/",
+    "https://banxia.co/"
+  ],
+  "secure_connection": {},
+  "host": "banxia.co",
+  "config": {
+    "clearCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "emulateDevice": false,
+    "numPages": 2
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/87.0.4272.0",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4272.0 Safari/537.36",
+    "platform": {
+      "name": "Darwin",
+      "version": "19.6.0"
+    }
+  },
+  "script": {
+    "host": "Amandas-MBP-3.lan",
+    "version": {
+      "npm": "2.1.11",
+      "commit": null
+    },
+    "node_version": "v14.14.0"
+  },
+  "start_time": "2020-11-12T19:25:27.681Z",
+  "end_time": "2020-11-12T19:25:49.862Z",
+  "browsing_history": [
+    "https://www.banxia.co/",
+    "https://www.banxia.co/161_161384/",
+    "https://www.banxia.co/137_137760/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "banxia.co",
+        "www.banxia.co"
+      ],
+      "third_party": [
+        "www.googletagmanager.com",
+        "www.google-analytics.com",
+        "pagead2.googlesyndication.com",
+        "googleads.g.doubleclick.net",
+        "partner.googleadservices.com",
+        "adservice.google.com",
+        "www.googletagservices.com",
+        "tpc.googlesyndication.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.banxia.co/theme/jquery1.42.min.js": [
+          "scroll"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "__cfduid",
+        "value": "d472ecf67b244138f973d0a27ea6868ea1605209139",
+        "domain": "banxia.co",
+        "path": "/",
+        "expires": "2020-12-12T19:25:39.491Z",
+        "size": 51,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "type": "http",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.2.823104122.1605209140",
+        "domain": "banxia.co",
+        "path": "/",
+        "expires": "2022-11-12T19:25:46.000Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gid",
+        "value": "GA1.2.85084647.1605209140",
+        "domain": "banxia.co",
+        "path": "/",
+        "expires": "2020-11-13T19:25:46.000Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gat_gtag_UA_147753568_1",
+        "value": "1",
+        "domain": "banxia.co",
+        "path": "/",
+        "expires": "2020-11-12T19:26:40.000Z",
+        "size": 25,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "__gads",
+        "value": "ID=30d09d55e0cb763f-22ff7aaedac40044:T=1605209142:RT=1605209142:S=ALNI_MZW5chSHCOgsu238YHsHNIfopfltw",
+        "domain": "banxia.co",
+        "path": "/",
+        "expires": "2021-12-07T19:25:42.000Z",
+        "size": 106,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "IDE",
+        "value": "AHWqTUkyTJdFk8akojux5bUZLkCWpQdr_IAh1ndJ7-XbDeOrzbhf8gfuJ7nG4gC2",
+        "domain": "doubleclick.net",
+        "path": "/",
+        "expires": "2022-11-12T19:25:42.780Z",
+        "size": 67,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "DSID",
+        "value": "NO_DATA",
+        "domain": "doubleclick.net",
+        "path": "/",
+        "expires": "2020-11-12T20:25:43.402Z",
+        "size": 11,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      }
+    ],
+    "fb_pixel_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "/gen_204?$image,other,ping,script",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "sodar2",
+            "v": 219,
+            "t": 2,
+            "li": "gda_r20201110",
+            "jk": 2584887539071331,
+            "bg": "!iomlianNAAVxZqjhcVgQFP0ohfzSVgIAAAGuUgAAACloAQcKAKnb82qPKGz5NNqmOzBsy63zBEGbmiVQZZKaCsdsrG501rVNl8mJ92axhBIfb_wliQ2kzxT7LI-IDX0FiSRZW081UJ1UsCeymhl59zh7rS-odBJImzo4f49rjhFalNVWgpCj5MhKe-h8DAqecsRPPMSbf0hkgB7sKPVc8YpCHFC0rlLCoLUa5kxrn8BREN9b4A3eofRgJssv3yZFpGF4Di6HmTAv4yvctLs_mQHbzsjoYQIX40Oy_cNEz8eoC6tn7Ww75gNWzT4yVSonU4fhF0XPvs42r6ACFCOSpjRbVf1Q3kobe8bQ2VQ3orww5ErWhBU97W2yaYfSwJ3katFvX2EfXV9Im_ARvAZZ4Q-8oUMvGXZGueH1iykriXOI5abiy9-cQjsDc4OQdQ-LZXUJQmFELlwUv8ynvUOFFj5efko7itlnHGeuWwkeksljVqkjFEdTujm-T1zgWuUwojqDBFAQdOk5ne3y7gT5ZbsenttbMwvjy1gAEbrHkviB3G8WZzxN7LnQDIRy4G8Wm4ghYB8JJq4eMu3AloRK4ePnDgQBJ7-i1KobXoCjnoe-evHXXT18-8DsemLo5Db1vGuvH3LGy7QIMHsq4NTJJe-bdGEl27DIGaJ6QLN_32wWmQy3npRD3mKbwmKvsjiv4sjC7tA-z4qQTbrmkcNjG-noRQPCiOmZLM4dD2TWd0PpEdj1327FxE4sA351qbJkexFi5IL2k7FvP29EjdiJjUsDI-mH6k9ljEd-J8CuLbAEBf9xxhO4iWenDZeHUISjOuQcZFoQ6kgpuOkAazulxEa6wDw-x62oRpZXIkB5UrfTwMhrNxGWQ58jKutOYmocEddjfNfl1UB5YR0qYQ"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.banxia.co/137_137760/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=sodar2&v=219&t=2&li=gda_r20201110&jk=2584887539071331&bg=!iomlianNAAVxZqjhcVgQFP0ohfzSVgIAAAGuUgAAACloAQcKAKnb82qPKGz5NNqmOzBsy63zBEGbmiVQZZKaCsdsrG501rVNl8mJ92axhBIfb_wliQ2kzxT7LI-IDX0FiSRZW081UJ1UsCeymhl59zh7rS-odBJImzo4f49rjhFalNVWgpCj5MhKe-h8DAqecsRPPMSbf0hkgB7sKPVc8YpCHFC0rlLCoLUa5kxrn8BREN9b4A3eofRgJssv3yZFpGF4Di6HmTAv4yvctLs_mQHbzsjoYQIX40Oy_cNEz8eoC6tn7Ww75gNWzT4yVSonU4fhF0XPvs42r6ACFCOSpjRbVf1Q3kobe8bQ2VQ3orww5ErWhBU97W2yaYfSwJ3katFvX2EfXV9Im_ARvAZZ4Q-8oUMvGXZGueH1iykriXOI5abiy9-cQjsDc4OQdQ-LZXUJQmFELlwUv8ynvUOFFj5efko7itlnHGeuWwkeksljVqkjFEdTujm-T1zgWuUwojqDBFAQdOk5ne3y7gT5ZbsenttbMwvjy1gAEbrHkviB3G8WZzxN7LnQDIRy4G8Wm4ghYB8JJq4eMu3AloRK4ePnDgQBJ7-i1KobXoCjnoe-evHXXT18-8DsemLo5Db1vGuvH3LGy7QIMHsq4NTJJe-bdGEl27DIGaJ6QLN_32wWmQy3npRD3mKbwmKvsjiv4sjC7tA-z4qQTbrmkcNjG-noRQPCiOmZLM4dD2TWd0PpEdj1327FxE4sA351qbJkexFi5IL2k7FvP29EjdiJjUsDI-mH6k9ljEd-J8CuLbAEBf9xxhO4iWenDZeHUISjOuQcZFoQ6kgpuOkAazulxEa6wDw-x62oRpZXIkB5UrfTwMhrNxGWQ58jKutOYmocEddjfNfl1UB5YR0qYQ"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j87",
+            "a": 1966131451,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "https://www.banxia.co/137_137760/",
+            "ul": "en-us",
+            "de": "Big5",
+            "dt": "慈悲殿, 慈悲殿小說全文在線閱讀 - 半夏小說",
+            "sd": "30-bit",
+            "sr": "1440x900",
+            "vp": "1185x659",
+            "je": 0,
+            "_u": "AACAAUAB~",
+            "jid": "",
+            "gjid": "",
+            "cid": 823104122.1605209,
+            "tid": "UA-147753568-1",
+            "_gid": 85084647.16052091,
+            "gtm": "2oub41",
+            "z": 1932414641
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.banxia.co/137_137760/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j87&a=1966131451&t=pageview&_s=1&dl=https%3A%2F%2Fwww.banxia.co%2F137_137760%2F&ul=en-us&de=Big5&dt=%E6%85%88%E6%82%B2%E6%AE%BF%2C%20%E6%85%88%E6%82%B2%E6%AE%BF%E5%B0%8F%E8%AA%AA%E5%85%A8%E6%96%87%E5%9C%A8%E7%B7%9A%E9%96%B1%E8%AE%80%20-%20%E5%8D%8A%E5%A4%8F%E5%B0%8F%E8%AA%AA&sd=30-bit&sr=1440x900&vp=1185x659&je=0&_u=AACAAUAB~&jid=&gjid=&cid=823104122.1605209140&tid=UA-147753568-1&_gid=85084647.1605209140&gtm=2oub41&z=1932414641"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/analytics.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.banxia.co/137_137760/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagservices.com^*/osd.js$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cb": "/r20100101"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.banxia.co/137_137760/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101"
+      },
+      {
+        "data": {
+          "filter": "||googleadservices.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "domain": "www.banxia.co",
+            "callback": "_gfp_s_",
+            "client": "ca-pub-4707178218676583",
+            "cookie": "ID=30d09d55e0cb763f-22ff7aaedac40044:T=1605209142:RT=1605209142:S=ALNI_MZW5chSHCOgsu238YHsHNIfopfltw"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.banxia.co/137_137760/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://partner.googleadservices.com/gampad/cookie.js?domain=www.banxia.co&callback=_gfp_s_&client=ca-pub-4707178218676583&cookie=ID%3D30d09d55e0cb763f-22ff7aaedac40044%3AT%3D1605209142%3ART%3D1605209142%3AS%3DALNI_MZW5chSHCOgsu238YHsHNIfopfltw"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com/gtag/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "UA-147753568-1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.banxia.co/137_137760/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=UA-147753568-1"
+      },
+      {
+        "data": {
+          "filter": "/gen_204?$image,other,ping,script",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "sodar2",
+            "v": 219,
+            "t": 2,
+            "li": "gda_r20201110",
+            "jk": 391143561564017,
+            "bg": "!Xl2lXX3NAAUa6mVoGljkGBnGE4Y2jgIAAAHPUgAAACtoAQcKAJIqvAG1lAALe_pk0rKWn6YtHCcb6IoVI3qqd9gqvWkUROWB8DKuVfC-g_eb6ZZ74L4eanrS7hmkMAxlLbxOC1lI2SeEkBgs1J5JU6FybXOqMh4ug3s_hA0C3mgaGDYekFpg8WutSMFB9Lm3Kc4HyFxZLOgmEfpjwOnjI5AbX0DzGpvzoh7wSKlvpHf2sfxz1mLz25kB9T2voczXQo2k9Djt9SQ_vrAy2GW7PZlkgpo19nwMuJG2wljVU6mRWQAHslYtkhbEpR5dnN3M8kkAQENoeIw5VUVSOB4czktNI9eXPayPn6aGOLBfHCEmdL5n6jPDeHa2d5sWln87U-rWXTh9mblbZ77uMbGgkslMmzOsdkCyrMAfunG0x-VIg4PlQ96Q1Gyxuh785upPXK-11dhIg6QVTUEa19ovO_m9j_rssuEaUVaxBuJ8q5rHLBSu4fH8_6BTBMfz-D9OKRHj9bgEMwn1hflYVgsQh0TxOOrUhTgnka89s1NWyXzXX4aso6co8VCXdiIDO2g7DuBci2mJdnXV1TWhY055PnuR9oyc4VB3Du8467vDuXdyuA-s-hw3rg7FBxzG_qYeAgIbRViQZVXzlt5fFFyx0mqr3jCZLNvbWjrVZNWoD-SXtn3QRpEcGMoY7SlgvyLjVjURb4DyF0vD7XqBgmxXj-bQ-9ns87kOStXuUjHjL0rTTnKzdHW8mX-p6u3K7JeiFFeSfMl83Mm6JxYcRZ7s1ak1tvTgUp8e2pcKI09OwK3zRdReMosSPpj9jS_pv4FEYAZhzaQCqpa68ehIDJ-Y_TgEFHFzRTZCn_6HUKnFKnAcxXB5Oc2r4qgcALcomDJ3exbunXthKKnnogJqtqIJfg"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.banxia.co/161_161384/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=sodar2&v=219&t=2&li=gda_r20201110&jk=391143561564017&bg=!Xl2lXX3NAAUa6mVoGljkGBnGE4Y2jgIAAAHPUgAAACtoAQcKAJIqvAG1lAALe_pk0rKWn6YtHCcb6IoVI3qqd9gqvWkUROWB8DKuVfC-g_eb6ZZ74L4eanrS7hmkMAxlLbxOC1lI2SeEkBgs1J5JU6FybXOqMh4ug3s_hA0C3mgaGDYekFpg8WutSMFB9Lm3Kc4HyFxZLOgmEfpjwOnjI5AbX0DzGpvzoh7wSKlvpHf2sfxz1mLz25kB9T2voczXQo2k9Djt9SQ_vrAy2GW7PZlkgpo19nwMuJG2wljVU6mRWQAHslYtkhbEpR5dnN3M8kkAQENoeIw5VUVSOB4czktNI9eXPayPn6aGOLBfHCEmdL5n6jPDeHa2d5sWln87U-rWXTh9mblbZ77uMbGgkslMmzOsdkCyrMAfunG0x-VIg4PlQ96Q1Gyxuh785upPXK-11dhIg6QVTUEa19ovO_m9j_rssuEaUVaxBuJ8q5rHLBSu4fH8_6BTBMfz-D9OKRHj9bgEMwn1hflYVgsQh0TxOOrUhTgnka89s1NWyXzXX4aso6co8VCXdiIDO2g7DuBci2mJdnXV1TWhY055PnuR9oyc4VB3Du8467vDuXdyuA-s-hw3rg7FBxzG_qYeAgIbRViQZVXzlt5fFFyx0mqr3jCZLNvbWjrVZNWoD-SXtn3QRpEcGMoY7SlgvyLjVjURb4DyF0vD7XqBgmxXj-bQ-9ns87kOStXuUjHjL0rTTnKzdHW8mX-p6u3K7JeiFFeSfMl83Mm6JxYcRZ7s1ak1tvTgUp8e2pcKI09OwK3zRdReMosSPpj9jS_pv4FEYAZhzaQCqpa68ehIDJ-Y_TgEFHFzRTZCn_6HUKnFKnAcxXB5Oc2r4qgcALcomDJ3exbunXthKKnnogJqtqIJfg"
+      },
+      {
+        "data": {
+          "filter": "||googletagservices.com^*/osd.js$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cb": "/r20100101"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.banxia.co/161_161384/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101"
+      },
+      {
+        "data": {
+          "filter": "||googleadservices.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "domain": "www.banxia.co",
+            "callback": "_gfp_s_",
+            "client": "ca-pub-4707178218676583"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.banxia.co/161_161384/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://partner.googleadservices.com/gampad/cookie.js?domain=www.banxia.co&callback=_gfp_s_&client=ca-pub-4707178218676583"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j87",
+            "a": 1244728141,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "https://www.banxia.co/161_161384/",
+            "ul": "en-us",
+            "de": "Big5",
+            "dt": "別再讓我懷孕啦, 別再讓我懷孕啦小說全文在線閱讀 - 半夏小說",
+            "sd": "30-bit",
+            "sr": "1440x900",
+            "vp": "1185x703",
+            "je": 0,
+            "_u": "AACAAUAB~",
+            "jid": "",
+            "gjid": "",
+            "cid": 823104122.1605209,
+            "tid": "UA-147753568-1",
+            "_gid": 85084647.16052091,
+            "gtm": "2oub41",
+            "z": 1597668236
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.banxia.co/161_161384/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j87&a=1244728141&t=pageview&_s=1&dl=https%3A%2F%2Fwww.banxia.co%2F161_161384%2F&ul=en-us&de=Big5&dt=%E5%88%A5%E5%86%8D%E8%AE%93%E6%88%91%E6%87%B7%E5%AD%95%E5%95%A6%2C%20%E5%88%A5%E5%86%8D%E8%AE%93%E6%88%91%E6%87%B7%E5%AD%95%E5%95%A6%E5%B0%8F%E8%AA%AA%E5%85%A8%E6%96%87%E5%9C%A8%E7%B7%9A%E9%96%B1%E8%AE%80%20-%20%E5%8D%8A%E5%A4%8F%E5%B0%8F%E8%AA%AA&sd=30-bit&sr=1440x900&vp=1185x703&je=0&_u=AACAAUAB~&jid=&gjid=&cid=823104122.1605209140&tid=UA-147753568-1&_gid=85084647.1605209140&gtm=2oub41&z=1597668236"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/analytics.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.banxia.co/161_161384/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com/gtag/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "UA-147753568-1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.banxia.co/161_161384/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=UA-147753568-1"
+      },
+      {
+        "data": {
+          "filter": "/collect?*&cid=",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j87",
+            "a": 1386174668,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "https://www.banxia.co/",
+            "ul": "en-us",
+            "de": "Big5",
+            "dt": "半夏小說 - 網路小說線上免費看",
+            "sd": "30-bit",
+            "sr": "1440x900",
+            "vp": "1185x659",
+            "je": 0,
+            "_u": "IEBAAUABAAAAAC~",
+            "jid": 2014698311,
+            "gjid": 1060770347,
+            "cid": 823104122.1605209,
+            "tid": "UA-147753568-1",
+            "_gid": 85084647.16052091,
+            "_r": 1,
+            "gtm": "2oub41",
+            "z": 1551684952
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.banxia.co/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j87&a=1386174668&t=pageview&_s=1&dl=https%3A%2F%2Fwww.banxia.co%2F&ul=en-us&de=Big5&dt=%E5%8D%8A%E5%A4%8F%E5%B0%8F%E8%AA%AA%20-%20%E7%B6%B2%E8%B7%AF%E5%B0%8F%E8%AA%AA%E7%B7%9A%E4%B8%8A%E5%85%8D%E8%B2%BB%E7%9C%8B&sd=30-bit&sr=1440x900&vp=1185x659&je=0&_u=IEBAAUABAAAAAC~&jid=2014698311&gjid=1060770347&cid=823104122.1605209140&tid=UA-147753568-1&_gid=85084647.1605209140&_r=1&gtm=2oub41&z=1551684952"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/analytics.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.banxia.co/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com/gtag/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "UA-147753568-1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.banxia.co/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=UA-147753568-1"
+      }
+    ]
+  }
+}

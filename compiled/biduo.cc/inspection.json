@@ -1,0 +1,1165 @@
+{
+  "title": "Blacklight Inspection",
+  "uri_ins": "http://biduo.cc",
+  "uri_dest": "https://www.biduo.cc/",
+  "uri_redirects": [
+    "http://biduo.cc/"
+  ],
+  "secure_connection": {},
+  "host": "biduo.cc",
+  "config": {
+    "clearCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "emulateDevice": false,
+    "numPages": 2
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/87.0.4272.0",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4272.0 Safari/537.36",
+    "platform": {
+      "name": "Darwin",
+      "version": "19.6.0"
+    }
+  },
+  "script": {
+    "host": "Amandas-MBP-3.lan",
+    "version": {
+      "npm": "2.1.11",
+      "commit": null
+    },
+    "node_version": "v14.14.0"
+  },
+  "start_time": "2020-11-12T19:22:58.415Z",
+  "end_time": "2020-11-12T19:23:22.764Z",
+  "browsing_history": [
+    "https://www.biduo.cc/",
+    "https://www.biduo.cc/biquge/58_58247/c727746.html",
+    "https://www.biduo.cc/xbiquge/2_2327/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "biduo.cc",
+        "www.biduo.cc"
+      ],
+      "third_party": [
+        "www.baidu.com",
+        "s13.cnzz.com",
+        "j.sdqoi2d.com",
+        "zz.bdstatic.com",
+        "jspassport.ssl.qhimg.com",
+        "c.cnzz.com",
+        "z7.cnzz.com",
+        "cnzz.mmstat.com",
+        "c.v4dwkcv.com",
+        "s.ssl.qhres.com",
+        "sp0.baidu.com",
+        "s.360.cn",
+        "hm.baidu.com",
+        "g.ieeod0.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "SENSOR": {
+        "https://hm.baidu.com/hm.js?79146f7516f35fe12fd594789a89d25d": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "fh",
+        "value": "46398:1",
+        "domain": "ss2.a.he2d.com",
+        "path": "/csp9y86/283",
+        "expires": "2020-11-13T19:23:15.000Z",
+        "size": 9,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "pc",
+        "value": "0:1605208995",
+        "domain": "ss2.a.he2d.com",
+        "path": "/csp9y86/283",
+        "expires": "2020-11-12T20:00:00.000Z",
+        "size": 14,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "UM_distinctid",
+        "value": "175bde950c34e6-0f6f4bdba569f8-6830057e-13c680-175bde950c45ab",
+        "domain": "biduo.cc",
+        "path": "/",
+        "expires": "2021-05-13T19:23:05.000Z",
+        "size": 73,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "CNZZDATA1262689929",
+        "value": "759160217-1605206905-%7C1605206905",
+        "domain": "www.biduo.cc",
+        "path": "/",
+        "expires": "2021-05-13T19:23:17.000Z",
+        "size": 52,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "cna",
+        "value": "mnk0GOhIFF0CAUZd5c5ZwLsS",
+        "domain": "mmstat.com",
+        "path": "/",
+        "expires": "2030-11-10T19:23:06.266Z",
+        "size": 27,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "sca",
+        "value": "53696d08",
+        "domain": "cnzz.mmstat.com",
+        "path": "/",
+        "expires": -1,
+        "size": 11,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "HMACCOUNT_BFESS",
+        "value": "62791AE3A0B10341",
+        "domain": "hm.baidu.com",
+        "path": "/",
+        "expires": "2038-01-18T00:00:00.303Z",
+        "size": 31,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "Hm_lvt_79146f7516f35fe12fd594789a89d25d",
+        "value": "1605208988",
+        "domain": "www.biduo.cc",
+        "path": "/",
+        "expires": "2021-11-12T19:23:18.000Z",
+        "size": 49,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "PPad_id_PP",
+        "value": "1",
+        "domain": "www.biduo.cc",
+        "path": "/",
+        "expires": "2020-11-12T21:23:12.000Z",
+        "size": 11,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "37cs_pidx",
+        "value": "1",
+        "domain": "www.biduo.cc",
+        "path": "/",
+        "expires": "2020-11-13T08:00:00.000Z",
+        "size": 10,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "37cs_user",
+        "value": "37cs17434549893",
+        "domain": "www.biduo.cc",
+        "path": "/",
+        "expires": "2020-11-14T19:23:13.000Z",
+        "size": 24,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "bcolor",
+        "value": "",
+        "domain": "www.biduo.cc",
+        "path": "/",
+        "expires": "2021-11-12T19:23:13.000Z",
+        "size": 6,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "font",
+        "value": "",
+        "domain": "www.biduo.cc",
+        "path": "/",
+        "expires": "2021-11-12T19:23:13.000Z",
+        "size": 4,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "size",
+        "value": "",
+        "domain": "www.biduo.cc",
+        "path": "/",
+        "expires": "2021-11-12T19:23:13.000Z",
+        "size": 4,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "fontcolor",
+        "value": "",
+        "domain": "www.biduo.cc",
+        "path": "/",
+        "expires": "2021-11-12T19:23:13.000Z",
+        "size": 9,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "width",
+        "value": "",
+        "domain": "www.biduo.cc",
+        "path": "/",
+        "expires": "2021-11-12T19:23:13.000Z",
+        "size": 5,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "37cs_show",
+        "value": "253",
+        "domain": "www.biduo.cc",
+        "path": "/",
+        "expires": "2020-11-14T19:23:13.000Z",
+        "size": 12,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "hitme",
+        "value": "1",
+        "domain": "www.biduo.cc",
+        "path": "/",
+        "expires": -1,
+        "size": 6,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "hitbookid",
+        "value": "58247",
+        "domain": "www.biduo.cc",
+        "path": "/",
+        "expires": -1,
+        "size": 14,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "u",
+        "value": "o4utXyStL-YBAAAAgVMr",
+        "domain": "he2d.com",
+        "path": "/",
+        "expires": "2030-11-10T19:23:15.000Z",
+        "size": 21,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "cscpvrich9140_fidx",
+        "value": "3",
+        "domain": "www.biduo.cc",
+        "path": "/",
+        "expires": "2020-11-14T19:23:17.000Z",
+        "size": 19,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "atpsida",
+        "value": "bbca56c34ed0ef15ce416630_1605208998_3",
+        "domain": "cnzz.mmstat.com",
+        "path": "/",
+        "expires": -1,
+        "size": 44,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "Hm_lpvt_79146f7516f35fe12fd594789a89d25d",
+        "value": "1605208999",
+        "domain": "www.biduo.cc",
+        "path": "/",
+        "expires": -1,
+        "size": 50,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cc": 1,
+            "ck": 1,
+            "cl": "30-bit",
+            "ds": "1440x900",
+            "vl": 659,
+            "et": 0,
+            "ja": 0,
+            "ln": "en-us",
+            "lo": 0,
+            "lt": 1605208988,
+            "rnd": 61535942,
+            "si": "79146f7516f35fe12fd594789a89d25d",
+            "v": "1.2.80",
+            "lv": 2,
+            "sn": 60244,
+            "r": 0,
+            "ww": 1200,
+            "ct": "!!",
+            "u": "https://www.biduo.cc/xbiquge/2_2327/",
+            "tt": "陆峰江晓燕最新章节_陆峰江晓燕全文阅读_笔趣阁"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.biduo.cc/xbiquge/2_2327/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.gif?cc=1&ck=1&cl=30-bit&ds=1440x900&vl=659&et=0&ja=0&ln=en-us&lo=0&lt=1605208988&rnd=61535942&si=79146f7516f35fe12fd594789a89d25d&v=1.2.80&lv=2&sn=60244&r=0&ww=1200&ct=!!&u=https%3A%2F%2Fwww.biduo.cc%2Fxbiquge%2F2_2327%2F&tt=%E9%99%86%E5%B3%B0%E6%B1%9F%E6%99%93%E7%87%95%E6%9C%80%E6%96%B0%E7%AB%A0%E8%8A%82_%E9%99%86%E5%B3%B0%E6%B1%9F%E6%99%93%E7%87%95%E5%85%A8%E6%96%87%E9%98%85%E8%AF%BB_%E7%AC%94%E8%B6%A3%E9%98%81"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "hca": "62791AE3A0B10341",
+            "cc": 1,
+            "ck": 1,
+            "cl": "30-bit",
+            "ds": "1440x900",
+            "vl": 659,
+            "ep": "5013,1904",
+            "et": 3,
+            "ja": 0,
+            "ln": "en-us",
+            "lo": 0,
+            "lt": 1605208988,
+            "rnd": 661549737,
+            "si": "79146f7516f35fe12fd594789a89d25d",
+            "v": "1.2.80",
+            "lv": 2,
+            "sn": 60238,
+            "r": 0,
+            "ww": 1200,
+            "u": "https://www.biduo.cc/biquge/58_58247/c727746.html"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.biduo.cc/xbiquge/2_2327/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.gif?hca=62791AE3A0B10341&cc=1&ck=1&cl=30-bit&ds=1440x900&vl=659&ep=5013%2C1904&et=3&ja=0&ln=en-us&lo=0&lt=1605208988&rnd=661549737&si=79146f7516f35fe12fd594789a89d25d&v=1.2.80&lv=2&sn=60238&r=0&ww=1200&u=https%3A%2F%2Fwww.biduo.cc%2Fbiquge%2F58_58247%2Fc727746.html"
+      },
+      {
+        "data": {
+          "filter": "||baidu.com^*/s.gif?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "l": "https://www.biduo.cc/xbiquge/2_2327/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.biduo.cc/xbiquge/2_2327/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sp0.baidu.com/9_Q4simg2RQJ8t7jm9iCKT-xh_/s.gif?l=https://www.biduo.cc/xbiquge/2_2327/"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "79146f7516f35fe12fd594789a89d25d": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.biduo.cc/xbiquge/2_2327/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.js?79146f7516f35fe12fd594789a89d25d"
+      },
+      {
+        "data": {
+          "filter": "||s.360.cn^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "url": "https://www.biduo.cc/xbiquge/2_2327/",
+            "sid": "c273ba633a16c550afbf3d77f87d433e",
+            "token": "c/277233b2a_623/3eag1u6qci5b5x0/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.biduo.cc/xbiquge/2_2327/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://s.360.cn/so/zz.gif?url=https%3A%2F%2Fwww.biduo.cc%2Fxbiquge%2F2_2327%2F&sid=c273ba633a16c550afbf3d77f87d433e&token=c/277233b2a_623/3eag1u6qci5b5x0/"
+      },
+      {
+        "data": {
+          "filter": "||mmstat.com^$image,ping",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "abc": 1,
+            "rnd": 943488041
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.biduo.cc/xbiquge/2_2327/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cnzz.mmstat.com/9.gif?abc=1&rnd=943488041"
+      },
+      {
+        "data": {
+          "filter": "||cnzz.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": 1262689929,
+            "r": "",
+            "lg": "en-us",
+            "ntime": 1605206905,
+            "cnzz_eid": "759160217-1605206905-",
+            "showp": "1440x900",
+            "p": "https://www.biduo.cc/xbiquge/2_2327/",
+            "t": "陆峰江晓燕最新章节_陆峰江晓燕全文阅读_笔趣阁",
+            "umuuid": "175bde950c34e6-0f6f4bdba569f8-6830057e-13c680-175bde950c45ab",
+            "h": 1,
+            "rnd": 1909785494
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.biduo.cc/xbiquge/2_2327/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://z7.cnzz.com/stat.htm?id=1262689929&r=&lg=en-us&ntime=1605206905&cnzz_eid=759160217-1605206905-&showp=1440x900&p=https%3A%2F%2Fwww.biduo.cc%2Fxbiquge%2F2_2327%2F&t=%E9%99%86%E5%B3%B0%E6%B1%9F%E6%99%93%E7%87%95%E6%9C%80%E6%96%B0%E7%AB%A0%E8%8A%82_%E9%99%86%E5%B3%B0%E6%B1%9F%E6%99%93%E7%87%95%E5%85%A8%E6%96%87%E9%98%85%E8%AF%BB_%E7%AC%94%E8%B6%A3%E9%98%81&umuuid=175bde950c34e6-0f6f4bdba569f8-6830057e-13c680-175bde950c45ab&h=1&rnd=1909785494"
+      },
+      {
+        "data": {
+          "filter": "||cnzz.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "web_id": 1262689929,
+            "t": "z"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.biduo.cc/xbiquge/2_2327/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c.cnzz.com/core.php?web_id=1262689929&t=z"
+      },
+      {
+        "data": {
+          "filter": "||qhimg.com/11.0.1.js$script",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "c273ba633a16c550afbf3d77f87d433e": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.biduo.cc/xbiquge/2_2327/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://jspassport.ssl.qhimg.com/11.0.1.js?c273ba633a16c550afbf3d77f87d433e"
+      },
+      {
+        "data": {
+          "filter": "||zz.bdstatic.com^",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.biduo.cc/xbiquge/2_2327/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://zz.bdstatic.com/linksubmit/push.js"
+      },
+      {
+        "data": {
+          "filter": "||cnzz.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": 1262689929,
+            "web_id": 1262689929
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.biduo.cc/xbiquge/2_2327/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://s13.cnzz.com/z_stat.php?id=1262689929&web_id=1262689929"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "hca": "62791AE3A0B10341",
+            "cc": 1,
+            "ck": 1,
+            "cl": "30-bit",
+            "ds": "1440x900",
+            "vl": 659,
+            "ep": "5013,1904",
+            "et": 3,
+            "ja": 0,
+            "ln": "en-us",
+            "lo": 0,
+            "lt": 1605208988,
+            "rnd": 661549737,
+            "si": "79146f7516f35fe12fd594789a89d25d",
+            "v": "1.2.80",
+            "lv": 2,
+            "sn": 60238,
+            "r": 0,
+            "ww": 1200,
+            "u": "https://www.biduo.cc/biquge/58_58247/c727746.html"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.biduo.cc/biquge/58_58247/c727746.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.gif?hca=62791AE3A0B10341&cc=1&ck=1&cl=30-bit&ds=1440x900&vl=659&ep=5013%2C1904&et=3&ja=0&ln=en-us&lo=0&lt=1605208988&rnd=661549737&si=79146f7516f35fe12fd594789a89d25d&v=1.2.80&lv=2&sn=60238&r=0&ww=1200&u=https%3A%2F%2Fwww.biduo.cc%2Fbiquge%2F58_58247%2Fc727746.html"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cc": 1,
+            "ck": 1,
+            "cl": "30-bit",
+            "ds": "1440x900",
+            "vl": 659,
+            "et": 0,
+            "ja": 0,
+            "ln": "en-us",
+            "lo": 0,
+            "lt": 1605208988,
+            "rnd": 691150299,
+            "si": "79146f7516f35fe12fd594789a89d25d",
+            "v": "1.2.80",
+            "lv": 2,
+            "sn": 60238,
+            "r": 0,
+            "ww": 1200,
+            "ct": "!!",
+            "u": "https://www.biduo.cc/biquge/58_58247/c727746.html",
+            "tt": "在士兵突击开始二次军旅生涯_第355章都是影帝 - 笔趣阁"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.biduo.cc/biquge/58_58247/c727746.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.gif?cc=1&ck=1&cl=30-bit&ds=1440x900&vl=659&et=0&ja=0&ln=en-us&lo=0&lt=1605208988&rnd=691150299&si=79146f7516f35fe12fd594789a89d25d&v=1.2.80&lv=2&sn=60238&r=0&ww=1200&ct=!!&u=https%3A%2F%2Fwww.biduo.cc%2Fbiquge%2F58_58247%2Fc727746.html&tt=%E5%9C%A8%E5%A3%AB%E5%85%B5%E7%AA%81%E5%87%BB%E5%BC%80%E5%A7%8B%E4%BA%8C%E6%AC%A1%E5%86%9B%E6%97%85%E7%94%9F%E6%B6%AF_%E7%AC%AC355%E7%AB%A0%E9%83%BD%E6%98%AF%E5%BD%B1%E5%B8%9D%20-%20%E7%AC%94%E8%B6%A3%E9%98%81"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "hca": "62791AE3A0B10341",
+            "cc": 1,
+            "ck": 1,
+            "cl": "30-bit",
+            "ds": "1440x900",
+            "vl": 659,
+            "ep": "3836,3835",
+            "et": 3,
+            "ja": 0,
+            "ln": "en-us",
+            "lo": 0,
+            "rnd": 346430676,
+            "si": "79146f7516f35fe12fd594789a89d25d",
+            "v": "1.2.80",
+            "lv": 1,
+            "sn": 60233,
+            "r": 0,
+            "ww": 1200,
+            "u": "https://www.biduo.cc/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.biduo.cc/biquge/58_58247/c727746.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.gif?hca=62791AE3A0B10341&cc=1&ck=1&cl=30-bit&ds=1440x900&vl=659&ep=3836%2C3835&et=3&ja=0&ln=en-us&lo=0&rnd=346430676&si=79146f7516f35fe12fd594789a89d25d&v=1.2.80&lv=1&sn=60233&r=0&ww=1200&u=https%3A%2F%2Fwww.biduo.cc%2F"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "79146f7516f35fe12fd594789a89d25d": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.biduo.cc/biquge/58_58247/c727746.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.js?79146f7516f35fe12fd594789a89d25d"
+      },
+      {
+        "data": {
+          "filter": "||s.360.cn^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "url": "https://www.biduo.cc/biquge/58_58247/c727746.html",
+            "sid": "c273ba633a16c550afbf3d77f87d433e",
+            "token": "cl2m7t3hb.a6643737a2176cc/575402"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.biduo.cc/biquge/58_58247/c727746.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://s.360.cn/so/zz.gif?url=https%3A%2F%2Fwww.biduo.cc%2Fbiquge%2F58_58247%2Fc727746.html&sid=c273ba633a16c550afbf3d77f87d433e&token=cl2m7t3hb.a6643737a2176cc/575402"
+      },
+      {
+        "data": {
+          "filter": "||baidu.com^*/s.gif?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "l": "https://www.biduo.cc/biquge/58_58247/c727746.html"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.biduo.cc/biquge/58_58247/c727746.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sp0.baidu.com/9_Q4simg2RQJ8t7jm9iCKT-xh_/s.gif?l=https://www.biduo.cc/biquge/58_58247/c727746.html"
+      },
+      {
+        "data": {
+          "filter": "||mmstat.com^$image,ping",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "abc": 1,
+            "rnd": 628552905
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.biduo.cc/biquge/58_58247/c727746.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cnzz.mmstat.com/9.gif?abc=1&rnd=628552905"
+      },
+      {
+        "data": {
+          "filter": "||cnzz.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": 1262689929,
+            "r": "",
+            "lg": "en-us",
+            "ntime": 1605206905,
+            "cnzz_eid": "759160217-1605206905-",
+            "showp": "1440x900",
+            "p": "https://www.biduo.cc/biquge/58_58247/c727746.html",
+            "t": "在士兵突击开始二次军旅生涯_第355章都是影帝 - 笔趣阁",
+            "umuuid": "175bde950c34e6-0f6f4bdba569f8-6830057e-13c680-175bde950c45ab",
+            "h": 1,
+            "rnd": 621823141
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.biduo.cc/biquge/58_58247/c727746.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://z7.cnzz.com/stat.htm?id=1262689929&r=&lg=en-us&ntime=1605206905&cnzz_eid=759160217-1605206905-&showp=1440x900&p=https%3A%2F%2Fwww.biduo.cc%2Fbiquge%2F58_58247%2Fc727746.html&t=%E5%9C%A8%E5%A3%AB%E5%85%B5%E7%AA%81%E5%87%BB%E5%BC%80%E5%A7%8B%E4%BA%8C%E6%AC%A1%E5%86%9B%E6%97%85%E7%94%9F%E6%B6%AF_%E7%AC%AC355%E7%AB%A0%E9%83%BD%E6%98%AF%E5%BD%B1%E5%B8%9D%20-%20%E7%AC%94%E8%B6%A3%E9%98%81&umuuid=175bde950c34e6-0f6f4bdba569f8-6830057e-13c680-175bde950c45ab&h=1&rnd=621823141"
+      },
+      {
+        "data": {
+          "filter": "||cnzz.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "web_id": 1262689929,
+            "t": "z"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.biduo.cc/biquge/58_58247/c727746.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c.cnzz.com/core.php?web_id=1262689929&t=z"
+      },
+      {
+        "data": {
+          "filter": "||qhimg.com/11.0.1.js$script",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "c273ba633a16c550afbf3d77f87d433e": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.biduo.cc/biquge/58_58247/c727746.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://jspassport.ssl.qhimg.com/11.0.1.js?c273ba633a16c550afbf3d77f87d433e"
+      },
+      {
+        "data": {
+          "filter": "||zz.bdstatic.com^",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.biduo.cc/biquge/58_58247/c727746.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://zz.bdstatic.com/linksubmit/push.js"
+      },
+      {
+        "data": {
+          "filter": "||cnzz.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": 1262689929,
+            "web_id": 1262689929
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.biduo.cc/biquge/58_58247/c727746.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://s13.cnzz.com/z_stat.php?id=1262689929&web_id=1262689929"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "hca": "62791AE3A0B10341",
+            "cc": 1,
+            "ck": 1,
+            "cl": "30-bit",
+            "ds": "1440x900",
+            "vl": 659,
+            "ep": "3836,3835",
+            "et": 3,
+            "ja": 0,
+            "ln": "en-us",
+            "lo": 0,
+            "rnd": 346430676,
+            "si": "79146f7516f35fe12fd594789a89d25d",
+            "v": "1.2.80",
+            "lv": 1,
+            "sn": 60233,
+            "r": 0,
+            "ww": 1200,
+            "u": "https://www.biduo.cc/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.biduo.cc/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.gif?hca=62791AE3A0B10341&cc=1&ck=1&cl=30-bit&ds=1440x900&vl=659&ep=3836%2C3835&et=3&ja=0&ln=en-us&lo=0&rnd=346430676&si=79146f7516f35fe12fd594789a89d25d&v=1.2.80&lv=1&sn=60233&r=0&ww=1200&u=https%3A%2F%2Fwww.biduo.cc%2F"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cc": 1,
+            "ck": 1,
+            "cl": "30-bit",
+            "ds": "1440x900",
+            "vl": 659,
+            "et": 0,
+            "ja": 0,
+            "ln": "en-us",
+            "lo": 0,
+            "rnd": 1374122107,
+            "si": "79146f7516f35fe12fd594789a89d25d",
+            "v": "1.2.80",
+            "lv": 1,
+            "sn": 60233,
+            "r": 0,
+            "ww": 1200,
+            "ct": "!!",
+            "u": "https://www.biduo.cc/",
+            "tt": "笔趣阁_书友最值得收藏!"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.biduo.cc/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.gif?cc=1&ck=1&cl=30-bit&ds=1440x900&vl=659&et=0&ja=0&ln=en-us&lo=0&rnd=1374122107&si=79146f7516f35fe12fd594789a89d25d&v=1.2.80&lv=1&sn=60233&r=0&ww=1200&ct=!!&u=https%3A%2F%2Fwww.biduo.cc%2F&tt=%E7%AC%94%E8%B6%A3%E9%98%81_%E4%B9%A6%E5%8F%8B%E6%9C%80%E5%80%BC%E5%BE%97%E6%94%B6%E8%97%8F!"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "79146f7516f35fe12fd594789a89d25d": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.biduo.cc/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.js?79146f7516f35fe12fd594789a89d25d"
+      },
+      {
+        "data": {
+          "filter": "||s.360.cn^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "url": "https://www.biduo.cc/",
+            "sid": "c273ba633a16c550afbf3d77f87d433e",
+            "token": "c/2c7c3.boau6d3i3ba.1w6wcw5/5/0:"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.biduo.cc/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://s.360.cn/so/zz.gif?url=https%3A%2F%2Fwww.biduo.cc%2F&sid=c273ba633a16c550afbf3d77f87d433e&token=c/2c7c3.boau6d3i3ba.1w6wcw5/5/0:"
+      },
+      {
+        "data": {
+          "filter": "||baidu.com^*/s.gif?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "l": "https://www.biduo.cc/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.biduo.cc/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sp0.baidu.com/9_Q4simg2RQJ8t7jm9iCKT-xh_/s.gif?l=https://www.biduo.cc/"
+      },
+      {
+        "data": {
+          "filter": "||mmstat.com^$image,ping",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "abc": 1,
+            "rnd": 1192326629
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.biduo.cc/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cnzz.mmstat.com/9.gif?abc=1&rnd=1192326629"
+      },
+      {
+        "data": {
+          "filter": "||cnzz.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": 1262689929,
+            "r": "",
+            "lg": "en-us",
+            "ntime": "none",
+            "cnzz_eid": "759160217-1605206905-",
+            "showp": "1440x900",
+            "p": "https://www.biduo.cc/",
+            "t": "笔趣阁_书友最值得收藏!",
+            "umuuid": "175bde950c34e6-0f6f4bdba569f8-6830057e-13c680-175bde950c45ab",
+            "h": 1,
+            "rnd": 515708238
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.biduo.cc/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://z7.cnzz.com/stat.htm?id=1262689929&r=&lg=en-us&ntime=none&cnzz_eid=759160217-1605206905-&showp=1440x900&p=https%3A%2F%2Fwww.biduo.cc%2F&t=%E7%AC%94%E8%B6%A3%E9%98%81_%E4%B9%A6%E5%8F%8B%E6%9C%80%E5%80%BC%E5%BE%97%E6%94%B6%E8%97%8F!&umuuid=175bde950c34e6-0f6f4bdba569f8-6830057e-13c680-175bde950c45ab&h=1&rnd=515708238"
+      },
+      {
+        "data": {
+          "filter": "||cnzz.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "web_id": 1262689929,
+            "t": "z"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.biduo.cc/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c.cnzz.com/core.php?web_id=1262689929&t=z"
+      },
+      {
+        "data": {
+          "filter": "||qhimg.com/11.0.1.js$script",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "c273ba633a16c550afbf3d77f87d433e": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.biduo.cc/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://jspassport.ssl.qhimg.com/11.0.1.js?c273ba633a16c550afbf3d77f87d433e"
+      },
+      {
+        "data": {
+          "filter": "||zz.bdstatic.com^",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.biduo.cc/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://zz.bdstatic.com/linksubmit/push.js"
+      },
+      {
+        "data": {
+          "filter": "||cnzz.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": 1262689929,
+            "web_id": 1262689929
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.biduo.cc/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://s13.cnzz.com/z_stat.php?id=1262689929&web_id=1262689929"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1108 @@
+{
+  "title": "Blacklight Inspection",
+  "uri_ins": "http://idaprikol.ru",
+  "uri_dest": "https://idaprikol.ru/",
+  "uri_redirects": [
+    "http://idaprikol.ru/"
+  ],
+  "secure_connection": {},
+  "host": "idaprikol.ru",
+  "config": {
+    "clearCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "emulateDevice": false,
+    "numPages": 2
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/87.0.4272.0",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4272.0 Safari/537.36",
+    "platform": {
+      "name": "Darwin",
+      "version": "19.6.0"
+    }
+  },
+  "script": {
+    "host": "Amandas-MBP-3.lan",
+    "version": {
+      "npm": "2.1.11",
+      "commit": null
+    },
+    "node_version": "v14.14.0"
+  },
+  "start_time": "2020-11-12T19:29:37.362Z",
+  "end_time": "2020-11-12T19:30:04.261Z",
+  "browsing_history": [
+    "https://idaprikol.ru/",
+    "https://idaprikol.ru/tags/%D0%B5%D1%89%D1%91",
+    "https://idaprikol.ru/picture/citat-cto-za-fignya-cto-delaet-kurica-v-moei-skole-CjJE5vE88?gallery=featured"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "idaprikol.ru",
+        "cdn.idaprikol.ru",
+        "imageproxy.idaprikol.ru"
+      ],
+      "third_party": [
+        "static.ifunny.co",
+        "www.youtube.com",
+        "securepubads.g.doubleclick.net",
+        "imageproxy.ifunny.co",
+        "cdn.jsdelivr.net",
+        "www.googletagmanager.com",
+        "platform.twitter.com",
+        "mc.yandex.ru",
+        "geoip.ifunny.co",
+        "s.ytimg.com",
+        "www.google-analytics.com",
+        "www.facebook.com",
+        "stats.g.doubleclick.net",
+        "syndication.twitter.com",
+        "pagead2.googlesyndication.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://static.ifunny.co/dist/idaprikol/assets/vendors.da164005.js": [
+          "scroll"
+        ],
+        "https://mc.yandex.ru/metrika/tag.js": [
+          "scroll",
+          "mousedown",
+          "mousemove",
+          "click",
+          "mouseup",
+          "dblclick"
+        ],
+        "https://platform.twitter.com/widgets.js": [
+          "click"
+        ]
+      },
+      "SENSOR": {
+        "https://static.ifunny.co/dist/idaprikol/assets/vendors.da164005.js": [
+          "orientationchange"
+        ],
+        "https://mc.yandex.ru/metrika/tag.js": [
+          "orientationchange"
+        ]
+      },
+      "KEYBOARD": {
+        "https://static.ifunny.co/dist/idaprikol/assets/vendors.da164005.js": [
+          "keydown"
+        ],
+        "https://static.ifunny.co/dist/idaprikol/assets/vueApp.5136dea1.js": [
+          "keyup"
+        ],
+        "https://mc.yandex.ru/metrika/tag.js": [
+          "keyup",
+          "input",
+          "keydown",
+          "keypress"
+        ]
+      },
+      "TOUCH": {
+        "https://mc.yandex.ru/metrika/tag.js": [
+          "touchcancel",
+          "touchend",
+          "touchstart",
+          "touchmove"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "CID",
+        "value": "9e0d3bce13b2af1ccf3fd7d1302357795f11c1cd1a870994038cac646dd834bc",
+        "domain": "idaprikol.ru",
+        "path": "/",
+        "expires": "2020-12-12T19:30:03.643Z",
+        "size": 67,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "type": "http",
+        "third_party": false
+      },
+      {
+        "name": "YSC",
+        "value": "xmAPnrQ4WqE",
+        "domain": "youtube.com",
+        "path": "/",
+        "expires": -1,
+        "size": 14,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "VISITOR_INFO1_LIVE",
+        "value": "KRQfhUpF8v0",
+        "domain": "youtube.com",
+        "path": "/",
+        "expires": "2021-05-11T19:29:45.234Z",
+        "size": 29,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_ym_uid",
+        "value": "1605209389304751646",
+        "domain": "idaprikol.ru",
+        "path": "/",
+        "expires": "2021-11-12T19:29:49.000Z",
+        "size": 26,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ym_d",
+        "value": "1605209389",
+        "domain": "idaprikol.ru",
+        "path": "/",
+        "expires": "2021-11-12T19:29:49.000Z",
+        "size": 15,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "yandexuid",
+        "value": "6760342431605209389",
+        "domain": "yandex.ru",
+        "path": "/",
+        "expires": "2021-11-12T19:29:49.521Z",
+        "size": 28,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "yuidss",
+        "value": "6760342431605209389",
+        "domain": "yandex.ru",
+        "path": "/",
+        "expires": "2021-11-12T19:29:49.521Z",
+        "size": 25,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "yabs-sid",
+        "value": "973621551605209389",
+        "domain": "mc.yandex.ru",
+        "path": "/",
+        "expires": -1,
+        "size": 26,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "i",
+        "value": "qsK9C3LdaknQ2bsGPNzpzOf7jmoThytFrdFKC6eFabW11FCiQJp5HjP0/P52iaIAg+FCqgnfgimC7wyIeMCctZCUj64=",
+        "domain": "yandex.ru",
+        "path": "/",
+        "expires": "2030-11-10T19:29:46.521Z",
+        "size": 93,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ymex",
+        "value": "1636745389.yrts.1605209389#1636745389.yrtsi.1605209389",
+        "domain": "yandex.ru",
+        "path": "/",
+        "expires": "2021-11-12T19:29:49.521Z",
+        "size": 58,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.2.648885737.1605209390",
+        "domain": "idaprikol.ru",
+        "path": "/",
+        "expires": "2022-11-12T19:30:00.000Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gid",
+        "value": "GA1.2.1909112068.1605209390",
+        "domain": "idaprikol.ru",
+        "path": "/",
+        "expires": "2020-11-13T19:30:00.000Z",
+        "size": 31,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gat_gtag_UA_23094255_3",
+        "value": "1",
+        "domain": "idaprikol.ru",
+        "path": "/",
+        "expires": "2020-11-12T19:30:49.000Z",
+        "size": 24,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ym_isad",
+        "value": "2",
+        "domain": "idaprikol.ru",
+        "path": "/",
+        "expires": "2020-11-13T15:29:49.000Z",
+        "size": 9,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ym_visorc_57015274",
+        "value": "w",
+        "domain": "idaprikol.ru",
+        "path": "/",
+        "expires": "2020-11-12T20:00:00.000Z",
+        "size": 20,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "key_logging": {},
+    "session_recorders": {
+      "mc.yandex.ru/webvisor/": [
+        "mc.yandex.ru/webvisor/57015274"
+      ],
+      "mc.yandex.ru/metrika/tag.js": [
+        "mc.yandex.ru/metrika/tag.js"
+      ]
+    },
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||mc.yandex.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "wmode": 0,
+            "rn": 484480956,
+            "page-url": "https://idaprikol.ru/picture/citat-cto-za-fignya-cto-delaet-kurica-v-moei-skole-CjJE5vE88?gallery=featured",
+            "wv-type": 3,
+            "wv-hit": 257831977,
+            "wv-part": 1,
+            "browser-info": "ti:8:et:1605209403:w:1200x659:v:1976:z:-480:i:20201112112959:st:1605209403:u:1605209389304751646"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://idaprikol.ru/picture/citat-cto-za-fignya-cto-delaet-kurica-v-moei-skole-CjJE5vE88?gallery=featured",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.ru/webvisor/57015274?wmode=0&rn=484480956&page-url=https%3A%2F%2Fidaprikol.ru%2Fpicture%2Fcitat-cto-za-fignya-cto-delaet-kurica-v-moei-skole-CjJE5vE88%3Fgallery%3Dfeatured&wv-type=3&wv-hit=257831977&wv-part=1&browser-info=ti%3A8%3Aet%3A1605209403%3Aw%3A1200x659%3Av%3A1976%3Az%3A-480%3Ai%3A20201112112959%3Ast%3A1605209403%3Au%3A1605209389304751646"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "wmode": 0,
+            "rn": 759472198,
+            "page-url": "https://idaprikol.ru/picture/citat-cto-za-fignya-cto-delaet-kurica-v-moei-skole-CjJE5vE88?gallery=featured",
+            "wv-type": 3,
+            "wv-hit": 257831977,
+            "wv-part": 1,
+            "browser-info": "ti:8:et:1605209401:w:1200x659:v:1976:z:-480:i:20201112112959:bt:1:st:1605209403:u:1605209389304751646"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://idaprikol.ru/picture/citat-cto-za-fignya-cto-delaet-kurica-v-moei-skole-CjJE5vE88?gallery=featured",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.ru/webvisor/57015274?wmode=0&rn=759472198&page-url=https%3A%2F%2Fidaprikol.ru%2Fpicture%2Fcitat-cto-za-fignya-cto-delaet-kurica-v-moei-skole-CjJE5vE88%3Fgallery%3Dfeatured&wv-type=3&wv-hit=257831977&wv-part=1&browser-info=ti%3A8%3Aet%3A1605209401%3Aw%3A1200x659%3Av%3A1976%3Az%3A-480%3Ai%3A20201112112959%3Abt%3A1%3Ast%3A1605209403%3Au%3A1605209389304751646"
+      },
+      {
+        "data": {
+          "filter": "||twitter.com/i/jot",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "l": {
+              "widget_origin": "https://idaprikol.ru/picture/citat-cto-za-fignya-cto-delaet-kurica-v-moei-skole-CjJE5vE88",
+              "widget_frame": false,
+              "widget_site_screen_name": "idaprikol_ru",
+              "language": "en",
+              "message": "m:withcount:",
+              "_category_": "tfw_client_event",
+              "triggered_on": 1605209401427,
+              "dnt": false,
+              "client_version": "ed20a2b:1601588405575",
+              "format_version": 1,
+              "event_namespace": {
+                "client": "tfw",
+                "page": "button",
+                "section": "follow",
+                "action": "impression"
+              }
+            }
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://idaprikol.ru/picture/citat-cto-za-fignya-cto-delaet-kurica-v-moei-skole-CjJE5vE88?gallery=featured",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://syndication.twitter.com/i/jot?l=%7B%22widget_origin%22%3A%22https%3A%2F%2Fidaprikol.ru%2Fpicture%2Fcitat-cto-za-fignya-cto-delaet-kurica-v-moei-skole-CjJE5vE88%22%2C%22widget_frame%22%3Afalse%2C%22widget_site_screen_name%22%3A%22idaprikol_ru%22%2C%22language%22%3A%22en%22%2C%22message%22%3A%22m%3Awithcount%3A%22%2C%22_category_%22%3A%22tfw_client_event%22%2C%22triggered_on%22%3A1605209401427%2C%22dnt%22%3Afalse%2C%22client_version%22%3A%22ed20a2b%3A1601588405575%22%2C%22format_version%22%3A1%2C%22event_namespace%22%3A%7B%22client%22%3A%22tfw%22%2C%22page%22%3A%22button%22%2C%22section%22%3A%22follow%22%2C%22action%22%3A%22impression%22%7D%7D"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j87",
+            "a": 1739828046,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "https://idaprikol.ru/picture/citat-cto-za-fignya-cto-delaet-kurica-v-moei-skole-CjJE5vE88?gallery=featured",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "Читать Что за фигня? Что делает курица в моей школе? Она рискнула своей жизнью, чтобы получить образование, а ты судишь ее только по тому, что она отличается от тебя - Такого вы еще не видели :) / АйДаПрикол :)",
+            "sd": "30-bit",
+            "sr": "1440x900",
+            "vp": "1185x659",
+            "je": 0,
+            "_u": "AACAAUAB~",
+            "jid": "",
+            "gjid": "",
+            "cid": 648885737.1605209,
+            "tid": "UA-23094255-3",
+            "_gid": 1909112068.160521,
+            "gtm": "2oub41",
+            "z": 762078369
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://idaprikol.ru/picture/citat-cto-za-fignya-cto-delaet-kurica-v-moei-skole-CjJE5vE88?gallery=featured",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j87&a=1739828046&t=pageview&_s=1&dl=https%3A%2F%2Fidaprikol.ru%2Fpicture%2Fcitat-cto-za-fignya-cto-delaet-kurica-v-moei-skole-CjJE5vE88%3Fgallery%3Dfeatured&ul=en-us&de=UTF-8&dt=%D0%A7%D0%B8%D1%82%D0%B0%D1%82%D1%8C%20%D0%A7%D1%82%D0%BE%20%D0%B7%D0%B0%20%D1%84%D0%B8%D0%B3%D0%BD%D1%8F%3F%20%D0%A7%D1%82%D0%BE%20%D0%B4%D0%B5%D0%BB%D0%B0%D0%B5%D1%82%20%D0%BA%D1%83%D1%80%D0%B8%D1%86%D0%B0%20%D0%B2%20%D0%BC%D0%BE%D0%B5%D0%B9%20%D1%88%D0%BA%D0%BE%D0%BB%D0%B5%3F%20%D0%9E%D0%BD%D0%B0%20%D1%80%D0%B8%D1%81%D0%BA%D0%BD%D1%83%D0%BB%D0%B0%20%D1%81%D0%B2%D0%BE%D0%B5%D0%B9%20%D0%B6%D0%B8%D0%B7%D0%BD%D1%8C%D1%8E%2C%20%D1%87%D1%82%D0%BE%D0%B1%D1%8B%20%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B8%D1%82%D1%8C%20%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%2C%20%D0%B0%20%D1%82%D1%8B%20%D1%81%D1%83%D0%B4%D0%B8%D1%88%D1%8C%20%D0%B5%D0%B5%20%D1%82%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE%20%D0%BF%D0%BE%20%D1%82%D0%BE%D0%BC%D1%83%2C%20%D1%87%D1%82%D0%BE%20%D0%BE%D0%BD%D0%B0%20%D0%BE%D1%82%D0%BB%D0%B8%D1%87%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%BE%D1%82%20%D1%82%D0%B5%D0%B1%D1%8F%20-%20%D0%A2%D0%B0%D0%BA%D0%BE%D0%B3%D0%BE%20%D0%B2%D1%8B%20%D0%B5%D1%89%D0%B5%20%D0%BD%D0%B5%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BB%D0%B8%20%3A)%20%2F%20%D0%90%D0%B9%D0%94%D0%B0%D0%9F%D1%80%D0%B8%D0%BA%D0%BE%D0%BB%20%3A)&sd=30-bit&sr=1440x900&vp=1185x659&je=0&_u=AACAAUAB~&jid=&gjid=&cid=648885737.1605209390&tid=UA-23094255-3&_gid=1909112068.1605209390&gtm=2oub41&z=762078369"
+      },
+      {
+        "data": {
+          "filter": "||geoip.ifunny.co^",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://idaprikol.ru/picture/citat-cto-za-fignya-cto-delaet-kurica-v-moei-skole-CjJE5vE88?gallery=featured",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://geoip.ifunny.co/"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/analytics.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://idaprikol.ru/picture/citat-cto-za-fignya-cto-delaet-kurica-v-moei-skole-CjJE5vE88?gallery=featured",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "wmode": 7,
+            "page-url": "https://idaprikol.ru/picture/citat-cto-za-fignya-cto-delaet-kurica-v-moei-skole-CjJE5vE88?gallery=featured",
+            "charset": "utf-8",
+            "browser-info": "ti:10:vc:w:ns:1605209398681:s:1440x900x30:sk:2:hdl:1:adb:2:fpr:207118962501:cn:1:w:1185x659:z:-480:i:20201112112959:et:1605209400:en:utf-8:c:1:la:en-us:pv:1:ls:931980245691:rqn:3:rn:393679656:hid:257831977:ds:0,0,307,143,1,0,0,297,,,,,:fp:498:wn:62818:hl:4:gdpr:14:v:1976:wv:2:rqnl:1:st:1605209400:u:1605209389304751646:t:Читать Что за фигня? Что делает курица в моей школе? Она рискнула своей жизнью, чтобы получить образование, а ты судишь ее только по тому, что она отличается от тебя - Такого вы еще не видели :) / АйДаПрикол :)"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://idaprikol.ru/picture/citat-cto-za-fignya-cto-delaet-kurica-v-moei-skole-CjJE5vE88?gallery=featured",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.ru/watch/57015274?wmode=7&page-url=https%3A%2F%2Fidaprikol.ru%2Fpicture%2Fcitat-cto-za-fignya-cto-delaet-kurica-v-moei-skole-CjJE5vE88%3Fgallery%3Dfeatured&charset=utf-8&browser-info=ti%3A10%3Avc%3Aw%3Ans%3A1605209398681%3As%3A1440x900x30%3Ask%3A2%3Ahdl%3A1%3Aadb%3A2%3Afpr%3A207118962501%3Acn%3A1%3Aw%3A1185x659%3Az%3A-480%3Ai%3A20201112112959%3Aet%3A1605209400%3Aen%3Autf-8%3Ac%3A1%3Ala%3Aen-us%3Apv%3A1%3Als%3A931980245691%3Arqn%3A3%3Arn%3A393679656%3Ahid%3A257831977%3Ads%3A0%2C0%2C307%2C143%2C1%2C0%2C0%2C297%2C%2C%2C%2C%2C%3Afp%3A498%3Awn%3A62818%3Ahl%3A4%3Agdpr%3A14%3Av%3A1976%3Awv%3A2%3Arqnl%3A1%3Ast%3A1605209400%3Au%3A1605209389304751646%3At%3A%D0%A7%D0%B8%D1%82%D0%B0%D1%82%D1%8C%20%D0%A7%D1%82%D0%BE%20%D0%B7%D0%B0%20%D1%84%D0%B8%D0%B3%D0%BD%D1%8F%3F%20%D0%A7%D1%82%D0%BE%20%D0%B4%D0%B5%D0%BB%D0%B0%D0%B5%D1%82%20%D0%BA%D1%83%D1%80%D0%B8%D1%86%D0%B0%20%D0%B2%20%D0%BC%D0%BE%D0%B5%D0%B9%20%D1%88%D0%BA%D0%BE%D0%BB%D0%B5%3F%20%D0%9E%D0%BD%D0%B0%20%D1%80%D0%B8%D1%81%D0%BA%D0%BD%D1%83%D0%BB%D0%B0%20%D1%81%D0%B2%D0%BE%D0%B5%D0%B9%20%D0%B6%D0%B8%D0%B7%D0%BD%D1%8C%D1%8E%2C%20%D1%87%D1%82%D0%BE%D0%B1%D1%8B%20%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B8%D1%82%D1%8C%20%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%2C%20%D0%B0%20%D1%82%D1%8B%20%D1%81%D1%83%D0%B4%D0%B8%D1%88%D1%8C%20%D0%B5%D0%B5%20%D1%82%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE%20%D0%BF%D0%BE%20%D1%82%D0%BE%D0%BC%D1%83%2C%20%D1%87%D1%82%D0%BE%20%D0%BE%D0%BD%D0%B0%20%D0%BE%D1%82%D0%BB%D0%B8%D1%87%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%BE%D1%82%20%D1%82%D0%B5%D0%B1%D1%8F%20-%20%D0%A2%D0%B0%D0%BA%D0%BE%D0%B3%D0%BE%20%D0%B2%D1%8B%20%D0%B5%D1%89%D0%B5%20%D0%BD%D0%B5%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BB%D0%B8%20%3A)%20%2F%20%D0%90%D0%B9%D0%94%D0%B0%D0%9F%D1%80%D0%B8%D0%BA%D0%BE%D0%BB%20%3A)"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.ru^",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://idaprikol.ru/picture/citat-cto-za-fignya-cto-delaet-kurica-v-moei-skole-CjJE5vE88?gallery=featured",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.ru/metrika/tag.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com/gtag/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "UA-23094255-3"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://idaprikol.ru/picture/citat-cto-za-fignya-cto-delaet-kurica-v-moei-skole-CjJE5vE88?gallery=featured",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=UA-23094255-3"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "wmode": 0,
+            "rn": 127461557,
+            "page-url": "https://idaprikol.ru/tags/%D0%B5%D1%89%D1%91",
+            "wv-type": 3,
+            "wv-hit": 1046007343,
+            "wv-part": 2,
+            "browser-info": "ti:8:et:1605209397:w:1200x659:v:1976:z:-480:i:20201112112953:bt:1:st:1605209399:u:1605209389304751646"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://idaprikol.ru/tags/%D0%B5%D1%89%D1%91",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.ru/webvisor/57015274?wmode=0&rn=127461557&page-url=https%3A%2F%2Fidaprikol.ru%2Ftags%2F%25D0%25B5%25D1%2589%25D1%2591&wv-type=3&wv-hit=1046007343&wv-part=2&browser-info=ti%3A8%3Aet%3A1605209397%3Aw%3A1200x659%3Av%3A1976%3Az%3A-480%3Ai%3A20201112112953%3Abt%3A1%3Ast%3A1605209399%3Au%3A1605209389304751646"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "wmode": 0,
+            "rn": 213757787,
+            "page-url": "https://idaprikol.ru/tags/%D0%B5%D1%89%D1%91",
+            "wv-type": 3,
+            "wv-hit": 1046007343,
+            "wv-part": 2,
+            "browser-info": "ti:8:et:1605209397:w:1200x659:v:1976:z:-480:i:20201112112953:st:1605209399:u:1605209389304751646"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://idaprikol.ru/tags/%D0%B5%D1%89%D1%91",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.ru/webvisor/57015274?wmode=0&rn=213757787&page-url=https%3A%2F%2Fidaprikol.ru%2Ftags%2F%25D0%25B5%25D1%2589%25D1%2591&wv-type=3&wv-hit=1046007343&wv-part=2&browser-info=ti%3A8%3Aet%3A1605209397%3Aw%3A1200x659%3Av%3A1976%3Az%3A-480%3Ai%3A20201112112953%3Ast%3A1605209399%3Au%3A1605209389304751646"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "wmode": 0,
+            "rn": 295584310,
+            "page-url": "https://idaprikol.ru/tags/%D0%B5%D1%89%D1%91",
+            "wv-type": 3,
+            "wv-hit": 1046007343,
+            "wv-part": 1,
+            "browser-info": "ti:8:et:1605209395:w:1200x659:v:1976:z:-480:i:20201112112953:st:1605209397:u:1605209389304751646"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://idaprikol.ru/tags/%D0%B5%D1%89%D1%91",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.ru/webvisor/57015274?wmode=0&rn=295584310&page-url=https%3A%2F%2Fidaprikol.ru%2Ftags%2F%25D0%25B5%25D1%2589%25D1%2591&wv-type=3&wv-hit=1046007343&wv-part=1&browser-info=ti%3A8%3Aet%3A1605209395%3Aw%3A1200x659%3Av%3A1976%3Az%3A-480%3Ai%3A20201112112953%3Ast%3A1605209397%3Au%3A1605209389304751646"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "wmode": 0,
+            "rn": 821625548,
+            "page-url": "https://idaprikol.ru/tags/%D0%B5%D1%89%D1%91",
+            "wv-type": 3,
+            "wv-hit": 1046007343,
+            "wv-part": 1,
+            "browser-info": "ti:8:et:1605209397:w:1200x659:v:1976:z:-480:i:20201112112953:bt:1:st:1605209397:u:1605209389304751646"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://idaprikol.ru/tags/%D0%B5%D1%89%D1%91",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.ru/webvisor/57015274?wmode=0&rn=821625548&page-url=https%3A%2F%2Fidaprikol.ru%2Ftags%2F%25D0%25B5%25D1%2589%25D1%2591&wv-type=3&wv-hit=1046007343&wv-part=1&browser-info=ti%3A8%3Aet%3A1605209397%3Aw%3A1200x659%3Av%3A1976%3Az%3A-480%3Ai%3A20201112112953%3Abt%3A1%3Ast%3A1605209397%3Au%3A1605209389304751646"
+      },
+      {
+        "data": {
+          "filter": "||twitter.com/i/jot",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "l": {
+              "widget_origin": "https://idaprikol.ru/tags/%D0%B5%D1%89%D1%91",
+              "widget_frame": false,
+              "widget_site_screen_name": "idaprikol_ru",
+              "language": "en",
+              "message": "m:withcount:",
+              "_category_": "tfw_client_event",
+              "triggered_on": 1605209394519,
+              "dnt": false,
+              "client_version": "ed20a2b:1601588405575",
+              "format_version": 1,
+              "event_namespace": {
+                "client": "tfw",
+                "page": "button",
+                "section": "follow",
+                "action": "impression"
+              }
+            }
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://idaprikol.ru/tags/%D0%B5%D1%89%D1%91",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://syndication.twitter.com/i/jot?l=%7B%22widget_origin%22%3A%22https%3A%2F%2Fidaprikol.ru%2Ftags%2F%25D0%25B5%25D1%2589%25D1%2591%22%2C%22widget_frame%22%3Afalse%2C%22widget_site_screen_name%22%3A%22idaprikol_ru%22%2C%22language%22%3A%22en%22%2C%22message%22%3A%22m%3Awithcount%3A%22%2C%22_category_%22%3A%22tfw_client_event%22%2C%22triggered_on%22%3A1605209394519%2C%22dnt%22%3Afalse%2C%22client_version%22%3A%22ed20a2b%3A1601588405575%22%2C%22format_version%22%3A1%2C%22event_namespace%22%3A%7B%22client%22%3A%22tfw%22%2C%22page%22%3A%22button%22%2C%22section%22%3A%22follow%22%2C%22action%22%3A%22impression%22%7D%7D"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j87",
+            "a": 304073092,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "https://idaprikol.ru/tags/%D0%B5%D1%89%D1%91",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "Ещё мемы. Лучшая Коллекция смешных ещё картинок на АйДаПрикол",
+            "sd": "30-bit",
+            "sr": "1440x900",
+            "vp": "1200x659",
+            "je": 0,
+            "_u": "AACAAUAB~",
+            "jid": "",
+            "gjid": "",
+            "cid": 648885737.1605209,
+            "tid": "UA-23094255-3",
+            "_gid": 1909112068.160521,
+            "gtm": "2oub41",
+            "z": 641802674
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://idaprikol.ru/tags/%D0%B5%D1%89%D1%91",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j87&a=304073092&t=pageview&_s=1&dl=https%3A%2F%2Fidaprikol.ru%2Ftags%2F%25D0%25B5%25D1%2589%25D1%2591&ul=en-us&de=UTF-8&dt=%D0%95%D1%89%D1%91%20%D0%BC%D0%B5%D0%BC%D1%8B.%20%D0%9B%D1%83%D1%87%D1%88%D0%B0%D1%8F%20%D0%9A%D0%BE%D0%BB%D0%BB%D0%B5%D0%BA%D1%86%D0%B8%D1%8F%20%D1%81%D0%BC%D0%B5%D1%88%D0%BD%D1%8B%D1%85%20%D0%B5%D1%89%D1%91%20%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA%20%D0%BD%D0%B0%20%D0%90%D0%B9%D0%94%D0%B0%D0%9F%D1%80%D0%B8%D0%BA%D0%BE%D0%BB&sd=30-bit&sr=1440x900&vp=1200x659&je=0&_u=AACAAUAB~&jid=&gjid=&cid=648885737.1605209390&tid=UA-23094255-3&_gid=1909112068.1605209390&gtm=2oub41&z=641802674"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/analytics.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://idaprikol.ru/tags/%D0%B5%D1%89%D1%91",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "wmode": 7,
+            "page-url": "https://idaprikol.ru/tags/%D0%B5%D1%89%D1%91",
+            "charset": "utf-8",
+            "browser-info": "ti:10:vc:w:ns:1605209391561:s:1440x900x30:sk:2:hdl:1:adb:2:fpr:207118962501:cn:1:w:1185x703:z:-480:i:20201112112953:et:1605209394:en:utf-8:c:1:la:en-us:pv:1:ls:931980245691:rqn:2:rn:801610796:hid:1046007343:ds:0,0,735,103,5,0,0,136,4,,,,1202:fp:905:wn:12930:hl:3:gdpr:14:v:1976:wv:2:rqnl:1:st:1605209394:u:1605209389304751646:t:Ещё мемы. Лучшая Коллекция смешных ещё картинок на АйДаПрикол"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://idaprikol.ru/tags/%D0%B5%D1%89%D1%91",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.ru/watch/57015274?wmode=7&page-url=https%3A%2F%2Fidaprikol.ru%2Ftags%2F%25D0%25B5%25D1%2589%25D1%2591&charset=utf-8&browser-info=ti%3A10%3Avc%3Aw%3Ans%3A1605209391561%3As%3A1440x900x30%3Ask%3A2%3Ahdl%3A1%3Aadb%3A2%3Afpr%3A207118962501%3Acn%3A1%3Aw%3A1185x703%3Az%3A-480%3Ai%3A20201112112953%3Aet%3A1605209394%3Aen%3Autf-8%3Ac%3A1%3Ala%3Aen-us%3Apv%3A1%3Als%3A931980245691%3Arqn%3A2%3Arn%3A801610796%3Ahid%3A1046007343%3Ads%3A0%2C0%2C735%2C103%2C5%2C0%2C0%2C136%2C4%2C%2C%2C%2C1202%3Afp%3A905%3Awn%3A12930%3Ahl%3A3%3Agdpr%3A14%3Av%3A1976%3Awv%3A2%3Arqnl%3A1%3Ast%3A1605209394%3Au%3A1605209389304751646%3At%3A%D0%95%D1%89%D1%91%20%D0%BC%D0%B5%D0%BC%D1%8B.%20%D0%9B%D1%83%D1%87%D1%88%D0%B0%D1%8F%20%D0%9A%D0%BE%D0%BB%D0%BB%D0%B5%D0%BA%D1%86%D0%B8%D1%8F%20%D1%81%D0%BC%D0%B5%D1%88%D0%BD%D1%8B%D1%85%20%D0%B5%D1%89%D1%91%20%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA%20%D0%BD%D0%B0%20%D0%90%D0%B9%D0%94%D0%B0%D0%9F%D1%80%D0%B8%D0%BA%D0%BE%D0%BB"
+      },
+      {
+        "data": {
+          "filter": "||geoip.ifunny.co^",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://idaprikol.ru/tags/%D0%B5%D1%89%D1%91",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://geoip.ifunny.co/"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.ru^",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://idaprikol.ru/tags/%D0%B5%D1%89%D1%91",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.ru/metrika/tag.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com/gtag/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "UA-23094255-3"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://idaprikol.ru/tags/%D0%B5%D1%89%D1%91",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=UA-23094255-3"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "wmode": 0,
+            "rn": 728398210,
+            "page-url": "https://idaprikol.ru/",
+            "wv-type": 3,
+            "wv-hit": 377647946,
+            "wv-part": 2,
+            "browser-info": "ti:8:et:1605209390:w:1200x659:v:1976:z:-480:i:20201112112949:bt:1:st:1605209392:u:1605209389304751646"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://idaprikol.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.ru/webvisor/57015274?wmode=0&rn=728398210&page-url=https%3A%2F%2Fidaprikol.ru%2F&wv-type=3&wv-hit=377647946&wv-part=2&browser-info=ti%3A8%3Aet%3A1605209390%3Aw%3A1200x659%3Av%3A1976%3Az%3A-480%3Ai%3A20201112112949%3Abt%3A1%3Ast%3A1605209392%3Au%3A1605209389304751646"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "wmode": 0,
+            "rn": 514997218,
+            "page-url": "https://idaprikol.ru/",
+            "wv-type": 3,
+            "wv-hit": 377647946,
+            "wv-part": 1,
+            "browser-info": "ti:8:et:1605209390:w:1200x659:v:1976:z:-480:i:20201112112949:st:1605209392:u:1605209389304751646"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://idaprikol.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.ru/webvisor/57015274?wmode=0&rn=514997218&page-url=https%3A%2F%2Fidaprikol.ru%2F&wv-type=3&wv-hit=377647946&wv-part=1&browser-info=ti%3A8%3Aet%3A1605209390%3Aw%3A1200x659%3Av%3A1976%3Az%3A-480%3Ai%3A20201112112949%3Ast%3A1605209392%3Au%3A1605209389304751646"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "wmode": 0,
+            "rn": 884255997,
+            "page-url": "https://idaprikol.ru/",
+            "wv-type": 3,
+            "wv-hit": 377647946,
+            "wv-part": 1,
+            "browser-info": "ti:8:et:1605209390:w:1200x659:v:1976:z:-480:i:20201112112949:bt:1:st:1605209391:u:1605209389304751646"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://idaprikol.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.ru/webvisor/57015274?wmode=0&rn=884255997&page-url=https%3A%2F%2Fidaprikol.ru%2F&wv-type=3&wv-hit=377647946&wv-part=1&browser-info=ti%3A8%3Aet%3A1605209390%3Aw%3A1200x659%3Av%3A1976%3Az%3A-480%3Ai%3A20201112112949%3Abt%3A1%3Ast%3A1605209391%3Au%3A1605209389304751646"
+      },
+      {
+        "data": {
+          "filter": "||twitter.com/i/jot",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "l": {
+              "widget_origin": "https://idaprikol.ru/",
+              "widget_frame": false,
+              "widget_site_screen_name": "idaprikol_ru",
+              "language": "en",
+              "message": "m:withcount:",
+              "_category_": "tfw_client_event",
+              "triggered_on": 1605209390236,
+              "dnt": false,
+              "client_version": "ed20a2b:1601588405575",
+              "format_version": 1,
+              "event_namespace": {
+                "client": "tfw",
+                "page": "button",
+                "section": "follow",
+                "action": "impression"
+              }
+            }
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://idaprikol.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://syndication.twitter.com/i/jot?l=%7B%22widget_origin%22%3A%22https%3A%2F%2Fidaprikol.ru%2F%22%2C%22widget_frame%22%3Afalse%2C%22widget_site_screen_name%22%3A%22idaprikol_ru%22%2C%22language%22%3A%22en%22%2C%22message%22%3A%22m%3Awithcount%3A%22%2C%22_category_%22%3A%22tfw_client_event%22%2C%22triggered_on%22%3A1605209390236%2C%22dnt%22%3Afalse%2C%22client_version%22%3A%22ed20a2b%3A1601588405575%22%2C%22format_version%22%3A1%2C%22event_namespace%22%3A%7B%22client%22%3A%22tfw%22%2C%22page%22%3A%22button%22%2C%22section%22%3A%22follow%22%2C%22action%22%3A%22impression%22%7D%7D"
+      },
+      {
+        "data": {
+          "filter": "||stats.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "t": "dc",
+            "aip": 1,
+            "_r": 3,
+            "v": 1,
+            "_v": "j87",
+            "tid": "UA-23094255-3",
+            "cid": 648885737.1605209,
+            "jid": 783674310,
+            "gjid": 720473957,
+            "_gid": 1909112068.160521,
+            "_u": "IEBAAUAAAAAAAC~",
+            "z": 153581595
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://idaprikol.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j87&tid=UA-23094255-3&cid=648885737.1605209390&jid=783674310&gjid=720473957&_gid=1909112068.1605209390&_u=IEBAAUAAAAAAAC~&z=153581595"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "wmode": 7,
+            "page-url": "https://idaprikol.ru/",
+            "charset": "utf-8",
+            "browser-info": "ti:10:ns:1605209383969:s:1440x900x30:sk:2:hdl:1:fpr:207118962501:cn:1:w:1200x659:z:-480:i:20201112112949:et:1605209389:en:utf-8:c:1:la:en-us:pv:1:ls:931980245691:rqn:1:rn:336195463:hid:377647946:ds:2,165,426,154,348,0,0,1248,4,,,,3679:fp:1711:wn:25084:hl:2:gdpr:14:v:1976:wv:2:rqnl:1:st:1605209389:u:1605209389304751646:t:АйДаПрикол - лучшие мемы, видео, гифки и смешные картинки в одном месте"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://idaprikol.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.ru/watch/57015274/1?wmode=7&page-url=https%3A%2F%2Fidaprikol.ru%2F&charset=utf-8&browser-info=ti%3A10%3Ans%3A1605209383969%3As%3A1440x900x30%3Ask%3A2%3Ahdl%3A1%3Afpr%3A207118962501%3Acn%3A1%3Aw%3A1200x659%3Az%3A-480%3Ai%3A20201112112949%3Aet%3A1605209389%3Aen%3Autf-8%3Ac%3A1%3Ala%3Aen-us%3Apv%3A1%3Als%3A931980245691%3Arqn%3A1%3Arn%3A336195463%3Ahid%3A377647946%3Ads%3A2%2C165%2C426%2C154%2C348%2C0%2C0%2C1248%2C4%2C%2C%2C%2C3679%3Afp%3A1711%3Awn%3A25084%3Ahl%3A2%3Agdpr%3A14%3Av%3A1976%3Awv%3A2%3Arqnl%3A1%3Ast%3A1605209389%3Au%3A1605209389304751646%3At%3A%D0%90%D0%B9%D0%94%D0%B0%D0%9F%D1%80%D0%B8%D0%BA%D0%BE%D0%BB%20-%20%D0%BB%D1%83%D1%87%D1%88%D0%B8%D0%B5%20%D0%BC%D0%B5%D0%BC%D1%8B%2C%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%2C%20%D0%B3%D0%B8%D1%84%D0%BA%D0%B8%20%D0%B8%20%D1%81%D0%BC%D0%B5%D1%88%D0%BD%D1%8B%D0%B5%20%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8%20%D0%B2%20%D0%BE%D0%B4%D0%BD%D0%BE%D0%BC%20%D0%BC%D0%B5%D1%81%D1%82%D0%B5"
+      },
+      {
+        "data": {
+          "filter": "/collect?*&cid=",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j87",
+            "a": 916133316,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "https://idaprikol.ru/",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "АйДаПрикол - лучшие мемы, видео, гифки и смешные картинки в одном месте",
+            "sd": "30-bit",
+            "sr": "1440x900",
+            "vp": "1200x659",
+            "je": 0,
+            "_u": "IEBAAUABAAAAAC~",
+            "jid": 783674310,
+            "gjid": 720473957,
+            "cid": 648885737.1605209,
+            "tid": "UA-23094255-3",
+            "_gid": 1909112068.160521,
+            "_r": 1,
+            "gtm": "2oub41",
+            "z": 755382063
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://idaprikol.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j87&a=916133316&t=pageview&_s=1&dl=https%3A%2F%2Fidaprikol.ru%2F&ul=en-us&de=UTF-8&dt=%D0%90%D0%B9%D0%94%D0%B0%D0%9F%D1%80%D0%B8%D0%BA%D0%BE%D0%BB%20-%20%D0%BB%D1%83%D1%87%D1%88%D0%B8%D0%B5%20%D0%BC%D0%B5%D0%BC%D1%8B%2C%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%2C%20%D0%B3%D0%B8%D1%84%D0%BA%D0%B8%20%D0%B8%20%D1%81%D0%BC%D0%B5%D1%88%D0%BD%D1%8B%D0%B5%20%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8%20%D0%B2%20%D0%BE%D0%B4%D0%BD%D0%BE%D0%BC%20%D0%BC%D0%B5%D1%81%D1%82%D0%B5&sd=30-bit&sr=1440x900&vp=1200x659&je=0&_u=IEBAAUABAAAAAC~&jid=783674310&gjid=720473957&cid=648885737.1605209390&tid=UA-23094255-3&_gid=1909112068.1605209390&_r=1&gtm=2oub41&z=755382063"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.ru^",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://idaprikol.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.ru/metrika/advert.gif"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.ru^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "wmode": 7,
+            "page-url": "https://idaprikol.ru/",
+            "charset": "utf-8",
+            "browser-info": "ti:10:ns:1605209383969:s:1440x900x30:sk:2:hdl:1:fpr:207118962501:cn:1:w:1200x659:z:-480:i:20201112112949:et:1605209389:en:utf-8:c:1:la:en-us:pv:1:ls:931980245691:rqn:1:rn:336195463:hid:377647946:ds:2,165,426,154,348,0,0,1248,4,,,,3679:fp:1711:wn:25084:hl:2:gdpr:14:v:1976:wv:2:rqnl:1:st:1605209389:u:1605209389304751646:t:АйДаПрикол - лучшие мемы, видео, гифки и смешные картинки в одном месте"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://idaprikol.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.ru/watch/57015274?wmode=7&page-url=https%3A%2F%2Fidaprikol.ru%2F&charset=utf-8&browser-info=ti%3A10%3Ans%3A1605209383969%3As%3A1440x900x30%3Ask%3A2%3Ahdl%3A1%3Afpr%3A207118962501%3Acn%3A1%3Aw%3A1200x659%3Az%3A-480%3Ai%3A20201112112949%3Aet%3A1605209389%3Aen%3Autf-8%3Ac%3A1%3Ala%3Aen-us%3Apv%3A1%3Als%3A931980245691%3Arqn%3A1%3Arn%3A336195463%3Ahid%3A377647946%3Ads%3A2%2C165%2C426%2C154%2C348%2C0%2C0%2C1248%2C4%2C%2C%2C%2C3679%3Afp%3A1711%3Awn%3A25084%3Ahl%3A2%3Agdpr%3A14%3Av%3A1976%3Awv%3A2%3Arqnl%3A1%3Ast%3A1605209389%3Au%3A1605209389304751646%3At%3A%D0%90%D0%B9%D0%94%D0%B0%D0%9F%D1%80%D0%B8%D0%BA%D0%BE%D0%BB%20-%20%D0%BB%D1%83%D1%87%D1%88%D0%B8%D0%B5%20%D0%BC%D0%B5%D0%BC%D1%8B%2C%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%2C%20%D0%B3%D0%B8%D1%84%D0%BA%D0%B8%20%D0%B8%20%D1%81%D0%BC%D0%B5%D1%88%D0%BD%D1%8B%D0%B5%20%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8%20%D0%B2%20%D0%BE%D0%B4%D0%BD%D0%BE%D0%BC%20%D0%BC%D0%B5%D1%81%D1%82%D0%B5"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/analytics.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://idaprikol.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||geoip.ifunny.co^",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://idaprikol.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://geoip.ifunny.co/"
+      },
+      {
+        "data": {
+          "filter": "||geoip.ifunny.co^",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://geoip.ifunny.co/"
+      },
+      {
+        "data": {
+          "filter": "||mc.yandex.ru^",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://idaprikol.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://mc.yandex.ru/metrika/tag.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com/gtag/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "UA-23094255-3"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://idaprikol.ru/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=UA-23094255-3"
+      }
+    ]
+  }
+}

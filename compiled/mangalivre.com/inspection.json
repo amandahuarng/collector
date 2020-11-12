@@ -30,8 +30,8 @@
     },
     "node_version": "v14.14.0"
   },
-  "start_time": "2020-11-12T03:27:57.055Z",
-  "end_time": "2020-11-12T03:28:07.756Z",
+  "start_time": "2020-11-12T19:15:38.083Z",
+  "end_time": "2020-11-12T19:15:42.618Z",
   "browsing_history": [
     "http://mangalivre.com/"
   ],
@@ -62,7 +62,7 @@
         "path": "/",
         "script": "http://mangalivre.com/",
         "type": "http",
-        "value": "d58a0629c7e8a6c9898e6a3a2dea624611605151686",
+        "value": "d07882283b742be8be5e93056b2871ba51605208541",
         "third_party": false
       }
     ],

@@ -32,12 +32,12 @@
     },
     "node_version": "v14.14.0"
   },
-  "start_time": "2020-11-12T03:28:43.413Z",
-  "end_time": "2020-11-12T03:29:00.922Z",
+  "start_time": "2020-11-12T19:16:20.575Z",
+  "end_time": "2020-11-12T19:16:34.324Z",
   "browsing_history": [
     "https://mangabank.org/",
-    "https://mangabank.org/privacy-policy/",
-    "https://mangabank.org/watch/?tour=/vol/"
+    "https://mangabank.org/",
+    "https://mangabank.org/privacy-policy/"
   ],
   "hosts": {
     "requests": {
@@ -50,10 +50,9 @@
         "fonts.gstatic.com",
         "ssl.standardcdn.net",
         "a.exdynsrv.com",
-        "syndication.exdynsrv.com",
         "in-page-push.com",
-        "my.rtmark.net",
-        "offerimage.com"
+        "syndication.exdynsrv.com",
+        "my.rtmark.net"
       ]
     }
   },
@@ -62,9 +61,6 @@
       "MOUSE": {
         "https://in-page-push.com/400/3663712": [
           "scroll"
-        ],
-        "https://a.exdynsrv.com/fp-interstitial.js": [
-          "click"
         ],
         "https://cdn.jsdelivr.net/gh/standardcdn/ssl/jquery.js?ver=1.12.4-wp": [
           "click"
@@ -83,13 +79,48 @@
     },
     "cookies": [
       {
-        "domain": "mangabank.org",
         "name": "splash_i",
-        "path": "/",
-        "script": "https://a.exdynsrv.com/popunder1000.js",
-        "type": "js",
         "value": "false",
+        "domain": "mangabank.org",
+        "path": "/",
+        "expires": "2021-11-12T19:16:31.000Z",
+        "size": 13,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "js",
         "third_party": false
+      },
+      {
+        "name": "exo-splash-i",
+        "value": "0",
+        "domain": "exdynsrv.com",
+        "path": "/",
+        "expires": "2021-11-12T19:16:32.279Z",
+        "size": 13,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "OAID",
+        "value": "168e3a34113c4796abfea43406490a84",
+        "domain": "in-page-push.com",
+        "path": "/",
+        "expires": "2021-11-12T19:16:32.436Z",
+        "size": 36,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
       }
     ],
     "fb_pixel_events": [],
@@ -132,26 +163,6 @@
         "data": {
           "filter": "||exdynsrv.com^$third-party",
           "listName": "easyprivacy.txt",
-          "query": {
-            "idzone": 3850791,
-            "orientation": "landscape",
-            "screen_resolution": "1440x900",
-            "p": "https://mangabank.org/privacy-policy/"
-          }
-        },
-        "stack": [
-          {
-            "fileName": "https://mangabank.org/privacy-policy/",
-            "source": "ThirdPartyTracker RequestHandler"
-          }
-        ],
-        "type": "TrackingRequest",
-        "url": "https://syndication.exdynsrv.com/splash.php?idzone=3850791&orientation=landscape&screen_resolution=1440x900&p=https%3A%2F%2Fmangabank.org%2Fprivacy-policy%2F"
-      },
-      {
-        "data": {
-          "filter": "||exdynsrv.com^$third-party",
-          "listName": "easyprivacy.txt",
           "query": null
         },
         "stack": [
@@ -162,21 +173,6 @@
         ],
         "type": "TrackingRequest",
         "url": "https://a.exdynsrv.com/popunder1000.js"
-      },
-      {
-        "data": {
-          "filter": "||exdynsrv.com^$third-party",
-          "listName": "easyprivacy.txt",
-          "query": null
-        },
-        "stack": [
-          {
-            "fileName": "https://mangabank.org/privacy-policy/",
-            "source": "ThirdPartyTracker RequestHandler"
-          }
-        ],
-        "type": "TrackingRequest",
-        "url": "https://a.exdynsrv.com/fp-interstitial.js"
       }
     ]
   }

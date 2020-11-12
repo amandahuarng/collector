@@ -27,28 +27,32 @@ async function scrapeSource(url) {
     console.log(
       `For captured data please look in ${join(__dirname, "demo-dir")}`
     );
-  }
 
-
-  const pathToFile = join(__dirname, "demo-dir", "inspection.json")
-  const folderName = join(__dirname, "compiled", URL)
-  if (fs.existsSync(pathToFile)) {
-    if (!fs.existsSync(folderName)) {
-      fs.mkdirSync(folderName)
-    }
-    const pathToNewDestination = join(folderName, "inspection.json")
-    fs.copyFile(pathToFile, pathToNewDestination, function (err) {
-      if (err) {
-        throw err
-      } else {
-        console.log("Successfully copied and moved the file!")
+    const pathToFile = join(__dirname, "demo-dir", "inspection.json")
+    const folderName = join(__dirname, "compiled", URL)
+    if (fs.existsSync(pathToFile)) {
+      if (!fs.existsSync(folderName)) { // if the folder exists 
+        fs.mkdirSync(folderName)
       }
-    })
+      const pathToNewDestination = join(folderName, "inspection.json")
+      fs.copyFile(pathToFile, pathToNewDestination, function (err) {
+        if (err) {
+          throw err
+        } else {
+          console.log("Successfully copied and moved the file!")
+        }
+      })
+    }
+    else {
+      console.log("could not find path: ", pathToFile)
+    }
+
+
+    URL = null
+    return null;
   }
-  
-   
-  URL = null
-  return null;
+
+
 
 }
 
