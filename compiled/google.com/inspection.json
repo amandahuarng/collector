@@ -1,0 +1,795 @@
+{
+  "title": "Blacklight Inspection",
+  "uri_ins": "http://google.com",
+  "uri_dest": "https://www.google.com/?gws_rd=ssl",
+  "uri_redirects": [
+    "http://google.com/",
+    "http://www.google.com/"
+  ],
+  "secure_connection": {},
+  "host": "google.com",
+  "config": {
+    "clearCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "emulateDevice": false,
+    "numPages": 2
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/87.0.4272.0",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4272.0 Safari/537.36",
+    "platform": {
+      "name": "Darwin",
+      "version": "19.6.0"
+    }
+  },
+  "script": {
+    "host": "Amandas-MBP-3.lan",
+    "version": {
+      "npm": "2.1.11",
+      "commit": null
+    },
+    "node_version": "v14.14.0"
+  },
+  "start_time": "2020-11-12T01:06:33.203Z",
+  "end_time": "2020-11-12T01:07:12.031Z",
+  "browsing_history": [
+    "https://www.google.com/?gws_rd=ssl",
+    "https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1",
+    "https://mail.google.com/mail/?tab=wm&ogbl"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "google.com",
+        "www.google.com",
+        "apis.google.com",
+        "ogs.google.com",
+        "adservice.google.com",
+        "ads.google.com",
+        "mail.google.com",
+        "accounts.google.com"
+      ],
+      "third_party": [
+        "fonts.gstatic.com",
+        "ssl.gstatic.com",
+        "www.gstatic.com",
+        "googleads.g.doubleclick.net",
+        "encrypted-tbn0.gstatic.com",
+        "fonts.googleapis.com",
+        "ajax.googleapis.com",
+        "lh3.googleusercontent.com",
+        "www.googletagmanager.com",
+        "www.google-analytics.com",
+        "www.googleadservices.com",
+        "stats.g.doubleclick.net"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://www.google.com/gmail/about/static/js/autotrack.min.js?cache=7486e60": [
+          "click"
+        ],
+        "https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js": [
+          "scroll"
+        ],
+        "https://www.google.com/js/bg/y1-OJJtZ3LPr1iATWTEwePQ2hSzGt4PIJEhvarT0gRw.js": [
+          "mouseup",
+          "mousedown",
+          "mousemove"
+        ],
+        "https://www.gstatic.com/recaptcha/releases/rCr6uVkhcBxHr-Uhry4bcSYc/recaptcha__en.js": [
+          "scroll",
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-N7926KD&l=peithoDataLayer": [
+          "scroll",
+          "click"
+        ],
+        "https://www.gstatic.com/external_hosted/scrollmagic/ScrollMagic.min.js": [
+          "scroll"
+        ],
+        "https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js": [
+          "scroll"
+        ],
+        "https://www.google.com/xjs/_/js/k=xjs.s.en_US.P6D4RP2GhAY.O/ck=xjs.s.bA_UTRqWcJI.L.W.O/m=cdos,dpf,hsm,jsa,pfd,d,csi/am=AAAAAAAAgAEAAACWwN4dkID_JgDggk0cAAAAAEgAlwSNBdKAhIIACAAAIJbVEgACCA/d=1/dg=2/br=1/ct=zgms/rs=ACT90oH3JOvTB5FdDig2c-XRdLZwq1V-mQ": [
+          "scroll",
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js": [
+          "keyup"
+        ],
+        "https://www.gstatic.com/recaptcha/releases/rCr6uVkhcBxHr-Uhry4bcSYc/recaptcha__en.js": [
+          "keydown"
+        ],
+        "https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js": [
+          "keyup"
+        ],
+        "https://www.google.com/xjs/_/js/k=xjs.s.en_US.P6D4RP2GhAY.O/ck=xjs.s.bA_UTRqWcJI.L.W.O/m=cdos,dpf,hsm,jsa,pfd,d,csi/am=AAAAAAAAgAEAAACWwN4dkID_JgDggk0cAAAAAEgAlwSNBdKAhIIACAAAIJbVEgACCA/d=1/dg=2/br=1/ct=zgms/rs=ACT90oH3JOvTB5FdDig2c-XRdLZwq1V-mQ": [
+          "keydown"
+        ],
+        "https://www.google.com/?gws_rd=ssl": [
+          "keydown",
+          "keyup"
+        ]
+      },
+      "SENSOR": {
+        "https://ads.google.com/home/static/home/js/index.min.js?cache=0eb3f9c": [
+          "orientationchange"
+        ]
+      },
+      "TOUCH": {
+        "https://www.google.com/xjs/_/js/k=xjs.s.en_US.P6D4RP2GhAY.O/ck=xjs.s.bA_UTRqWcJI.L.W.O/m=cdos,dpf,hsm,jsa,pfd,d,csi/am=AAAAAAAAgAEAAACWwN4dkID_JgDggk0cAAAAAEgAlwSNBdKAhIIACAAAIJbVEgACCA/d=1/dg=2/br=1/ct=zgms/rs=ACT90oH3JOvTB5FdDig2c-XRdLZwq1V-mQ": [
+          "touchstart"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "S",
+        "value": "adwords-frontend-express=ZViGu37wtGT5jViM2G86ccAK6ccE29nygHljVRC8qxk",
+        "domain": "ads.google.com",
+        "path": "/aw_express/management",
+        "expires": -1,
+        "size": 69,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Low",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_gat",
+        "value": "1",
+        "domain": "google.com",
+        "path": "/gmail/about/",
+        "expires": "2020-11-12T01:08:08.000Z",
+        "size": 5,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.2-3.975238680.1605143228",
+        "domain": "google.com",
+        "path": "/gmail/about",
+        "expires": "2022-11-12T01:07:08.000Z",
+        "size": 31,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gid",
+        "value": "GA1.2-3.1791285355.1605143228",
+        "domain": "google.com",
+        "path": "/gmail/about",
+        "expires": "2020-11-13T01:07:08.000Z",
+        "size": 33,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "S",
+        "value": "adwords-frontend-campaignmgmt=RKTsZnqx4BmzdNSLiYkcBcbWqF43fylDX_a10BHjmEs",
+        "domain": "ads.google.com",
+        "path": "/aw_cm",
+        "expires": -1,
+        "size": 74,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Low",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_pgar",
+        "value": "https%3A%2F%2Fads.google.com%2Fintl%2Fen_us%2Fhome%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpafoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpafooter%26fg%3D1",
+        "domain": "ads.google.com",
+        "path": "/intl",
+        "expires": "2020-11-12T01:36:55.000Z",
+        "size": 194,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "S",
+        "value": "adwords-frontend-shard-manager=zqdRYsjI-K86IsIoPQBKiTXizKzTx-ThSO1bWEtUsok",
+        "domain": "ads.google.com",
+        "path": "/aw",
+        "expires": -1,
+        "size": 75,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "priority": "Low",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "1P_JAR",
+        "value": "2020-11-12-01",
+        "domain": "google.com",
+        "path": "/",
+        "expires": "2020-12-12T01:06:52.552Z",
+        "size": 19,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "NID",
+        "value": "204=DtMUcajuXa-MG4GAsipG7Ds-2EaDdiJIVisKc7O8P3YQcgCkICoOVy78MaoXoYcXL7EE-IlrJ6If3GzUYxkPZKfNs6ysvoB6_JDYrOEbpW6sqxnOZvgO9jD7KK0g2esD6g1mrRY9x2xtv8uLnSINWFm6YpIqGnXGR70svfTs4Qk",
+        "domain": "google.com",
+        "path": "/",
+        "expires": "2021-05-14T01:06:47.850Z",
+        "size": 178,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ANID",
+        "value": "AHWqTUnK_IYP6fGvA6KTIXMW7OoHe1S-8QDq9rU6V7R_SS3l-pYK2ATxdtJc1UMZ",
+        "domain": "google.com",
+        "path": "/",
+        "expires": "2022-11-12T01:06:50.901Z",
+        "size": 68,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_gid",
+        "value": "GA1.3.1536228634.1605143218",
+        "domain": "ads.google.com",
+        "path": "/",
+        "expires": "2020-11-13T01:06:57.000Z",
+        "size": 31,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_gat_UA-113093516-1",
+        "value": "1",
+        "domain": "ads.google.com",
+        "path": "/",
+        "expires": "2020-11-12T01:07:57.000Z",
+        "size": 20,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.680223607.1605143218",
+        "domain": "ads.google.com",
+        "path": "/",
+        "expires": "2022-11-12T01:07:07.000Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_ga_3VJ2NVL4LT",
+        "value": "GS1.1.1605143217.1.0.1605143217.0",
+        "domain": "ads.google.com",
+        "path": "/",
+        "expires": "2022-11-12T01:06:58.000Z",
+        "size": 47,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "test_cookie",
+        "value": "CheckForPermission",
+        "domain": "doubleclick.net",
+        "path": "/",
+        "expires": "2020-11-12T01:21:58.699Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__Host-GAPS",
+        "value": "1:MMNuklnApLo8J2lv8-BPOMnL_2h-oQ:olBaeRxSf94uDEP9",
+        "domain": "accounts.google.com",
+        "path": "/",
+        "expires": "2022-11-12T01:07:07.114Z",
+        "size": 60,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "priority": "High",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_ga_D9KXP9673K",
+        "value": "GS1.1.1605143217.1.0.1605143227.0",
+        "domain": "ads.google.com",
+        "path": "/",
+        "expires": "2022-11-12T01:07:07.000Z",
+        "size": 47,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "/collect?*&cid=",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j87",
+            "a": 935003854,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "https://www.google.com/gmail/about/",
+            "dr": "",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "Gmail - Email from Google",
+            "sd": "30-bit",
+            "sr": "1440x900",
+            "vp": "1185x659",
+            "je": 0,
+            "_u": "aGBAAAADAAAAAC~",
+            "jid": 72528605,
+            "gjid": 780903884,
+            "cid": 975238680.1605144,
+            "tid": "UA-992684-1",
+            "_gid": 1791285355.1605144,
+            "_r": 1,
+            "_slc": 1,
+            "_av": "2.4.1",
+            "_au": 122,
+            "did": "i5iSjo",
+            "z": 1513208637
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.google.com/gmail/about/#",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j87&a=935003854&t=pageview&_s=1&dl=https%3A%2F%2Fwww.google.com%2Fgmail%2Fabout%2F&dr=&ul=en-us&de=UTF-8&dt=Gmail%20-%20Email%20from%20Google&sd=30-bit&sr=1440x900&vp=1185x659&je=0&_u=aGBAAAADAAAAAC~&jid=72528605&gjid=780903884&cid=975238680.1605143228&tid=UA-992684-1&_gid=1791285355.1605143228&_r=1&_slc=1&_av=2.4.1&_au=122&did=i5iSjo&z=1513208637"
+      },
+      {
+        "data": {
+          "filter": "/collect?*&tid=",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 2,
+            "tid": "G-D9KXP9673K",
+            "gtm": "2oeas1",
+            "_p": 358190028,
+            "sr": "1440x900",
+            "ul": "en-us",
+            "cid": 680223607.1605144,
+            "_s": 2,
+            "dl": "https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1",
+            "dr": "",
+            "dt": "AdsHome_LP_Overview",
+            "sid": 1605143217,
+            "sct": 1,
+            "seg": 0,
+            "en": "user_engagement",
+            "_et": 9068,
+            "ep.page_path": "/intl/en_us/home/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-D9KXP9673K&gtm=2oeas1&_p=358190028&sr=1440x900&ul=en-us&cid=680223607.1605143218&_s=2&dl=https%3A%2F%2Fads.google.com%2Fintl%2Fen_us%2Fhome%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpafoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpafooter%26fg%3D1&dr=&dt=AdsHome_LP_Overview&sid=1605143217&sct=1&seg=0&en=user_engagement&_et=9068&ep.page_path=%2Fintl%2Fen_us%2Fhome%2F"
+      },
+      {
+        "data": {
+          "filter": "||stats.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "t": "dc",
+            "aip": 1,
+            "_r": 3,
+            "v": 1,
+            "_v": "j87",
+            "tid": "UA-113093516-1",
+            "cid": 680223607.1605144,
+            "jid": 1466102831,
+            "gjid": 243402137,
+            "_gid": 1536228634.1605144,
+            "_u": "YEBAAEAAAAAAAC~",
+            "z": 892118233
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j87&tid=UA-113093516-1&cid=680223607.1605143218&jid=1466102831&gjid=243402137&_gid=1536228634.1605143218&_u=YEBAAEAAAAAAAC~&z=892118233"
+      },
+      {
+        "data": {
+          "filter": "/collect?*&tid=",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 2,
+            "tid": "G-3VJ2NVL4LT",
+            "gtm": "2oeas1",
+            "_p": 358190028,
+            "sr": "1440x900",
+            "ul": "en-us",
+            "cid": 680223607.1605144,
+            "_s": 1,
+            "dl": "https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1",
+            "dr": "",
+            "dt": "Google Ads - Get More Customers With Easy Online Advertising",
+            "sid": 1605143217,
+            "sct": 1,
+            "seg": 0,
+            "en": "AdsHome_LP_Overview",
+            "_fv": 1,
+            "_ss": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-3VJ2NVL4LT&gtm=2oeas1&_p=358190028&sr=1440x900&ul=en-us&cid=680223607.1605143218&_s=1&dl=https%3A%2F%2Fads.google.com%2Fintl%2Fen_us%2Fhome%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpafoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpafooter%26fg%3D1&dr=&dt=Google%20Ads%20-%20Get%20More%20Customers%20With%20Easy%20Online%20Advertising&sid=1605143217&sct=1&seg=0&en=AdsHome_LP_Overview&_fv=1&_ss=2"
+      },
+      {
+        "data": {
+          "filter": "/collect?*&tid=",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 2,
+            "tid": "G-D9KXP9673K",
+            "gtm": "2oeas1",
+            "_p": 358190028,
+            "sr": "1440x900",
+            "ul": "en-us",
+            "cid": 680223607.1605144,
+            "_s": 1,
+            "dl": "https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1",
+            "dr": "",
+            "dt": "AdsHome_LP_Overview",
+            "sid": 1605143217,
+            "sct": 1,
+            "seg": 0,
+            "en": "page_view",
+            "_fv": 1,
+            "_ss": 1,
+            "_c": 1,
+            "ep.page_path": "/intl/en_us/home/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-D9KXP9673K&gtm=2oeas1&_p=358190028&sr=1440x900&ul=en-us&cid=680223607.1605143218&_s=1&dl=https%3A%2F%2Fads.google.com%2Fintl%2Fen_us%2Fhome%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpafoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpafooter%26fg%3D1&dr=&dt=AdsHome_LP_Overview&sid=1605143217&sct=1&seg=0&en=page_view&_fv=1&_ss=1&_c=1&ep.page_path=%2Fintl%2Fen_us%2Fhome%2F"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j87",
+            "aip": 1,
+            "a": 358190028,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter",
+            "dr": "",
+            "dp": "AdsHome_LP_Overview",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "Google Ads - Get More Customers With Easy Online Advertising",
+            "sd": "30-bit",
+            "sr": "1440x900",
+            "vp": "1185x659",
+            "je": 0,
+            "_u": "YEDAAEABAAAAAC~",
+            "jid": "",
+            "gjid": "",
+            "cid": 680223607.1605144,
+            "tid": "UA-113093516-1",
+            "_gid": 1536228634.1605144,
+            "gtm": "2wgb41N7926KD",
+            "cd1": "",
+            "cd2": "ww-ww-et-g-awa-a-g_hpafoot1_1!o2",
+            "cd3": "ww-ww-et-g-awa-a-g_hpafoot1_1!o2",
+            "cd8": "",
+            "cd13": "ww-ww-et-g-awa-a-g_hpafoot1_1!o2",
+            "cd14": "https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter",
+            "cd15": "",
+            "cd16": "/intl/en_us/home/",
+            "cd17": ",",
+            "cd18": ",",
+            "cd19": ",",
+            "cd20": "google.com",
+            "cd21": "referral",
+            "cd22": "google_hpafooter",
+            "cd23": "",
+            "cd24": "",
+            "cd36": "&&&&",
+            "cd37": "&&&&",
+            "cd38": "&&&&",
+            "cd39": "&&&&",
+            "cd40": "&&&&",
+            "cd41": "&&&&",
+            "cd42": "step=none&&substep=none&&clickstate=none",
+            "cd44": "",
+            "z": 1841159759
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j87&aip=1&a=358190028&t=pageview&_s=1&dl=https%3A%2F%2Fads.google.com%2Fintl%2Fen_us%2Fhome%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpafoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpafooter&dr=&dp=AdsHome_LP_Overview&ul=en-us&de=UTF-8&dt=Google%20Ads%20-%20Get%20More%20Customers%20With%20Easy%20Online%20Advertising&sd=30-bit&sr=1440x900&vp=1185x659&je=0&_u=YEDAAEABAAAAAC~&jid=&gjid=&cid=680223607.1605143218&tid=UA-113093516-1&_gid=1536228634.1605143218&gtm=2wgb41N7926KD&cd1=&cd2=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&cd3=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&cd8=&cd13=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&cd14=https%3A%2F%2Fads.google.com%2Fintl%2Fen_us%2Fhome%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpafoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpafooter&cd15=&cd16=%2Fintl%2Fen_us%2Fhome%2F&cd17=%2C&cd18=%2C&cd19=%2C&cd20=google.com&cd21=referral&cd22=google_hpafooter&cd23=&cd24=&cd36=%26%26%26%26&cd37=%26%26%26%26&cd38=%26%26%26%26&cd39=%26%26%26%26&cd40=%26%26%26%26&cd41=%26%26%26%26&cd42=step%3Dnone%26%26substep%3Dnone%26%26clickstate%3Dnone&cd44=&z=1841159759"
+      },
+      {
+        "data": {
+          "filter": "/collect?*&cid=",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j87",
+            "aip": 1,
+            "a": 358190028,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter",
+            "dr": "",
+            "dp": "AdsHome_LP_Overview",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "Google Ads - Get More Customers With Easy Online Advertising",
+            "sd": "30-bit",
+            "sr": "1440x900",
+            "vp": "1185x659",
+            "je": 0,
+            "_u": "YEBAAEABAAAAAC~",
+            "jid": 1466102831,
+            "gjid": 243402137,
+            "cid": 680223607.1605144,
+            "tid": "UA-113093516-1",
+            "_gid": 1536228634.1605144,
+            "_r": 1,
+            "gtm": "2wgb41N7926KD",
+            "cd1": "",
+            "cd2": "ww-ww-et-g-awa-a-g_hpafoot1_1!o2",
+            "cd3": "ww-ww-et-g-awa-a-g_hpafoot1_1!o2",
+            "cd8": "",
+            "cd13": "ww-ww-et-g-awa-a-g_hpafoot1_1!o2",
+            "cd14": "https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter",
+            "cd15": "",
+            "cd16": "/intl/en_us/home/",
+            "cd17": ",",
+            "cd18": ",",
+            "cd19": ",",
+            "cd20": "google.com",
+            "cd21": "referral",
+            "cd22": "google_hpafooter",
+            "cd23": "",
+            "cd24": "",
+            "cd36": "&&&&",
+            "cd37": "&&&&",
+            "cd38": "&&&&",
+            "cd39": "&&&&",
+            "cd40": "&&&&",
+            "cd41": "&&&&",
+            "cd42": "step=none&&substep=none&&clickstate=none",
+            "cd44": "",
+            "z": 80860738
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j87&aip=1&a=358190028&t=pageview&_s=1&dl=https%3A%2F%2Fads.google.com%2Fintl%2Fen_us%2Fhome%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpafoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpafooter&dr=&dp=AdsHome_LP_Overview&ul=en-us&de=UTF-8&dt=Google%20Ads%20-%20Get%20More%20Customers%20With%20Easy%20Online%20Advertising&sd=30-bit&sr=1440x900&vp=1185x659&je=0&_u=YEBAAEABAAAAAC~&jid=1466102831&gjid=243402137&cid=680223607.1605143218&tid=UA-113093516-1&_gid=1536228634.1605143218&_r=1&gtm=2wgb41N7926KD&cd1=&cd2=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&cd3=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&cd8=&cd13=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&cd14=https%3A%2F%2Fads.google.com%2Fintl%2Fen_us%2Fhome%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpafoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpafooter&cd15=&cd16=%2Fintl%2Fen_us%2Fhome%2F&cd17=%2C&cd18=%2C&cd19=%2C&cd20=google.com&cd21=referral&cd22=google_hpafooter&cd23=&cd24=&cd36=%26%26%26%26&cd37=%26%26%26%26&cd38=%26%26%26%26&cd39=%26%26%26%26&cd40=%26%26%26%26&cd41=%26%26%26%26&cd42=step%3Dnone%26%26substep%3Dnone%26%26clickstate%3Dnone&cd44=&z=80860738"
+      },
+      {
+        "data": {
+          "filter": "||googleadservices.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googleadservices.com/pagead/conversion_async.js"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/analytics.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com/gtag/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "G-3VJ2NVL4LT",
+            "l": "peithoDataLayer",
+            "cx": "c"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-3VJ2NVL4LT&l=peithoDataLayer&cx=c"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com/gtag/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "G-D9KXP9673K",
+            "l": "peithoDataLayer",
+            "cx": "c"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-D9KXP9673K&l=peithoDataLayer&cx=c"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^$image,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "gadsid": "AORoGNSoSibp3mnoeyJoXgT1bU7XXzLj59acFRW4vgIWWm0jWgkBqUI5Fg"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.google.com/?gws_rd=ssl",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/adsid/google/si?gadsid=AORoGNSoSibp3mnoeyJoXgT1bU7XXzLj59acFRW4vgIWWm0jWgkBqUI5Fg"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^$image,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "gadsid": "AORoGNQnR3i_glmzK-qKI5PSkE8VGt29-IRA9AZe9snHAHHxVnRzLfxx7Q"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.google.com/?gws_rd=ssl",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/adsid/google/ui?gadsid=AORoGNQnR3i_glmzK-qKI5PSkE8VGt29-IRA9AZe9snHAHHxVnRzLfxx7Q"
+      }
+    ]
+  }
+}
