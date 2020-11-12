@@ -30,18 +30,12 @@ async function scrapeSource(url) {
   }
 
 
-  try {
+  const pathToFile = join(__dirname, "demo-dir", "inspection.json")
+  const folderName = join(__dirname, "compiled", URL)
+  if (fs.existsSync(pathToFile)) {
     if (!fs.existsSync(folderName)) {
       fs.mkdirSync(folderName)
     }
-  } catch (err) {
-    console.error(err)
-  }
-
-  const pathToFile = join(__dirname, "demo-dir", "inspection.json")
-
-  if (fs.existsSync(pathToFile)) {
-    const folderName = join(__dirname, "compiled", URL)
     const pathToNewDestination = join(folderName, "inspection.json")
     fs.copyFile(pathToFile, pathToNewDestination, function (err) {
       if (err) {
