@@ -29,7 +29,6 @@ async function scrapeSource(url) {
     );
   }
 
-  const folderName = join(__dirname,"compiled",URL)
 
   try {
     if (!fs.existsSync(folderName)) {
@@ -40,15 +39,20 @@ async function scrapeSource(url) {
   }
 
   const pathToFile = join(__dirname, "demo-dir", "inspection.json")
-  const pathToNewDestination = join(folderName, "inspection.json" )
 
-  fs.copyFile(pathToFile, pathToNewDestination, function (err) {
-    if (err) {
-      throw err
-    } else {
-      console.log("Successfully copied and moved the file!")
-    }
-  })
+  if (fs.existsSync(pathToFile)) {
+    const folderName = join(__dirname, "compiled", URL)
+    const pathToNewDestination = join(folderName, "inspection.json")
+    fs.copyFile(pathToFile, pathToNewDestination, function (err) {
+      if (err) {
+        throw err
+      } else {
+        console.log("Successfully copied and moved the file!")
+      }
+    })
+  }
+  
+   
   URL = null
   return null;
 

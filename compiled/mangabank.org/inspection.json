@@ -1,0 +1,183 @@
+{
+  "title": "Blacklight Inspection",
+  "uri_ins": "http://mangabank.org",
+  "uri_dest": "https://mangabank.org/",
+  "uri_redirects": [
+    "http://mangabank.org/"
+  ],
+  "secure_connection": {},
+  "host": "mangabank.org",
+  "config": {
+    "clearCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "emulateDevice": false,
+    "numPages": 2
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/87.0.4272.0",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4272.0 Safari/537.36",
+    "platform": {
+      "name": "Darwin",
+      "version": "19.6.0"
+    }
+  },
+  "script": {
+    "host": "Amandas-MBP-3.lan",
+    "version": {
+      "npm": "2.1.11",
+      "commit": null
+    },
+    "node_version": "v14.14.0"
+  },
+  "start_time": "2020-11-12T03:28:43.413Z",
+  "end_time": "2020-11-12T03:29:00.922Z",
+  "browsing_history": [
+    "https://mangabank.org/",
+    "https://mangabank.org/privacy-policy/",
+    "https://mangabank.org/watch/?tour=/vol/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "mangabank.org"
+      ],
+      "third_party": [
+        "cdn.jsdelivr.net",
+        "fonts.googleapis.com",
+        "fonts.gstatic.com",
+        "ssl.standardcdn.net",
+        "a.exdynsrv.com",
+        "syndication.exdynsrv.com",
+        "in-page-push.com",
+        "my.rtmark.net",
+        "offerimage.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://in-page-push.com/400/3663712": [
+          "scroll"
+        ],
+        "https://a.exdynsrv.com/fp-interstitial.js": [
+          "click"
+        ],
+        "https://cdn.jsdelivr.net/gh/standardcdn/ssl/jquery.js?ver=1.12.4-wp": [
+          "click"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "domain": "mangabank.org",
+        "name": "splash_i",
+        "path": "/",
+        "script": "https://a.exdynsrv.com/popunder1000.js",
+        "type": "js",
+        "value": "false",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||rtmark.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://mangabank.org/privacy-policy/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://my.rtmark.net/gid.js"
+      },
+      {
+        "data": {
+          "filter": "||exdynsrv.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "i": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://mangabank.org/privacy-policy/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://syndication.exdynsrv.com/ads-priv.php?i=0"
+      },
+      {
+        "data": {
+          "filter": "||exdynsrv.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "idzone": 3850791,
+            "orientation": "landscape",
+            "screen_resolution": "1440x900",
+            "p": "https://mangabank.org/privacy-policy/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://mangabank.org/privacy-policy/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://syndication.exdynsrv.com/splash.php?idzone=3850791&orientation=landscape&screen_resolution=1440x900&p=https%3A%2F%2Fmangabank.org%2Fprivacy-policy%2F"
+      },
+      {
+        "data": {
+          "filter": "||exdynsrv.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://mangabank.org/privacy-policy/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://a.exdynsrv.com/popunder1000.js"
+      },
+      {
+        "data": {
+          "filter": "||exdynsrv.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://mangabank.org/privacy-policy/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://a.exdynsrv.com/fp-interstitial.js"
+      }
+    ]
+  }
+}
