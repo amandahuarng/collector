@@ -1,0 +1,680 @@
+{
+  "title": "Blacklight Inspection",
+  "uri_ins": "http://mingrenteahouse.com",
+  "uri_dest": "https://www.mingrenteahouse.com/",
+  "uri_redirects": [
+    "http://mingrenteahouse.com/"
+  ],
+  "secure_connection": {},
+  "host": "mingrenteahouse.com",
+  "config": {
+    "clearCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "emulateDevice": false,
+    "numPages": 2
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/87.0.4272.0",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4272.0 Safari/537.36",
+    "platform": {
+      "name": "Darwin",
+      "version": "19.6.0"
+    }
+  },
+  "script": {
+    "host": "Amandas-MBP-3.lan",
+    "version": {
+      "npm": "2.1.11",
+      "commit": null
+    },
+    "node_version": "v14.14.0"
+  },
+  "start_time": "2020-11-13T04:55:23.063Z",
+  "end_time": "2020-11-13T04:55:35.323Z",
+  "browsing_history": [
+    "https://www.mingrenteahouse.com/",
+    "https://www.mingrenteahouse.com/shu/1/21774218.html",
+    "https://www.mingrenteahouse.com/shu/1/2845889.html"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "mingrenteahouse.com",
+        "www.mingrenteahouse.com"
+      ],
+      "third_party": [
+        "hm.baidu.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "SENSOR": {
+        "https://hm.baidu.com/hm.js?deaa3467ff76d9dde5ebe3bc6cb257a6": [
+          "orientationchange"
+        ],
+        "https://hm.baidu.com/hm.js?92aba3e4f105050c3554fc4ac3120577": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "HMACCOUNT_BFESS",
+        "value": "DE3FCE7850F43AD2",
+        "domain": "hm.baidu.com",
+        "path": "/",
+        "expires": "2038-01-18T00:00:00.176Z",
+        "size": 31,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "Hm_lvt_92aba3e4f105050c3554fc4ac3120577",
+        "value": "1605243329",
+        "domain": "www.mingrenteahouse.com",
+        "path": "/",
+        "expires": "2021-11-13T04:55:32.000Z",
+        "size": 49,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "Hm_lvt_deaa3467ff76d9dde5ebe3bc6cb257a6",
+        "value": "1605243331",
+        "domain": "mingrenteahouse.com",
+        "path": "/",
+        "expires": "2021-11-13T04:55:32.000Z",
+        "size": 49,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "Hm_lpvt_92aba3e4f105050c3554fc4ac3120577",
+        "value": "1605243332",
+        "domain": "www.mingrenteahouse.com",
+        "path": "/",
+        "expires": -1,
+        "size": 50,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "Hm_lpvt_deaa3467ff76d9dde5ebe3bc6cb257a6",
+        "value": "1605243333",
+        "domain": "mingrenteahouse.com",
+        "path": "/",
+        "expires": -1,
+        "size": 50,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cc": 1,
+            "ck": 1,
+            "cl": "30-bit",
+            "ds": "1440x900",
+            "vl": 659,
+            "et": 0,
+            "ja": 0,
+            "ln": "en-us",
+            "lo": 0,
+            "lt": 1605243331,
+            "rnd": 260995854,
+            "si": "deaa3467ff76d9dde5ebe3bc6cb257a6",
+            "v": "1.2.80",
+            "lv": 2,
+            "sn": 29043,
+            "r": 0,
+            "ww": 1200,
+            "ct": "!!",
+            "u": "https://www.mingrenteahouse.com/shu/1/2845889.html",
+            "tt": "第九章 太虚噬气诀！_三寸人间_三寸小说网"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mingrenteahouse.com/shu/1/2845889.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.gif?cc=1&ck=1&cl=30-bit&ds=1440x900&vl=659&et=0&ja=0&ln=en-us&lo=0&lt=1605243331&rnd=260995854&si=deaa3467ff76d9dde5ebe3bc6cb257a6&v=1.2.80&lv=2&sn=29043&r=0&ww=1200&ct=!!&u=https%3A%2F%2Fwww.mingrenteahouse.com%2Fshu%2F1%2F2845889.html&tt=%E7%AC%AC%E4%B9%9D%E7%AB%A0%20%E5%A4%AA%E8%99%9A%E5%99%AC%E6%B0%94%E8%AF%80%EF%BC%81_%E4%B8%89%E5%AF%B8%E4%BA%BA%E9%97%B4_%E4%B8%89%E5%AF%B8%E5%B0%8F%E8%AF%B4%E7%BD%91"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "hca": "DE3FCE7850F43AD2",
+            "cc": 1,
+            "ck": 1,
+            "cl": "30-bit",
+            "ds": "1440x900",
+            "vl": 659,
+            "ep": "1435,1431",
+            "et": 3,
+            "ja": 0,
+            "ln": "en-us",
+            "lo": 0,
+            "rnd": 851491338,
+            "si": "deaa3467ff76d9dde5ebe3bc6cb257a6",
+            "v": "1.2.80",
+            "lv": 1,
+            "sn": 29041,
+            "r": 0,
+            "ww": 1200,
+            "u": "https://www.mingrenteahouse.com/shu/1/21774218.html"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mingrenteahouse.com/shu/1/2845889.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.gif?hca=DE3FCE7850F43AD2&cc=1&ck=1&cl=30-bit&ds=1440x900&vl=659&ep=1435%2C1431&et=3&ja=0&ln=en-us&lo=0&rnd=851491338&si=deaa3467ff76d9dde5ebe3bc6cb257a6&v=1.2.80&lv=1&sn=29041&r=0&ww=1200&u=https%3A%2F%2Fwww.mingrenteahouse.com%2Fshu%2F1%2F21774218.html"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cc": 1,
+            "ck": 1,
+            "cl": "30-bit",
+            "ds": "1440x900",
+            "vl": 659,
+            "et": 0,
+            "ja": 0,
+            "ln": "en-us",
+            "lo": 0,
+            "lt": 1605243329,
+            "rnd": 1844888082,
+            "si": "92aba3e4f105050c3554fc4ac3120577",
+            "v": "1.2.80",
+            "lv": 2,
+            "sn": 29043,
+            "r": 0,
+            "ww": 1200,
+            "ct": "!!",
+            "u": "https://www.mingrenteahouse.com/shu/1/2845889.html",
+            "tt": "第九章 太虚噬气诀！_三寸人间_三寸小说网"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mingrenteahouse.com/shu/1/2845889.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.gif?cc=1&ck=1&cl=30-bit&ds=1440x900&vl=659&et=0&ja=0&ln=en-us&lo=0&lt=1605243329&rnd=1844888082&si=92aba3e4f105050c3554fc4ac3120577&v=1.2.80&lv=2&sn=29043&r=0&ww=1200&ct=!!&u=https%3A%2F%2Fwww.mingrenteahouse.com%2Fshu%2F1%2F2845889.html&tt=%E7%AC%AC%E4%B9%9D%E7%AB%A0%20%E5%A4%AA%E8%99%9A%E5%99%AC%E6%B0%94%E8%AF%80%EF%BC%81_%E4%B8%89%E5%AF%B8%E4%BA%BA%E9%97%B4_%E4%B8%89%E5%AF%B8%E5%B0%8F%E8%AF%B4%E7%BD%91"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "hca": "DE3FCE7850F43AD2",
+            "cc": 1,
+            "ck": 1,
+            "cl": "30-bit",
+            "ds": "1440x900",
+            "vl": 659,
+            "ep": "1717,1717",
+            "et": 3,
+            "ja": 0,
+            "ln": "en-us",
+            "lo": 0,
+            "lt": 1605243329,
+            "rnd": 572273873,
+            "si": "92aba3e4f105050c3554fc4ac3120577",
+            "v": "1.2.80",
+            "lv": 2,
+            "sn": 29040,
+            "r": 0,
+            "ww": 1200,
+            "u": "https://www.mingrenteahouse.com/shu/1/21774218.html"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mingrenteahouse.com/shu/1/2845889.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.gif?hca=DE3FCE7850F43AD2&cc=1&ck=1&cl=30-bit&ds=1440x900&vl=659&ep=1717%2C1717&et=3&ja=0&ln=en-us&lo=0&lt=1605243329&rnd=572273873&si=92aba3e4f105050c3554fc4ac3120577&v=1.2.80&lv=2&sn=29040&r=0&ww=1200&u=https%3A%2F%2Fwww.mingrenteahouse.com%2Fshu%2F1%2F21774218.html"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "deaa3467ff76d9dde5ebe3bc6cb257a6": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mingrenteahouse.com/shu/1/2845889.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.js?deaa3467ff76d9dde5ebe3bc6cb257a6"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "92aba3e4f105050c3554fc4ac3120577": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mingrenteahouse.com/shu/1/2845889.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.js?92aba3e4f105050c3554fc4ac3120577"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "hca": "DE3FCE7850F43AD2",
+            "cc": 1,
+            "ck": 1,
+            "cl": "30-bit",
+            "ds": "1440x900",
+            "vl": 659,
+            "ep": "1435,1431",
+            "et": 3,
+            "ja": 0,
+            "ln": "en-us",
+            "lo": 0,
+            "rnd": 851491338,
+            "si": "deaa3467ff76d9dde5ebe3bc6cb257a6",
+            "v": "1.2.80",
+            "lv": 1,
+            "sn": 29041,
+            "r": 0,
+            "ww": 1200,
+            "u": "https://www.mingrenteahouse.com/shu/1/21774218.html"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mingrenteahouse.com/shu/1/21774218.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.gif?hca=DE3FCE7850F43AD2&cc=1&ck=1&cl=30-bit&ds=1440x900&vl=659&ep=1435%2C1431&et=3&ja=0&ln=en-us&lo=0&rnd=851491338&si=deaa3467ff76d9dde5ebe3bc6cb257a6&v=1.2.80&lv=1&sn=29041&r=0&ww=1200&u=https%3A%2F%2Fwww.mingrenteahouse.com%2Fshu%2F1%2F21774218.html"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "hca": "DE3FCE7850F43AD2",
+            "cc": 1,
+            "ck": 1,
+            "cl": "30-bit",
+            "ds": "1440x900",
+            "vl": 659,
+            "ep": "1717,1717",
+            "et": 3,
+            "ja": 0,
+            "ln": "en-us",
+            "lo": 0,
+            "lt": 1605243329,
+            "rnd": 572273873,
+            "si": "92aba3e4f105050c3554fc4ac3120577",
+            "v": "1.2.80",
+            "lv": 2,
+            "sn": 29040,
+            "r": 0,
+            "ww": 1200,
+            "u": "https://www.mingrenteahouse.com/shu/1/21774218.html"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mingrenteahouse.com/shu/1/21774218.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.gif?hca=DE3FCE7850F43AD2&cc=1&ck=1&cl=30-bit&ds=1440x900&vl=659&ep=1717%2C1717&et=3&ja=0&ln=en-us&lo=0&lt=1605243329&rnd=572273873&si=92aba3e4f105050c3554fc4ac3120577&v=1.2.80&lv=2&sn=29040&r=0&ww=1200&u=https%3A%2F%2Fwww.mingrenteahouse.com%2Fshu%2F1%2F21774218.html"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cc": 1,
+            "ck": 1,
+            "cl": "30-bit",
+            "ds": "1440x900",
+            "vl": 659,
+            "et": 0,
+            "ja": 0,
+            "ln": "en-us",
+            "lo": 0,
+            "rnd": 332363265,
+            "si": "deaa3467ff76d9dde5ebe3bc6cb257a6",
+            "v": "1.2.80",
+            "lv": 1,
+            "sn": 29041,
+            "r": 0,
+            "ww": 1200,
+            "ct": "!!",
+            "u": "https://www.mingrenteahouse.com/shu/1/21774218.html",
+            "tt": "第385章 众志成城_三寸人间_三寸小说网"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mingrenteahouse.com/shu/1/21774218.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.gif?cc=1&ck=1&cl=30-bit&ds=1440x900&vl=659&et=0&ja=0&ln=en-us&lo=0&rnd=332363265&si=deaa3467ff76d9dde5ebe3bc6cb257a6&v=1.2.80&lv=1&sn=29041&r=0&ww=1200&ct=!!&u=https%3A%2F%2Fwww.mingrenteahouse.com%2Fshu%2F1%2F21774218.html&tt=%E7%AC%AC385%E7%AB%A0%20%E4%BC%97%E5%BF%97%E6%88%90%E5%9F%8E_%E4%B8%89%E5%AF%B8%E4%BA%BA%E9%97%B4_%E4%B8%89%E5%AF%B8%E5%B0%8F%E8%AF%B4%E7%BD%91"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cc": 1,
+            "ck": 1,
+            "cl": "30-bit",
+            "ds": "1440x900",
+            "vl": 659,
+            "et": 0,
+            "ja": 0,
+            "ln": "en-us",
+            "lo": 0,
+            "lt": 1605243329,
+            "rnd": 1675481231,
+            "si": "92aba3e4f105050c3554fc4ac3120577",
+            "v": "1.2.80",
+            "lv": 2,
+            "sn": 29040,
+            "r": 0,
+            "ww": 1200,
+            "ct": "!!",
+            "u": "https://www.mingrenteahouse.com/shu/1/21774218.html",
+            "tt": "第385章 众志成城_三寸人间_三寸小说网"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mingrenteahouse.com/shu/1/21774218.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.gif?cc=1&ck=1&cl=30-bit&ds=1440x900&vl=659&et=0&ja=0&ln=en-us&lo=0&lt=1605243329&rnd=1675481231&si=92aba3e4f105050c3554fc4ac3120577&v=1.2.80&lv=2&sn=29040&r=0&ww=1200&ct=!!&u=https%3A%2F%2Fwww.mingrenteahouse.com%2Fshu%2F1%2F21774218.html&tt=%E7%AC%AC385%E7%AB%A0%20%E4%BC%97%E5%BF%97%E6%88%90%E5%9F%8E_%E4%B8%89%E5%AF%B8%E4%BA%BA%E9%97%B4_%E4%B8%89%E5%AF%B8%E5%B0%8F%E8%AF%B4%E7%BD%91"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cc": 1,
+            "ck": 1,
+            "cl": "30-bit",
+            "ds": "1440x900",
+            "vl": 659,
+            "et": 0,
+            "ja": 0,
+            "ln": "en-us",
+            "lo": 0,
+            "rnd": 815854451,
+            "si": "92aba3e4f105050c3554fc4ac3120577",
+            "v": "1.2.80",
+            "lv": 1,
+            "sn": 29039,
+            "r": 0,
+            "ww": 1200,
+            "ct": "!!",
+            "u": "https://www.mingrenteahouse.com/",
+            "tt": "《三寸人间》起点最新章节(耳根)，《三寸人间》笔趣阁sodu无弹窗"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mingrenteahouse.com/shu/1/21774218.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.gif?cc=1&ck=1&cl=30-bit&ds=1440x900&vl=659&et=0&ja=0&ln=en-us&lo=0&rnd=815854451&si=92aba3e4f105050c3554fc4ac3120577&v=1.2.80&lv=1&sn=29039&r=0&ww=1200&ct=!!&u=https%3A%2F%2Fwww.mingrenteahouse.com%2F&tt=%E3%80%8A%E4%B8%89%E5%AF%B8%E4%BA%BA%E9%97%B4%E3%80%8B%E8%B5%B7%E7%82%B9%E6%9C%80%E6%96%B0%E7%AB%A0%E8%8A%82(%E8%80%B3%E6%A0%B9)%EF%BC%8C%E3%80%8A%E4%B8%89%E5%AF%B8%E4%BA%BA%E9%97%B4%E3%80%8B%E7%AC%94%E8%B6%A3%E9%98%81sodu%E6%97%A0%E5%BC%B9%E7%AA%97"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "hca": "DE3FCE7850F43AD2",
+            "cc": 1,
+            "ck": 1,
+            "cl": "30-bit",
+            "ds": "1440x900",
+            "vl": 659,
+            "ep": "248,248",
+            "et": 3,
+            "ja": 0,
+            "ln": "en-us",
+            "lo": 0,
+            "rnd": 550904075,
+            "si": "92aba3e4f105050c3554fc4ac3120577",
+            "v": "1.2.80",
+            "lv": 1,
+            "sn": 29039,
+            "r": 0,
+            "ww": 1200,
+            "u": "https://www.mingrenteahouse.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mingrenteahouse.com/shu/1/21774218.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.gif?hca=DE3FCE7850F43AD2&cc=1&ck=1&cl=30-bit&ds=1440x900&vl=659&ep=248%2C248&et=3&ja=0&ln=en-us&lo=0&rnd=550904075&si=92aba3e4f105050c3554fc4ac3120577&v=1.2.80&lv=1&sn=29039&r=0&ww=1200&u=https%3A%2F%2Fwww.mingrenteahouse.com%2F"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "deaa3467ff76d9dde5ebe3bc6cb257a6": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mingrenteahouse.com/shu/1/21774218.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.js?deaa3467ff76d9dde5ebe3bc6cb257a6"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "92aba3e4f105050c3554fc4ac3120577": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mingrenteahouse.com/shu/1/21774218.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.js?92aba3e4f105050c3554fc4ac3120577"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "hca": "DE3FCE7850F43AD2",
+            "cc": 1,
+            "ck": 1,
+            "cl": "30-bit",
+            "ds": "1440x900",
+            "vl": 659,
+            "ep": "248,248",
+            "et": 3,
+            "ja": 0,
+            "ln": "en-us",
+            "lo": 0,
+            "rnd": 550904075,
+            "si": "92aba3e4f105050c3554fc4ac3120577",
+            "v": "1.2.80",
+            "lv": 1,
+            "sn": 29039,
+            "r": 0,
+            "ww": 1200,
+            "u": "https://www.mingrenteahouse.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mingrenteahouse.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.gif?hca=DE3FCE7850F43AD2&cc=1&ck=1&cl=30-bit&ds=1440x900&vl=659&ep=248%2C248&et=3&ja=0&ln=en-us&lo=0&rnd=550904075&si=92aba3e4f105050c3554fc4ac3120577&v=1.2.80&lv=1&sn=29039&r=0&ww=1200&u=https%3A%2F%2Fwww.mingrenteahouse.com%2F"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cc": 1,
+            "ck": 1,
+            "cl": "30-bit",
+            "ds": "1440x900",
+            "vl": 659,
+            "et": 0,
+            "ja": 0,
+            "ln": "en-us",
+            "lo": 0,
+            "rnd": 815854451,
+            "si": "92aba3e4f105050c3554fc4ac3120577",
+            "v": "1.2.80",
+            "lv": 1,
+            "sn": 29039,
+            "r": 0,
+            "ww": 1200,
+            "ct": "!!",
+            "u": "https://www.mingrenteahouse.com/",
+            "tt": "《三寸人间》起点最新章节(耳根)，《三寸人间》笔趣阁sodu无弹窗"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mingrenteahouse.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.gif?cc=1&ck=1&cl=30-bit&ds=1440x900&vl=659&et=0&ja=0&ln=en-us&lo=0&rnd=815854451&si=92aba3e4f105050c3554fc4ac3120577&v=1.2.80&lv=1&sn=29039&r=0&ww=1200&ct=!!&u=https%3A%2F%2Fwww.mingrenteahouse.com%2F&tt=%E3%80%8A%E4%B8%89%E5%AF%B8%E4%BA%BA%E9%97%B4%E3%80%8B%E8%B5%B7%E7%82%B9%E6%9C%80%E6%96%B0%E7%AB%A0%E8%8A%82(%E8%80%B3%E6%A0%B9)%EF%BC%8C%E3%80%8A%E4%B8%89%E5%AF%B8%E4%BA%BA%E9%97%B4%E3%80%8B%E7%AC%94%E8%B6%A3%E9%98%81sodu%E6%97%A0%E5%BC%B9%E7%AA%97"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "deaa3467ff76d9dde5ebe3bc6cb257a6": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mingrenteahouse.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.js?deaa3467ff76d9dde5ebe3bc6cb257a6"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "92aba3e4f105050c3554fc4ac3120577": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.mingrenteahouse.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.js?92aba3e4f105050c3554fc4ac3120577"
+      }
+    ]
+  }
+}

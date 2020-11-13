@@ -6,7 +6,7 @@ const neatCsv = require('neat-csv');
 const scrapeSource = require('./blacklight.js');
 var body = null
 
-const filePath = path.join(__dirname, '/blacklight_remaining_test.csv');
+const filePath = path.join(__dirname, '/blacklight_remaining.csv');
 // //loading data from the file
 // var global_data = fs.readFileSync(filePath).toString();
 // //the dataset
@@ -35,14 +35,14 @@ var start = async function() {
             });
 
             //map the output from csv-parse to the column
-            const urls = dat.map(da => da["music.yandex.ru"]);
+            const urls = dat.map(da => da["mecha.cc"]);
             const length = urls.length;
             console.log(length)
             for (let h = 0; h < length; h++){
                 url = urls[h]
                 //console.log(url)
                 const work = await scrapeSource(url)
-                
+                console.log("Done with: ", url)
             }
             
             // urls.forEach( async (url) => {

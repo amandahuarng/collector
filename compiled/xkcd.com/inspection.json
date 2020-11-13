@@ -1,12 +1,12 @@
 {
   "title": "Blacklight Inspection",
-  "uri_ins": "http://hitmo.me",
-  "uri_dest": "chrome-error://chromewebdata/",
+  "uri_ins": "http://xkcd.com",
+  "uri_dest": "https://xkcd.com/",
   "uri_redirects": [
-    "http://hitmo.me/"
+    "http://xkcd.com/"
   ],
   "secure_connection": {},
-  "host": "hitmo.me",
+  "host": "xkcd.com",
   "config": {
     "clearCache": true,
     "captureHar": true,
@@ -32,15 +32,19 @@
     },
     "node_version": "v14.14.0"
   },
-  "start_time": "2020-11-13T02:20:10.719Z",
-  "end_time": "2020-11-13T02:20:18.984Z",
+  "start_time": "2020-11-13T05:00:23.212Z",
+  "end_time": "2020-11-13T05:00:32.554Z",
   "browsing_history": [
-    "chrome-error://chromewebdata/"
+    "https://xkcd.com/",
+    "https://xkcd.com/newsletter/",
+    "https://xkcd.com/atom.xml"
   ],
   "hosts": {
     "requests": {
       "first_party": [
-        "hitmo.me"
+        "xkcd.com",
+        "imgs.xkcd.com",
+        "c.xkcd.com"
       ],
       "third_party": []
     }

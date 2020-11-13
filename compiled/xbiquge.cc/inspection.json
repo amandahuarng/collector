@@ -1,0 +1,861 @@
+{
+  "title": "Blacklight Inspection",
+  "uri_ins": "http://xbiquge.cc",
+  "uri_dest": "https://www.xbiquge.cc/",
+  "uri_redirects": [
+    "http://xbiquge.cc/",
+    "https://xbiquge.cc/",
+    "http://www.xbiquge.cc/"
+  ],
+  "secure_connection": {},
+  "host": "xbiquge.cc",
+  "config": {
+    "clearCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "emulateDevice": false,
+    "numPages": 2
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/87.0.4272.0",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4272.0 Safari/537.36",
+    "platform": {
+      "name": "Darwin",
+      "version": "19.6.0"
+    }
+  },
+  "script": {
+    "host": "Amandas-MBP-3.lan",
+    "version": {
+      "npm": "2.1.11",
+      "commit": null
+    },
+    "node_version": "v14.14.0"
+  },
+  "start_time": "2020-11-13T04:56:42.083Z",
+  "end_time": "2020-11-13T04:57:29.118Z",
+  "browsing_history": [
+    "https://www.xbiquge.cc/",
+    "https://www.xbiquge.cc/book/26101/",
+    "https://www.xbiquge.cc/book/9860/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "xbiquge.cc",
+        "www.xbiquge.cc"
+      ],
+      "third_party": [
+        "hm.baidu.com",
+        "pagead2.googlesyndication.com",
+        "googleads.g.doubleclick.net",
+        "partner.googleadservices.com",
+        "adservice.google.com",
+        "www.googletagservices.com",
+        "zz.bdstatic.com",
+        "sp0.baidu.com",
+        "tpc.googlesyndication.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "SENSOR": {
+        "https://hm.baidu.com/hm.js?252f9a986eb5a291cc4f56bcecd88721": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "HMACCOUNT_BFESS",
+        "value": "E414F0D771BCD4D5",
+        "domain": "hm.baidu.com",
+        "path": "/",
+        "expires": "2038-01-18T00:00:00.708Z",
+        "size": 31,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "Hm_lvt_252f9a986eb5a291cc4f56bcecd88721",
+        "value": "1605243414",
+        "domain": "xbiquge.cc",
+        "path": "/",
+        "expires": "2021-11-13T04:57:17.000Z",
+        "size": 49,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "IDE",
+        "value": "AHWqTUlY4Qr47nmd6SkU6Bk91jqJvM83eqEKgmO3rWyMj7DMqF0uLstiLu8wewnj",
+        "domain": "doubleclick.net",
+        "path": "/",
+        "expires": "2022-11-13T04:56:58.889Z",
+        "size": 67,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__gads",
+        "value": "ID=d84d720c96a33072-22e90d64d2c400a7:T=1605243418:RT=1605243418:S=ALNI_Mb7sth9UTmEVp6LDnEwRt5bfln3OA",
+        "domain": "xbiquge.cc",
+        "path": "/",
+        "expires": "2021-12-08T04:56:58.000Z",
+        "size": 106,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "d",
+        "value": "EFcBCQHuIYEA",
+        "domain": "quantserve.com",
+        "path": "/",
+        "expires": "2021-02-11T04:57:14.856Z",
+        "size": 13,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "mc",
+        "value": "5fae122a-cd9c4-434d7-f144a",
+        "domain": "quantserve.com",
+        "path": "/",
+        "expires": "2021-12-14T04:57:14.857Z",
+        "size": 28,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "CMID",
+        "value": "X64SKkrYT0zk2CmngHlelgAA",
+        "domain": "casalemedia.com",
+        "path": "/",
+        "expires": "2021-11-13T04:57:15.069Z",
+        "size": 28,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "CMPS",
+        "value": "2527",
+        "domain": "casalemedia.com",
+        "path": "/",
+        "expires": "2021-02-11T04:57:15.069Z",
+        "size": 8,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "i",
+        "value": "ab8b0f7a-e527-4b39-89b1-cb668e1cdd5d|1605243434",
+        "domain": "openx.net",
+        "path": "/",
+        "expires": "2021-11-13T04:57:14.992Z",
+        "size": 48,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "CMPRO",
+        "value": "1094",
+        "domain": "casalemedia.com",
+        "path": "/",
+        "expires": "2021-02-11T04:57:15.069Z",
+        "size": 9,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "CMST",
+        "value": "X64SK1+uEisA",
+        "domain": "casalemedia.com",
+        "path": "/",
+        "expires": "2020-11-14T04:57:15.069Z",
+        "size": 16,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "jieqiVisitId",
+        "value": "article_articleviews%3D26101%7C9860",
+        "domain": "www.xbiquge.cc",
+        "path": "/",
+        "expires": "2020-11-13T05:57:15.137Z",
+        "size": 47,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "rlas3",
+        "value": "M8vHK5lG+v71itj1qti8NZ0eXp+Lf86AnS3HIn93Dn4=",
+        "domain": "rlcdn.com",
+        "path": "/",
+        "expires": "2021-11-13T04:57:15.141Z",
+        "size": 49,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "pxrc",
+        "value": "CKukuP0FEgUI6AcQABIGCOndKhAA",
+        "domain": "rlcdn.com",
+        "path": "/",
+        "expires": "2021-01-12T04:57:15.141Z",
+        "size": 32,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "KTPCACOOKIE",
+        "value": "YES",
+        "domain": "pubmatic.com",
+        "path": "/",
+        "expires": "2020-11-14T04:57:15.187Z",
+        "size": 14,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "KADUSERCOOKIE",
+        "value": "58874C62-0CA4-455A-B3B7-F93D75BB0B3B",
+        "domain": "pubmatic.com",
+        "path": "/",
+        "expires": "2021-02-11T04:57:15.410Z",
+        "size": 49,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "Hm_lpvt_252f9a986eb5a291cc4f56bcecd88721",
+        "value": "1605243438",
+        "domain": "xbiquge.cc",
+        "path": "/",
+        "expires": -1,
+        "size": 50,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "/gen_204?$image,other,ping,script",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "sodar2",
+            "v": 219,
+            "t": 2,
+            "li": "gda_r20201111",
+            "jk": 246901184803478,
+            "bg": "!xMelx-fNAAUoamvQKFgNOxT4fIGq7QIAAAEoUgAAACloAQcKAPx-6T1-cE7xHBfQdXHroL2QpJKHunkcSsArubmtOaAMVhaI2hL-J6GqkvSEdzXroDge91ELurJQdI_xX-PpnNWYM9bFNlr5Rf4py6OX-kXdTLtugI2umjLUxx6Uh3GUj5QKsQXMItQNMYMOeiCu--DQOSrsa6Wi6paDDk9W4rD9OjoZujn9B2F7o1OtaA137aOQ5f3tw1t_mnK1Ckwa4GoJSAn3ADnIWMZcGBbQu1e4dI-CfjUVY-hPQgIcYbKss5GZWLXq8NBstkIcndJWP29HNji9iPwejzJ_o-bXTtf1N2HeuiI33NR5VGYAXylSFXfZPACnojEK6vE81NuZAevn3-p5wiU83F3bizV1MH8dFXBD-JRqx1BzdawgUrWR7Ts2Zu8spNi2o8QGgnUFvnszsTB4DxXp4VqrlOlXaqaAkz5A9THp7b2eDuNKnSA436_D2_HoFs91H6Np5pXdBc0nI1W7hgPzM2aTyyRN55RZMLMq8qlXvfEbvNcE_Q6znQF-qSb423nLoTy2IWy2Ch_m-l7Yhiy0bLmBC5GNH5zKs2ZtztH6VIDBM3xwb21vAIXvUMpfzLnsCdgEea4icFHZYb_E1c1v8CnpTbxGyiEXYJG0T140thOfbZe0NZP48A0qn8hwMkYFzk8rn9jzjwccPueBxeiUb86kiQ0CXJyGxreoofn0pN7qgXu9LMvriU-CnJj7p6msuhWo-mD7LP4-hDSbkj-6iEA1_p_M3Lcmh8b5Ztiicp-J0A2cXAPUgJI4R1YAPzbZQwFpqxezdtMw6SvDZ5GUBTWTd9Ld8zuC1L_DFLQVcDmducl53uJQ8O5Yb6nhnbwydNRym_aMJd6gykgWUoGDB_9RqCXYNOhQaisveRX1HSG51JfzOnx21Krggm0TF-pTdjVERB4XYZcnKN1eMfG031vDciLFbYzkA2BdPQciX-liImwlvE08QZlFMPtRtuk-t3e6rbALF1zYo7pVcDzpZy_-iQ"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbiquge.cc/book/9860/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=sodar2&v=219&t=2&li=gda_r20201111&jk=246901184803478&bg=!xMelx-fNAAUoamvQKFgNOxT4fIGq7QIAAAEoUgAAACloAQcKAPx-6T1-cE7xHBfQdXHroL2QpJKHunkcSsArubmtOaAMVhaI2hL-J6GqkvSEdzXroDge91ELurJQdI_xX-PpnNWYM9bFNlr5Rf4py6OX-kXdTLtugI2umjLUxx6Uh3GUj5QKsQXMItQNMYMOeiCu--DQOSrsa6Wi6paDDk9W4rD9OjoZujn9B2F7o1OtaA137aOQ5f3tw1t_mnK1Ckwa4GoJSAn3ADnIWMZcGBbQu1e4dI-CfjUVY-hPQgIcYbKss5GZWLXq8NBstkIcndJWP29HNji9iPwejzJ_o-bXTtf1N2HeuiI33NR5VGYAXylSFXfZPACnojEK6vE81NuZAevn3-p5wiU83F3bizV1MH8dFXBD-JRqx1BzdawgUrWR7Ts2Zu8spNi2o8QGgnUFvnszsTB4DxXp4VqrlOlXaqaAkz5A9THp7b2eDuNKnSA436_D2_HoFs91H6Np5pXdBc0nI1W7hgPzM2aTyyRN55RZMLMq8qlXvfEbvNcE_Q6znQF-qSb423nLoTy2IWy2Ch_m-l7Yhiy0bLmBC5GNH5zKs2ZtztH6VIDBM3xwb21vAIXvUMpfzLnsCdgEea4icFHZYb_E1c1v8CnpTbxGyiEXYJG0T140thOfbZe0NZP48A0qn8hwMkYFzk8rn9jzjwccPueBxeiUb86kiQ0CXJyGxreoofn0pN7qgXu9LMvriU-CnJj7p6msuhWo-mD7LP4-hDSbkj-6iEA1_p_M3Lcmh8b5Ztiicp-J0A2cXAPUgJI4R1YAPzbZQwFpqxezdtMw6SvDZ5GUBTWTd9Ld8zuC1L_DFLQVcDmducl53uJQ8O5Yb6nhnbwydNRym_aMJd6gykgWUoGDB_9RqCXYNOhQaisveRX1HSG51JfzOnx21Krggm0TF-pTdjVERB4XYZcnKN1eMfG031vDciLFbYzkA2BdPQciX-liImwlvE08QZlFMPtRtuk-t3e6rbALF1zYo7pVcDzpZy_-iQ"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cc": 1,
+            "ck": 1,
+            "cl": "30-bit",
+            "ds": "1440x900",
+            "vl": 659,
+            "et": 0,
+            "ja": 0,
+            "ln": "en-us",
+            "lo": 0,
+            "lt": 1605243414,
+            "rnd": 1666233291,
+            "si": "252f9a986eb5a291cc4f56bcecd88721",
+            "v": "1.2.80",
+            "lv": 2,
+            "sn": 29148,
+            "r": 0,
+            "ww": 1200,
+            "ct": "!!",
+            "u": "https://www.xbiquge.cc/book/9860/",
+            "tt": "我的微信连三界最新章节_我的微信连三界全文无弹窗阅读_狼烟_笔趣阁"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbiquge.cc/book/9860/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.gif?cc=1&ck=1&cl=30-bit&ds=1440x900&vl=659&et=0&ja=0&ln=en-us&lo=0&lt=1605243414&rnd=1666233291&si=252f9a986eb5a291cc4f56bcecd88721&v=1.2.80&lv=2&sn=29148&r=0&ww=1200&ct=!!&u=https%3A%2F%2Fwww.xbiquge.cc%2Fbook%2F9860%2F&tt=%E6%88%91%E7%9A%84%E5%BE%AE%E4%BF%A1%E8%BF%9E%E4%B8%89%E7%95%8C%E6%9C%80%E6%96%B0%E7%AB%A0%E8%8A%82_%E6%88%91%E7%9A%84%E5%BE%AE%E4%BF%A1%E8%BF%9E%E4%B8%89%E7%95%8C%E5%85%A8%E6%96%87%E6%97%A0%E5%BC%B9%E7%AA%97%E9%98%85%E8%AF%BB_%E7%8B%BC%E7%83%9F_%E7%AC%94%E8%B6%A3%E9%98%81"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "hca": "E414F0D771BCD4D5",
+            "cc": 1,
+            "ck": 1,
+            "cl": "30-bit",
+            "ds": "1440x900",
+            "vl": 659,
+            "ep": "4341,4337",
+            "et": 3,
+            "ja": 0,
+            "ln": "en-us",
+            "lo": 0,
+            "lt": 1605243414,
+            "rnd": 1688195816,
+            "si": "252f9a986eb5a291cc4f56bcecd88721",
+            "v": "1.2.80",
+            "lv": 2,
+            "sn": 29139,
+            "r": 0,
+            "ww": 1200,
+            "u": "https://www.xbiquge.cc/book/26101/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbiquge.cc/book/9860/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.gif?hca=E414F0D771BCD4D5&cc=1&ck=1&cl=30-bit&ds=1440x900&vl=659&ep=4341%2C4337&et=3&ja=0&ln=en-us&lo=0&lt=1605243414&rnd=1688195816&si=252f9a986eb5a291cc4f56bcecd88721&v=1.2.80&lv=2&sn=29139&r=0&ww=1200&u=https%3A%2F%2Fwww.xbiquge.cc%2Fbook%2F26101%2F"
+      },
+      {
+        "data": {
+          "filter": "||baidu.com^*/s.gif?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "l": "https://www.xbiquge.cc/book/9860/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbiquge.cc/book/9860/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sp0.baidu.com/9_Q4simg2RQJ8t7jm9iCKT-xh_/s.gif?l=https://www.xbiquge.cc/book/9860/"
+      },
+      {
+        "data": {
+          "filter": "||zz.bdstatic.com^",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbiquge.cc/book/9860/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://zz.bdstatic.com/linksubmit/push.js"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "252f9a986eb5a291cc4f56bcecd88721": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbiquge.cc/book/9860/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.js?252f9a986eb5a291cc4f56bcecd88721"
+      },
+      {
+        "data": {
+          "filter": "||googletagservices.com^*/osd.js$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cb": "/r20100101"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbiquge.cc/book/9860/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101"
+      },
+      {
+        "data": {
+          "filter": "||googleadservices.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "domain": "www.xbiquge.cc",
+            "callback": "_gfp_s_",
+            "client": "ca-pub-4554708189793180",
+            "cookie": "ID=d84d720c96a33072-22e90d64d2c400a7:T=1605243418:RT=1605243418:S=ALNI_Mb7sth9UTmEVp6LDnEwRt5bfln3OA"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbiquge.cc/book/9860/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://partner.googleadservices.com/gampad/cookie.js?domain=www.xbiquge.cc&callback=_gfp_s_&client=ca-pub-4554708189793180&cookie=ID%3Dd84d720c96a33072-22e90d64d2c400a7%3AT%3D1605243418%3ART%3D1605243418%3AS%3DALNI_Mb7sth9UTmEVp6LDnEwRt5bfln3OA"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "hca": "E414F0D771BCD4D5",
+            "cc": 1,
+            "ck": 1,
+            "cl": "30-bit",
+            "ds": "1440x900",
+            "vl": 659,
+            "ep": "4341,4337",
+            "et": 3,
+            "ja": 0,
+            "ln": "en-us",
+            "lo": 0,
+            "lt": 1605243414,
+            "rnd": 1688195816,
+            "si": "252f9a986eb5a291cc4f56bcecd88721",
+            "v": "1.2.80",
+            "lv": 2,
+            "sn": 29139,
+            "r": 0,
+            "ww": 1200,
+            "u": "https://www.xbiquge.cc/book/26101/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbiquge.cc/book/26101/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.gif?hca=E414F0D771BCD4D5&cc=1&ck=1&cl=30-bit&ds=1440x900&vl=659&ep=4341%2C4337&et=3&ja=0&ln=en-us&lo=0&lt=1605243414&rnd=1688195816&si=252f9a986eb5a291cc4f56bcecd88721&v=1.2.80&lv=2&sn=29139&r=0&ww=1200&u=https%3A%2F%2Fwww.xbiquge.cc%2Fbook%2F26101%2F"
+      },
+      {
+        "data": {
+          "filter": "/gen_204?$image,other,ping,script",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "sodar2",
+            "v": 219,
+            "t": 2,
+            "li": "gda_r20201111",
+            "jk": 110771036949927,
+            "bg": "!UlGlUXHNAAUoamvQKFiliHR8ynzNewIAAAFkUgAAAD1oAQcKAVcTSthFfbRG89EPDFIDcQS0NxGesFXqLrQNH4K5HtNEYGqDbrLU26scmQUMZM3rZ3Xpvbg4H8iRGqogqMNoUoDjZsFlPt-4ZSfoDS6EJa9mYTor_bQfHfGl-MGDsZKM2_rzBn91PZFRj5-vadvr9M0iFT50pxHpL0wWySnIy_U-kP6j6OjJmhDDf_jqfiSnoZYudZjs7MCzDj2S3oDjfqWyyiqd7Uxh8qpznn79Nj_jRuyr4lMe2I6_jpLkTF-IK1AY3oKuFEa2VvdT0g-4QftuCLWCHWkwPD_6IWD7pb3UmtACLb6ciDPNZYPJK7mMjYNka-Gl52opwWIq_BEgB33SpGRSbEAF9XFtrgh_roADTSYisKVjUFWCW8ZnGlYk2gmUDgwvA0GFhBAx7F_LW0XdKM_5AEGBp2Fw_e8DWRcy471XNkhhhXVuncwpzKdv8VX8wGv6oWXomQHhUFCNrJrAat5qZxIhgbJouwn9M7fTmFOMzvkzU9Vz672WNyCAt-CNP04ibZILqYxp4Ln2FtJnwJDxAi8RH40FX-xwOTeISmwoqAksLX6u92BJtzSCM4NV3yYRx-PmAimqz_sPmiwNf8CGdXXIjXdE2C9JuQ9s0YO5hobj07AJoKJAYD3gGmd4nQU-SW_7guHEcHUFbS-4W2IOm3DXvyWuVwb0zwrGBJLg1ngy5MNU4jNyLUaMGNdUVvFzcHImCYa6MwAGtPOT7MVJB7BnSGffy6_yXU9TzJ436fgAAoxDgEMDCjbV4fND-AUiuiXVgZHnJsdOMPf5MeOME0pZMJpd9KrdKjcrRzzT4cl6SdG26DmQwAYXkIVxTiJ_FV30y1JTpwRkJFOxe3EKTWZ2IwvBKHknhcNboojZCay1PBPN5Jyerc9nIOa54bTNOy8ipnQ7QCxHfxBg7858SSGtt6mgcQoo7szTBLqvY5eezcNYd8ZH0fMfMlxPVZtrjMOgOpbzcWHRpGQp-SGal8x_W-mc-WGIZos4zQ5BX9vuwgNxfacIaj-J2Xh5I1dJgqWKAkRBmY06hEx_oGZPoj8ALK3nSypJe8ITkfQkeHkpTiOCsBDbB2IIr18IbzefsFLr4c7b2Q"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbiquge.cc/book/26101/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=sodar2&v=219&t=2&li=gda_r20201111&jk=110771036949927&bg=!UlGlUXHNAAUoamvQKFiliHR8ynzNewIAAAFkUgAAAD1oAQcKAVcTSthFfbRG89EPDFIDcQS0NxGesFXqLrQNH4K5HtNEYGqDbrLU26scmQUMZM3rZ3Xpvbg4H8iRGqogqMNoUoDjZsFlPt-4ZSfoDS6EJa9mYTor_bQfHfGl-MGDsZKM2_rzBn91PZFRj5-vadvr9M0iFT50pxHpL0wWySnIy_U-kP6j6OjJmhDDf_jqfiSnoZYudZjs7MCzDj2S3oDjfqWyyiqd7Uxh8qpznn79Nj_jRuyr4lMe2I6_jpLkTF-IK1AY3oKuFEa2VvdT0g-4QftuCLWCHWkwPD_6IWD7pb3UmtACLb6ciDPNZYPJK7mMjYNka-Gl52opwWIq_BEgB33SpGRSbEAF9XFtrgh_roADTSYisKVjUFWCW8ZnGlYk2gmUDgwvA0GFhBAx7F_LW0XdKM_5AEGBp2Fw_e8DWRcy471XNkhhhXVuncwpzKdv8VX8wGv6oWXomQHhUFCNrJrAat5qZxIhgbJouwn9M7fTmFOMzvkzU9Vz672WNyCAt-CNP04ibZILqYxp4Ln2FtJnwJDxAi8RH40FX-xwOTeISmwoqAksLX6u92BJtzSCM4NV3yYRx-PmAimqz_sPmiwNf8CGdXXIjXdE2C9JuQ9s0YO5hobj07AJoKJAYD3gGmd4nQU-SW_7guHEcHUFbS-4W2IOm3DXvyWuVwb0zwrGBJLg1ngy5MNU4jNyLUaMGNdUVvFzcHImCYa6MwAGtPOT7MVJB7BnSGffy6_yXU9TzJ436fgAAoxDgEMDCjbV4fND-AUiuiXVgZHnJsdOMPf5MeOME0pZMJpd9KrdKjcrRzzT4cl6SdG26DmQwAYXkIVxTiJ_FV30y1JTpwRkJFOxe3EKTWZ2IwvBKHknhcNboojZCay1PBPN5Jyerc9nIOa54bTNOy8ipnQ7QCxHfxBg7858SSGtt6mgcQoo7szTBLqvY5eezcNYd8ZH0fMfMlxPVZtrjMOgOpbzcWHRpGQp-SGal8x_W-mc-WGIZos4zQ5BX9vuwgNxfacIaj-J2Xh5I1dJgqWKAkRBmY06hEx_oGZPoj8ALK3nSypJe8ITkfQkeHkpTiOCsBDbB2IIr18IbzefsFLr4c7b2Q"
+      },
+      {
+        "data": {
+          "filter": "||baidu.com^*/s.gif?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "l": "https://www.xbiquge.cc/book/26101/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbiquge.cc/book/26101/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sp0.baidu.com/9_Q4simg2RQJ8t7jm9iCKT-xh_/s.gif?l=https://www.xbiquge.cc/book/26101/"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cc": 1,
+            "ck": 1,
+            "cl": "30-bit",
+            "ds": "1440x900",
+            "vl": 659,
+            "et": 0,
+            "ja": 0,
+            "ln": "en-us",
+            "lo": 0,
+            "lt": 1605243414,
+            "rnd": 363491655,
+            "si": "252f9a986eb5a291cc4f56bcecd88721",
+            "v": "1.2.80",
+            "lv": 2,
+            "sn": 29139,
+            "r": 0,
+            "ww": 1200,
+            "ct": "!!",
+            "u": "https://www.xbiquge.cc/book/26101/",
+            "tt": "医妃惊世最新章节_医妃惊世全文无弹窗阅读_顾染锦_笔趣阁"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbiquge.cc/book/26101/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.gif?cc=1&ck=1&cl=30-bit&ds=1440x900&vl=659&et=0&ja=0&ln=en-us&lo=0&lt=1605243414&rnd=363491655&si=252f9a986eb5a291cc4f56bcecd88721&v=1.2.80&lv=2&sn=29139&r=0&ww=1200&ct=!!&u=https%3A%2F%2Fwww.xbiquge.cc%2Fbook%2F26101%2F&tt=%E5%8C%BB%E5%A6%83%E6%83%8A%E4%B8%96%E6%9C%80%E6%96%B0%E7%AB%A0%E8%8A%82_%E5%8C%BB%E5%A6%83%E6%83%8A%E4%B8%96%E5%85%A8%E6%96%87%E6%97%A0%E5%BC%B9%E7%AA%97%E9%98%85%E8%AF%BB_%E9%A1%BE%E6%9F%93%E9%94%A6_%E7%AC%94%E8%B6%A3%E9%98%81"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "hca": "E414F0D771BCD4D5",
+            "cc": 1,
+            "ck": 1,
+            "cl": "30-bit",
+            "ds": "1440x900",
+            "vl": 659,
+            "ep": "1004,1004",
+            "et": 3,
+            "ja": 0,
+            "ln": "en-us",
+            "lo": 0,
+            "rnd": 1036446087,
+            "si": "252f9a986eb5a291cc4f56bcecd88721",
+            "v": "1.2.80",
+            "lv": 1,
+            "sn": 29124,
+            "r": 0,
+            "ww": 1200,
+            "u": "https://www.xbiquge.cc/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbiquge.cc/book/26101/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.gif?hca=E414F0D771BCD4D5&cc=1&ck=1&cl=30-bit&ds=1440x900&vl=659&ep=1004%2C1004&et=3&ja=0&ln=en-us&lo=0&rnd=1036446087&si=252f9a986eb5a291cc4f56bcecd88721&v=1.2.80&lv=1&sn=29124&r=0&ww=1200&u=https%3A%2F%2Fwww.xbiquge.cc%2F"
+      },
+      {
+        "data": {
+          "filter": "/gen_204?$image,other,ping,script",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "ama_success",
+            "c": 0,
+            "wpc": "ca-pub-4554708189793180",
+            "warn": "12,13",
+            "w": 1200,
+            "h": 659,
+            "eatf": false,
+            "reatf": true,
+            "a": "6,1,5,7",
+            "apv": "20201101_201946",
+            "sat": 1604402151259,
+            "afm": 0,
+            "as_count": 1,
+            "d_count": 0,
+            "ng_count": 0,
+            "am_count": 0,
+            "atf_count": 1,
+            "mdns": 0.003,
+            "alldns": 0.003,
+            "allp": 17,
+            "fd": "(0,10,0),(1,0,0),(2,0,0)",
+            "pgh": 88202,
+            "su": "www.xbiquge.cc",
+            "r": 0.1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbiquge.cc/book/26101/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=ama_success&c=0&wpc=ca-pub-4554708189793180&warn=12%2C13&w=1200&h=659&eatf=false&reatf=true&a=6%2C1%2C5%2C7&apv=20201101_201946&sat=1604402151259&afm=0&as_count=1&d_count=0&ng_count=0&am_count=0&atf_count=1&mdns=0.003&alldns=0.003&allp=17&fd=(0%2C10%2C0)%2C(1%2C0%2C0)%2C(2%2C0%2C0)&pgh=88202&su=www.xbiquge.cc&r=0.1"
+      },
+      {
+        "data": {
+          "filter": "||zz.bdstatic.com^",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbiquge.cc/book/26101/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://zz.bdstatic.com/linksubmit/push.js"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "252f9a986eb5a291cc4f56bcecd88721": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbiquge.cc/book/26101/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.js?252f9a986eb5a291cc4f56bcecd88721"
+      },
+      {
+        "data": {
+          "filter": "||googletagservices.com^*/osd.js$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cb": "/r20100101"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbiquge.cc/book/26101/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101"
+      },
+      {
+        "data": {
+          "filter": "||googleadservices.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "domain": "www.xbiquge.cc",
+            "callback": "_gfp_s_",
+            "client": "ca-pub-4554708189793180"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbiquge.cc/book/26101/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://partner.googleadservices.com/gampad/cookie.js?domain=www.xbiquge.cc&callback=_gfp_s_&client=ca-pub-4554708189793180"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "hca": "E414F0D771BCD4D5",
+            "cc": 1,
+            "ck": 1,
+            "cl": "30-bit",
+            "ds": "1440x900",
+            "vl": 659,
+            "ep": "1004,1004",
+            "et": 3,
+            "ja": 0,
+            "ln": "en-us",
+            "lo": 0,
+            "rnd": 1036446087,
+            "si": "252f9a986eb5a291cc4f56bcecd88721",
+            "v": "1.2.80",
+            "lv": 1,
+            "sn": 29124,
+            "r": 0,
+            "ww": 1200,
+            "u": "https://www.xbiquge.cc/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbiquge.cc/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.gif?hca=E414F0D771BCD4D5&cc=1&ck=1&cl=30-bit&ds=1440x900&vl=659&ep=1004%2C1004&et=3&ja=0&ln=en-us&lo=0&rnd=1036446087&si=252f9a986eb5a291cc4f56bcecd88721&v=1.2.80&lv=1&sn=29124&r=0&ww=1200&u=https%3A%2F%2Fwww.xbiquge.cc%2F"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cc": 1,
+            "ck": 1,
+            "cl": "30-bit",
+            "ds": "1440x900",
+            "vl": 659,
+            "et": 0,
+            "ja": 0,
+            "ln": "en-us",
+            "lo": 0,
+            "rnd": 1625974829,
+            "si": "252f9a986eb5a291cc4f56bcecd88721",
+            "v": "1.2.80",
+            "lv": 1,
+            "sn": 29124,
+            "r": 0,
+            "ww": 1200,
+            "ct": "!!",
+            "u": "https://www.xbiquge.cc/",
+            "tt": "笔趣阁-值得您收藏的小说网"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbiquge.cc/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.gif?cc=1&ck=1&cl=30-bit&ds=1440x900&vl=659&et=0&ja=0&ln=en-us&lo=0&rnd=1625974829&si=252f9a986eb5a291cc4f56bcecd88721&v=1.2.80&lv=1&sn=29124&r=0&ww=1200&ct=!!&u=https%3A%2F%2Fwww.xbiquge.cc%2F&tt=%E7%AC%94%E8%B6%A3%E9%98%81-%E5%80%BC%E5%BE%97%E6%82%A8%E6%94%B6%E8%97%8F%E7%9A%84%E5%B0%8F%E8%AF%B4%E7%BD%91"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "252f9a986eb5a291cc4f56bcecd88721": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.xbiquge.cc/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.js?252f9a986eb5a291cc4f56bcecd88721"
+      }
+    ]
+  }
+}

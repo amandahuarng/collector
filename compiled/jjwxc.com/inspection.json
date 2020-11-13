@@ -1,0 +1,507 @@
+{
+  "title": "Blacklight Inspection",
+  "uri_ins": "http://jjwxc.com",
+  "uri_dest": "http://jjwxc.com/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "jjwxc.com",
+  "config": {
+    "clearCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "emulateDevice": false,
+    "numPages": 2
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/87.0.4272.0",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4272.0 Safari/537.36",
+    "platform": {
+      "name": "Darwin",
+      "version": "19.6.0"
+    }
+  },
+  "script": {
+    "host": "Amandas-MBP-3.lan",
+    "version": {
+      "npm": "2.1.11",
+      "commit": null
+    },
+    "node_version": "v14.14.0"
+  },
+  "start_time": "2020-11-13T04:53:53.215Z",
+  "end_time": "2020-11-13T04:54:04.987Z",
+  "browsing_history": [
+    "http://jjwxc.com/",
+    "http://jjwxc.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "jjwxc.com"
+      ],
+      "third_party": [
+        "static.jjwxc.net",
+        "s7-static.jjwxc.net",
+        "s8-static.jjwxc.net",
+        "w.cnzz.com",
+        "www.jjwxc.net",
+        "c.cnzz.com",
+        "hqs7.cnzz.com",
+        "hm.baidu.com",
+        "my.jjwxc.net",
+        "s9-static.jjwxc.net"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "SENSOR": {
+        "http://hm.baidu.com/hm.js?bc3b748c21fe5cf393d26c12b2c38d99": [
+          "orientationchange"
+        ]
+      },
+      "MOUSE": {
+        "http://static.jjwxc.net/scripts/jquery-1.8.0.min.js": [
+          "click"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "UM_distinctid",
+        "value": "175bff3fbb276a-04ac694eed1774-6830057e-13c680-175bff3fbb36e5",
+        "domain": "jjwxc.com",
+        "path": "/",
+        "expires": "2021-05-14T04:53:59.000Z",
+        "size": 73,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "CNZZDATA30075907",
+        "value": "cnzz_eid%3D647188487-1605238596-%26ntime%3D1605238596",
+        "domain": "jjwxc.com",
+        "path": "/",
+        "expires": "2021-05-14T04:54:01.000Z",
+        "size": 69,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "timeOffset_o",
+        "value": "57599624.399902344",
+        "domain": "jjwxc.com",
+        "path": "/",
+        "expires": "2020-11-20T04:53:59.000Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "HMACCOUNT_BFESS",
+        "value": "1D745E303FC7AA1B",
+        "domain": "hm.baidu.com",
+        "path": "/",
+        "expires": "2038-01-18T00:00:00.741Z",
+        "size": 31,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "Hm_lvt_bc3b748c21fe5cf393d26c12b2c38d99",
+        "value": "1605243241",
+        "domain": "jjwxc.com",
+        "path": "/",
+        "expires": "2021-11-13T04:54:02.000Z",
+        "size": 49,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "Hm_lpvt_bc3b748c21fe5cf393d26c12b2c38d99",
+        "value": "1605243242",
+        "domain": "jjwxc.com",
+        "path": "/",
+        "expires": -1,
+        "size": 50,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cc": 1,
+            "ck": 1,
+            "cl": "30-bit",
+            "ds": "1440x900",
+            "vl": 659,
+            "et": 0,
+            "ja": 0,
+            "ln": "en-us",
+            "lo": 0,
+            "lt": 1605243241,
+            "rnd": 1189493214,
+            "si": "bc3b748c21fe5cf393d26c12b2c38d99",
+            "v": "1.2.80",
+            "lv": 2,
+            "sn": 28952,
+            "r": 0,
+            "ww": 1200,
+            "ct": "!!",
+            "u": "http://jjwxc.com/",
+            "tt": "晋江文学城-女性网络文学原创基地"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://jjwxc.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.gif?cc=1&ck=1&cl=30-bit&ds=1440x900&vl=659&et=0&ja=0&ln=en-us&lo=0&lt=1605243241&rnd=1189493214&si=bc3b748c21fe5cf393d26c12b2c38d99&v=1.2.80&lv=2&sn=28952&r=0&ww=1200&ct=!!&u=http%3A%2F%2Fjjwxc.com%2F&tt=%E6%99%8B%E6%B1%9F%E6%96%87%E5%AD%A6%E5%9F%8E-%E5%A5%B3%E6%80%A7%E7%BD%91%E7%BB%9C%E6%96%87%E5%AD%A6%E5%8E%9F%E5%88%9B%E5%9F%BA%E5%9C%B0"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "hca": "1D745E303FC7AA1B",
+            "cc": 1,
+            "ck": 1,
+            "cl": "30-bit",
+            "ds": "1440x900",
+            "vl": 659,
+            "ep": "541,541",
+            "et": 3,
+            "ja": 0,
+            "ln": "en-us",
+            "lo": 0,
+            "rnd": 1954265582,
+            "si": "bc3b748c21fe5cf393d26c12b2c38d99",
+            "v": "1.2.80",
+            "lv": 1,
+            "sn": 28951,
+            "r": 0,
+            "ww": 1200,
+            "u": "http://jjwxc.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://jjwxc.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.gif?hca=1D745E303FC7AA1B&cc=1&ck=1&cl=30-bit&ds=1440x900&vl=659&ep=541%2C541&et=3&ja=0&ln=en-us&lo=0&rnd=1954265582&si=bc3b748c21fe5cf393d26c12b2c38d99&v=1.2.80&lv=1&sn=28951&r=0&ww=1200&u=http%3A%2F%2Fjjwxc.com%2F"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "bc3b748c21fe5cf393d26c12b2c38d99": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://jjwxc.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.js?bc3b748c21fe5cf393d26c12b2c38d99"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "bc3b748c21fe5cf393d26c12b2c38d99": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://jjwxc.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "http://hm.baidu.com/hm.js?bc3b748c21fe5cf393d26c12b2c38d99"
+      },
+      {
+        "data": {
+          "filter": "||cnzz.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": 30075907,
+            "r": "",
+            "lg": "en-us",
+            "ntime": 1605238596,
+            "cnzz_eid": "647188487-1605238596-",
+            "showp": "1440x900",
+            "p": "http://jjwxc.com/",
+            "t": "晋江文学城-女性网络文学原创基地",
+            "umuuid": "175bff3fbb276a-04ac694eed1774-6830057e-13c680-175bff3fbb36e5",
+            "h": 1,
+            "rnd": 2104295592
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://jjwxc.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "http://hqs7.cnzz.com/stat.htm?id=30075907&r=&lg=en-us&ntime=1605238596&cnzz_eid=647188487-1605238596-&showp=1440x900&p=http%3A%2F%2Fjjwxc.com%2F&t=%E6%99%8B%E6%B1%9F%E6%96%87%E5%AD%A6%E5%9F%8E-%E5%A5%B3%E6%80%A7%E7%BD%91%E7%BB%9C%E6%96%87%E5%AD%A6%E5%8E%9F%E5%88%9B%E5%9F%BA%E5%9C%B0&umuuid=175bff3fbb276a-04ac694eed1774-6830057e-13c680-175bff3fbb36e5&h=1&rnd=2104295592"
+      },
+      {
+        "data": {
+          "filter": "||cnzz.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "web_id": 30075907,
+            "t": "q"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://jjwxc.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "http://c.cnzz.com/core.php?web_id=30075907&t=q"
+      },
+      {
+        "data": {
+          "filter": "||cnzz.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": 30075907
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://jjwxc.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "http://w.cnzz.com/c.php?id=30075907"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "hca": "1D745E303FC7AA1B",
+            "cc": 1,
+            "ck": 1,
+            "cl": "30-bit",
+            "ds": "1440x900",
+            "vl": 659,
+            "ep": "541,541",
+            "et": 3,
+            "ja": 0,
+            "ln": "en-us",
+            "lo": 0,
+            "rnd": 1954265582,
+            "si": "bc3b748c21fe5cf393d26c12b2c38d99",
+            "v": "1.2.80",
+            "lv": 1,
+            "sn": 28951,
+            "r": 0,
+            "ww": 1200,
+            "u": "http://jjwxc.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://jjwxc.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.gif?hca=1D745E303FC7AA1B&cc=1&ck=1&cl=30-bit&ds=1440x900&vl=659&ep=541%2C541&et=3&ja=0&ln=en-us&lo=0&rnd=1954265582&si=bc3b748c21fe5cf393d26c12b2c38d99&v=1.2.80&lv=1&sn=28951&r=0&ww=1200&u=http%3A%2F%2Fjjwxc.com%2F"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cc": 1,
+            "ck": 1,
+            "cl": "30-bit",
+            "ds": "1440x900",
+            "vl": 659,
+            "et": 0,
+            "ja": 0,
+            "ln": "en-us",
+            "lo": 0,
+            "rnd": 626448637,
+            "si": "bc3b748c21fe5cf393d26c12b2c38d99",
+            "v": "1.2.80",
+            "lv": 1,
+            "sn": 28951,
+            "r": 0,
+            "ww": 1200,
+            "ct": "!!",
+            "u": "http://jjwxc.com/",
+            "tt": "晋江文学城-女性网络文学原创基地"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://jjwxc.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.gif?cc=1&ck=1&cl=30-bit&ds=1440x900&vl=659&et=0&ja=0&ln=en-us&lo=0&rnd=626448637&si=bc3b748c21fe5cf393d26c12b2c38d99&v=1.2.80&lv=1&sn=28951&r=0&ww=1200&ct=!!&u=http%3A%2F%2Fjjwxc.com%2F&tt=%E6%99%8B%E6%B1%9F%E6%96%87%E5%AD%A6%E5%9F%8E-%E5%A5%B3%E6%80%A7%E7%BD%91%E7%BB%9C%E6%96%87%E5%AD%A6%E5%8E%9F%E5%88%9B%E5%9F%BA%E5%9C%B0"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "bc3b748c21fe5cf393d26c12b2c38d99": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://jjwxc.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.js?bc3b748c21fe5cf393d26c12b2c38d99"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "bc3b748c21fe5cf393d26c12b2c38d99": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://jjwxc.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "http://hm.baidu.com/hm.js?bc3b748c21fe5cf393d26c12b2c38d99"
+      },
+      {
+        "data": {
+          "filter": "||cnzz.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": 30075907,
+            "r": "",
+            "lg": "en-us",
+            "ntime": "none",
+            "cnzz_eid": "647188487-1605238596-",
+            "showp": "1440x900",
+            "p": "http://jjwxc.com/",
+            "t": "晋江文学城-女性网络文学原创基地",
+            "umuuid": "175bff3fbb276a-04ac694eed1774-6830057e-13c680-175bff3fbb36e5",
+            "h": 1,
+            "rnd": 1136108794
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://jjwxc.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "http://hqs7.cnzz.com/stat.htm?id=30075907&r=&lg=en-us&ntime=none&cnzz_eid=647188487-1605238596-&showp=1440x900&p=http%3A%2F%2Fjjwxc.com%2F&t=%E6%99%8B%E6%B1%9F%E6%96%87%E5%AD%A6%E5%9F%8E-%E5%A5%B3%E6%80%A7%E7%BD%91%E7%BB%9C%E6%96%87%E5%AD%A6%E5%8E%9F%E5%88%9B%E5%9F%BA%E5%9C%B0&umuuid=175bff3fbb276a-04ac694eed1774-6830057e-13c680-175bff3fbb36e5&h=1&rnd=1136108794"
+      },
+      {
+        "data": {
+          "filter": "||cnzz.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "web_id": 30075907,
+            "t": "q"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://jjwxc.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "http://c.cnzz.com/core.php?web_id=30075907&t=q"
+      },
+      {
+        "data": {
+          "filter": "||cnzz.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": 30075907
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://jjwxc.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "http://w.cnzz.com/c.php?id=30075907"
+      }
+    ]
+  }
+}

@@ -1,0 +1,316 @@
+{
+  "title": "Blacklight Inspection",
+  "uri_ins": "http://rzlib.net",
+  "uri_dest": "https://www.rzlib.net/",
+  "uri_redirects": [
+    "http://rzlib.net/"
+  ],
+  "secure_connection": {},
+  "host": "rzlib.net",
+  "config": {
+    "clearCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "emulateDevice": false,
+    "numPages": 2
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/87.0.4272.0",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4272.0 Safari/537.36",
+    "platform": {
+      "name": "Darwin",
+      "version": "19.6.0"
+    }
+  },
+  "script": {
+    "host": "Amandas-MBP-3.lan",
+    "version": {
+      "npm": "2.1.11",
+      "commit": null
+    },
+    "node_version": "v14.14.0"
+  },
+  "start_time": "2020-11-13T04:55:35.428Z",
+  "end_time": "2020-11-13T04:55:48.977Z",
+  "browsing_history": [
+    "https://www.rzlib.net/",
+    "https://www.rzlib.net/b/33/33996/",
+    "https://www.rzlib.net/temp.html"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "rzlib.net",
+        "www.rzlib.net"
+      ],
+      "third_party": [
+        "hm.baidu.com",
+        "count.nuanyuehanxing.com",
+        "bdimg.share.baidu.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "SENSOR": {
+        "https://hm.baidu.com/hm.js?33b927fed41089db72f5d741701b24f2": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "HMACCOUNT_BFESS",
+        "value": "B917E763FB1169B0",
+        "domain": "hm.baidu.com",
+        "path": "/",
+        "expires": "2038-01-18T00:00:00.489Z",
+        "size": 31,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "Hm_lvt_33b927fed41089db72f5d741701b24f2",
+        "value": "1605243345",
+        "domain": "rzlib.net",
+        "path": "/",
+        "expires": "2021-11-13T04:55:46.000Z",
+        "size": 49,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "Hm_lpvt_33b927fed41089db72f5d741701b24f2",
+        "value": "1605243347",
+        "domain": "rzlib.net",
+        "path": "/",
+        "expires": -1,
+        "size": 50,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cc": 1,
+            "ck": 1,
+            "cl": "30-bit",
+            "ds": "1440x900",
+            "vl": 659,
+            "et": 0,
+            "ja": 0,
+            "ln": "en-us",
+            "lo": 0,
+            "lt": 1605243345,
+            "rnd": 1688721846,
+            "si": "33b927fed41089db72f5d741701b24f2",
+            "v": "1.2.80",
+            "lv": 2,
+            "sn": 29057,
+            "r": 0,
+            "ww": 1200,
+            "ct": "!!",
+            "u": "https://www.rzlib.net/temp.html",
+            "tt": "我的书架"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.rzlib.net/temp.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.gif?cc=1&ck=1&cl=30-bit&ds=1440x900&vl=659&et=0&ja=0&ln=en-us&lo=0&lt=1605243345&rnd=1688721846&si=33b927fed41089db72f5d741701b24f2&v=1.2.80&lv=2&sn=29057&r=0&ww=1200&ct=!!&u=https%3A%2F%2Fwww.rzlib.net%2Ftemp.html&tt=%E6%88%91%E7%9A%84%E4%B9%A6%E6%9E%B6"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "hca": "B917E763FB1169B0",
+            "cc": 1,
+            "ck": 1,
+            "cl": "30-bit",
+            "ds": "1440x900",
+            "vl": 659,
+            "ep": "1743,1742",
+            "et": 3,
+            "ja": 0,
+            "ln": "en-us",
+            "lo": 0,
+            "rnd": 1363250822,
+            "si": "33b927fed41089db72f5d741701b24f2",
+            "v": "1.2.80",
+            "lv": 1,
+            "sn": 29055,
+            "r": 0,
+            "ww": 1200,
+            "u": "https://www.rzlib.net/b/33/33996/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.rzlib.net/temp.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.gif?hca=B917E763FB1169B0&cc=1&ck=1&cl=30-bit&ds=1440x900&vl=659&ep=1743%2C1742&et=3&ja=0&ln=en-us&lo=0&rnd=1363250822&si=33b927fed41089db72f5d741701b24f2&v=1.2.80&lv=1&sn=29055&r=0&ww=1200&u=https%3A%2F%2Fwww.rzlib.net%2Fb%2F33%2F33996%2F"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "33b927fed41089db72f5d741701b24f2": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.rzlib.net/temp.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.js?33b927fed41089db72f5d741701b24f2"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "hca": "B917E763FB1169B0",
+            "cc": 1,
+            "ck": 1,
+            "cl": "30-bit",
+            "ds": "1440x900",
+            "vl": 659,
+            "ep": "1743,1742",
+            "et": 3,
+            "ja": 0,
+            "ln": "en-us",
+            "lo": 0,
+            "rnd": 1363250822,
+            "si": "33b927fed41089db72f5d741701b24f2",
+            "v": "1.2.80",
+            "lv": 1,
+            "sn": 29055,
+            "r": 0,
+            "ww": 1200,
+            "u": "https://www.rzlib.net/b/33/33996/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.rzlib.net/b/33/33996/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.gif?hca=B917E763FB1169B0&cc=1&ck=1&cl=30-bit&ds=1440x900&vl=659&ep=1743%2C1742&et=3&ja=0&ln=en-us&lo=0&rnd=1363250822&si=33b927fed41089db72f5d741701b24f2&v=1.2.80&lv=1&sn=29055&r=0&ww=1200&u=https%3A%2F%2Fwww.rzlib.net%2Fb%2F33%2F33996%2F"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cc": 1,
+            "ck": 1,
+            "cl": "30-bit",
+            "ds": "1440x900",
+            "vl": 659,
+            "et": 0,
+            "ja": 0,
+            "ln": "en-us",
+            "lo": 0,
+            "rnd": 1324005543,
+            "si": "33b927fed41089db72f5d741701b24f2",
+            "v": "1.2.80",
+            "lv": 1,
+            "sn": 29055,
+            "r": 0,
+            "ww": 1200,
+            "ct": "!!",
+            "u": "https://www.rzlib.net/b/33/33996/",
+            "tt": "完美人生沈浪苏若雪完整版小说免费阅读_完美人生小说全集无弹窗_日照小说网"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.rzlib.net/b/33/33996/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.gif?cc=1&ck=1&cl=30-bit&ds=1440x900&vl=659&et=0&ja=0&ln=en-us&lo=0&rnd=1324005543&si=33b927fed41089db72f5d741701b24f2&v=1.2.80&lv=1&sn=29055&r=0&ww=1200&ct=!!&u=https%3A%2F%2Fwww.rzlib.net%2Fb%2F33%2F33996%2F&tt=%E5%AE%8C%E7%BE%8E%E4%BA%BA%E7%94%9F%E6%B2%88%E6%B5%AA%E8%8B%8F%E8%8B%A5%E9%9B%AA%E5%AE%8C%E6%95%B4%E7%89%88%E5%B0%8F%E8%AF%B4%E5%85%8D%E8%B4%B9%E9%98%85%E8%AF%BB_%E5%AE%8C%E7%BE%8E%E4%BA%BA%E7%94%9F%E5%B0%8F%E8%AF%B4%E5%85%A8%E9%9B%86%E6%97%A0%E5%BC%B9%E7%AA%97_%E6%97%A5%E7%85%A7%E5%B0%8F%E8%AF%B4%E7%BD%91"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "33b927fed41089db72f5d741701b24f2": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.rzlib.net/b/33/33996/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.js?33b927fed41089db72f5d741701b24f2"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "33b927fed41089db72f5d741701b24f2": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.rzlib.net/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.js?33b927fed41089db72f5d741701b24f2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,901 @@
+{
+  "title": "Blacklight Inspection",
+  "uri_ins": "http://hjwzw.com",
+  "uri_dest": "https://tw.hjwzw.com/",
+  "uri_redirects": [
+    "http://hjwzw.com/"
+  ],
+  "secure_connection": {},
+  "host": "hjwzw.com",
+  "config": {
+    "clearCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "emulateDevice": false,
+    "numPages": 2
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/87.0.4272.0",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4272.0 Safari/537.36",
+    "platform": {
+      "name": "Darwin",
+      "version": "19.6.0"
+    }
+  },
+  "script": {
+    "host": "Amandas-MBP-3.lan",
+    "version": {
+      "npm": "2.1.11",
+      "commit": null
+    },
+    "node_version": "v14.14.0"
+  },
+  "start_time": "2020-11-13T04:55:48.998Z",
+  "end_time": "2020-11-13T04:56:06.361Z",
+  "browsing_history": [
+    "https://tw.hjwzw.com/",
+    "https://tw.hjwzw.com/List/%E5%B9%BD%E9%9D%9E%E8%8A%BD",
+    "https://tw.hjwzw.com/Book/2040"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "hjwzw.com",
+        "tw.hjwzw.com",
+        "www.hjwzw.com"
+      ],
+      "third_party": [
+        "securepubads.g.doubleclick.net",
+        "www.googletagmanager.com",
+        "pagead2.googlesyndication.com",
+        "www.google-analytics.com",
+        "googleads.g.doubleclick.net",
+        "partner.googleadservices.com",
+        "adservice.google.com",
+        "www.googletagservices.com",
+        "9d529666f1c4671180ff63321b25ec03.safeframe.googlesyndication.com",
+        "cdn.ampproject.org",
+        "tpc.googlesyndication.com",
+        "www.google.com",
+        "csi.gstatic.com",
+        "66b00ffdcfdf260880d2e2d75d9c8e19.safeframe.googlesyndication.com",
+        "0096d677f5c54a70467321c74d89f7fd.safeframe.googlesyndication.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "    at Object.apply (<anonymous>:13:42)": [
+          "scroll"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "_ga",
+        "value": "GA1.2.414126753.1605243353",
+        "domain": "hjwzw.com",
+        "path": "/",
+        "expires": "2022-11-13T04:56:02.000Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gid",
+        "value": "GA1.2.139953942.1605243353",
+        "domain": "hjwzw.com",
+        "path": "/",
+        "expires": "2020-11-14T04:56:02.000Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gat_gtag_UA_51819300_1",
+        "value": "1",
+        "domain": "hjwzw.com",
+        "path": "/",
+        "expires": "2020-11-13T04:56:53.000Z",
+        "size": 24,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "IDE",
+        "value": "AHWqTUn8O-o-VvTvH7aWjlOzdGJQa2ihwx24l7Mn0K6INGyl7AjDR4U6RtCD3719",
+        "domain": "doubleclick.net",
+        "path": "/",
+        "expires": "2022-11-13T04:55:53.961Z",
+        "size": 67,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "DSID",
+        "value": "NO_DATA",
+        "domain": "doubleclick.net",
+        "path": "/",
+        "expires": "2020-11-13T05:55:55.354Z",
+        "size": 11,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "uuid2",
+        "value": "6479396245495259411",
+        "domain": "adnxs.com",
+        "path": "/",
+        "expires": "2021-02-11T04:55:58.933Z",
+        "size": 24,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "CMID",
+        "value": "X64R3t2k72SDTgD7d8Kx6QAA",
+        "domain": "casalemedia.com",
+        "path": "/",
+        "expires": "2021-11-13T04:55:59.218Z",
+        "size": 28,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "CMPS",
+        "value": "2527",
+        "domain": "casalemedia.com",
+        "path": "/",
+        "expires": "2021-02-11T04:55:59.218Z",
+        "size": 8,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "CMPRO",
+        "value": "247",
+        "domain": "casalemedia.com",
+        "path": "/",
+        "expires": "2021-02-11T04:55:59.218Z",
+        "size": 8,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "CMRUM3",
+        "value": "2d5fae11df2760",
+        "domain": "casalemedia.com",
+        "path": "/",
+        "expires": "2021-11-13T04:55:59.063Z",
+        "size": 20,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "CMST",
+        "value": "X64R31+uEd8A",
+        "domain": "casalemedia.com",
+        "path": "/",
+        "expires": "2020-11-14T04:55:59.064Z",
+        "size": 16,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "d",
+        "value": "EFcBCQHuIYEA",
+        "domain": "quantserve.com",
+        "path": "/",
+        "expires": "2021-02-11T04:55:59.129Z",
+        "size": 13,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "mc",
+        "value": "5fae11df-1c883-7e145-64df1",
+        "domain": "quantserve.com",
+        "path": "/",
+        "expires": "2021-12-14T04:55:59.129Z",
+        "size": 28,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "i",
+        "value": "e7de7589-657e-4a10-8f2d-9247bf22b813|1605243359",
+        "domain": "openx.net",
+        "path": "/",
+        "expires": "2021-11-13T04:56:03.607Z",
+        "size": 48,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "KTPCACOOKIE",
+        "value": "YES",
+        "domain": "pubmatic.com",
+        "path": "/",
+        "expires": "2020-11-14T04:55:59.435Z",
+        "size": 14,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "KADUSERCOOKIE",
+        "value": "42224C3C-9DA3-44F5-A0CB-AB6A9FAC36A8",
+        "domain": "pubmatic.com",
+        "path": "/",
+        "expires": "2021-02-11T04:55:59.498Z",
+        "size": 49,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__gads",
+        "value": "ID=949f96eb77f2479d-22e42f93e1c4004d:T=1605243362:RT=1605243362:S=ALNI_Mb8g1oZFxUOc7b1J_vILB7PTMLqdA",
+        "domain": "hjwzw.com",
+        "path": "/",
+        "expires": "2021-12-08T04:56:02.000Z",
+        "size": 106,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "TokenId",
+        "value": "C04DA3C15CB910B51070C61010DDD3139CE30BEB9FF104585A70E3F0D8549B079BDE4A0FDB6E01485BE75A2AD12A6694",
+        "domain": "hjwzw.com",
+        "path": "/",
+        "expires": "2021-11-13T04:56:03.092Z",
+        "size": 103,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "audience",
+        "value": "888f823e-256c-11eb-99d2-144b2cfc1701",
+        "domain": "spotxchange.com",
+        "path": "/",
+        "expires": "2021-11-13T06:02:44.372Z",
+        "size": 44,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      }
+    ],
+    "fb_pixel_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "/gen_204?$image,other,ping,script",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "sodar2",
+            "v": 219,
+            "t": 2,
+            "li": "gda_r20201110",
+            "jk": 3357170481378036,
+            "bg": "!MjGlMRHNAAVxZqjhcVgANRAIs8UckQIAAAC0UgAAABNoAQcKAZThblwhzUlALo6VcOfp420KjKMds7PqfAezjofwNAeIhQFqmsRwcfHKBT2NQCZvYrh3JSRsPAwmKU5J2TvPp3XH2JHj5g7cL641YDfZIx79NihB1lWKwvsze_OpWBfU-WeWJ5B8PQ_8-6cnngR66_4ohVXTpqfuzEZV1M6FK6Wk0rStPQp2r8faUvDtAVf4V1npow6uyS4gCqel5L9WD306kybBwIX5YlWvg-aTs0c43-HJH6OOlI_E1k2gz92ypOwSp54GnrEmoFM1mKPi_WoDr1JFiqVeP5Cg_QSWE2yxs5nDitiQiwdCcXSWWnhr7lgp3fG1SQQ3aihKqjzV6te2Nx-9d2E1vijsgGw-AXNqZHi5kpY0ve1f5nRJdZLXaEMkHKtdgP5f7eYU9yOA2SUQRMvfLgOLZyQ_wk9VICekg6KSbVEay5HhoIVkYC-Mr2mHEc1mqEUCUJF_9ZopgXxBR_h5r7WJOOj1O9TCJawhnZiGVBIqhuIxwN0vyIBmlmzoHj9iiV8MExREozQPgHjdmpuSVpkB3NyHi3WNFVOuA9TO36aOlMCw1c7Sw14O4A2-5Gk9zKHRHYyAGgcuh2H_g1TRFuVSlIWVhiYHczZpuiMW7Pyua-3VhCzXGHYTSqgPbYd5eVIXnwfMVMmt4F7h6inTYvm9nBeJEXKwI6WlBNYzSJ_ALoXeDIVdM323N6PM1z8dG8gACIRp6lQ6ba-plRK38EqV640AqCraTsaehzafPzLW4bPf6e3by-nsIRQl9JmFzispyffqd0ABXpc_wT32qKR2AYPnhyccGwpvFB95Nq1HWMsqRkYZXbR4J8zdjXGhQW2xEMHGLpJ47FXtF-0nHGvB6iuQ-DWwqvZnqVDIf6JMAdYa60uDB9YLRQ5MUy9tV9TPaaR24eU4C2_DTp_Vc6i9DULc2AlwKYIrgTGE24pnLa3GLOQ20zXr3q4VX7Fc-6jvKQcYo-J008IwnbpMX8GojbAdbqY7som777tdpaC3uqrcsji1dWrqR4-IqRBZ4X6Zq1RoHHYUq5tvoQY4L1vZSZJLM2CT8DxKYfrW61ox7MVnwGN4Ndq2XxzwhvOuSJLtENfuvKsDYjpAfwrDHljkRBAIU6Xu88cpv-PgNP6Mz4Lvg2YNxEVRHaYeU5me1lf2uhRjxbFPaU-VhykX"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://tw.hjwzw.com/Book/2040",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=sodar2&v=219&t=2&li=gda_r20201110&jk=3357170481378036&bg=!MjGlMRHNAAVxZqjhcVgANRAIs8UckQIAAAC0UgAAABNoAQcKAZThblwhzUlALo6VcOfp420KjKMds7PqfAezjofwNAeIhQFqmsRwcfHKBT2NQCZvYrh3JSRsPAwmKU5J2TvPp3XH2JHj5g7cL641YDfZIx79NihB1lWKwvsze_OpWBfU-WeWJ5B8PQ_8-6cnngR66_4ohVXTpqfuzEZV1M6FK6Wk0rStPQp2r8faUvDtAVf4V1npow6uyS4gCqel5L9WD306kybBwIX5YlWvg-aTs0c43-HJH6OOlI_E1k2gz92ypOwSp54GnrEmoFM1mKPi_WoDr1JFiqVeP5Cg_QSWE2yxs5nDitiQiwdCcXSWWnhr7lgp3fG1SQQ3aihKqjzV6te2Nx-9d2E1vijsgGw-AXNqZHi5kpY0ve1f5nRJdZLXaEMkHKtdgP5f7eYU9yOA2SUQRMvfLgOLZyQ_wk9VICekg6KSbVEay5HhoIVkYC-Mr2mHEc1mqEUCUJF_9ZopgXxBR_h5r7WJOOj1O9TCJawhnZiGVBIqhuIxwN0vyIBmlmzoHj9iiV8MExREozQPgHjdmpuSVpkB3NyHi3WNFVOuA9TO36aOlMCw1c7Sw14O4A2-5Gk9zKHRHYyAGgcuh2H_g1TRFuVSlIWVhiYHczZpuiMW7Pyua-3VhCzXGHYTSqgPbYd5eVIXnwfMVMmt4F7h6inTYvm9nBeJEXKwI6WlBNYzSJ_ALoXeDIVdM323N6PM1z8dG8gACIRp6lQ6ba-plRK38EqV640AqCraTsaehzafPzLW4bPf6e3by-nsIRQl9JmFzispyffqd0ABXpc_wT32qKR2AYPnhyccGwpvFB95Nq1HWMsqRkYZXbR4J8zdjXGhQW2xEMHGLpJ47FXtF-0nHGvB6iuQ-DWwqvZnqVDIf6JMAdYa60uDB9YLRQ5MUy9tV9TPaaR24eU4C2_DTp_Vc6i9DULc2AlwKYIrgTGE24pnLa3GLOQ20zXr3q4VX7Fc-6jvKQcYo-J008IwnbpMX8GojbAdbqY7som777tdpaC3uqrcsji1dWrqR4-IqRBZ4X6Zq1RoHHYUq5tvoQY4L1vZSZJLM2CT8DxKYfrW61ox7MVnwGN4Ndq2XxzwhvOuSJLtENfuvKsDYjpAfwrDHljkRBAIU6Xu88cpv-PgNP6Mz4Lvg2YNxEVRHaYeU5me1lf2uhRjxbFPaU-VhykX"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j87",
+            "a": 977922791,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "https://tw.hjwzw.com/Book/2040",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "浮士德/歌德/浮士德txt下載-黃金屋中文",
+            "sd": "30-bit",
+            "sr": "1440x900",
+            "vp": "1200x659",
+            "je": 0,
+            "_u": "AACAAUAB~",
+            "jid": "",
+            "gjid": "",
+            "cid": 414126753.1605243,
+            "tid": "UA-51819300-1",
+            "_gid": 139953942.16052434,
+            "gtm": "2oub41",
+            "z": 782237238
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://tw.hjwzw.com/Book/2040",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j87&a=977922791&t=pageview&_s=1&dl=https%3A%2F%2Ftw.hjwzw.com%2FBook%2F2040&ul=en-us&de=UTF-8&dt=%E6%B5%AE%E5%A3%AB%E5%BE%B7%2F%E6%AD%8C%E5%BE%B7%2F%E6%B5%AE%E5%A3%AB%E5%BE%B7txt%E4%B8%8B%E8%BC%89-%E9%BB%83%E9%87%91%E5%B1%8B%E4%B8%AD%E6%96%87&sd=30-bit&sr=1440x900&vp=1200x659&je=0&_u=AACAAUAB~&jid=&gjid=&cid=414126753.1605243353&tid=UA-51819300-1&_gid=139953942.1605243353&gtm=2oub41&z=782237238"
+      },
+      {
+        "data": {
+          "filter": "||googletagservices.com^*/osd.js$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cb": "/r20100101"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://tw.hjwzw.com/Book/2040",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101"
+      },
+      {
+        "data": {
+          "filter": "||googleadservices.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "domain": "tw.hjwzw.com",
+            "callback": "_gfp_s_",
+            "client": "ca-pub-4391670409860165",
+            "cookie": "ID=949f96eb77f2479d:T=1605243353:S=ALNI_MZZ0sHHo1ZfwZMLxchFCoRpqFw-Nw"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://tw.hjwzw.com/Book/2040",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://partner.googleadservices.com/gampad/cookie.js?domain=tw.hjwzw.com&callback=_gfp_s_&client=ca-pub-4391670409860165&cookie=ID%3D949f96eb77f2479d%3AT%3D1605243353%3AS%3DALNI_MZZ0sHHo1ZfwZMLxchFCoRpqFw-Nw"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/analytics.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://tw.hjwzw.com/Book/2040",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com/gtag/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "UA-51819300-1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://tw.hjwzw.com/Book/2040",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=UA-51819300-1"
+      },
+      {
+        "data": {
+          "filter": "/gen_204?$image,other,ping,script",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "sodar2",
+            "v": 219,
+            "t": 2,
+            "li": "gda_r20201110",
+            "jk": 2732870374393474,
+            "bg": "!29il2PjNAAVxZqjhcVjCu6Z9cLURYAIAAAGnUgAAABdoAQcKAOSxCPiek0xgtmB8oM-Fsg0cU0ONFcZQ58eHiOH8FbjhQDO4K1g84zsmoZPh5ORPNLEQ_aoKTaEVH7J74NyFifBVSs5E2vNQMl4IB1LQiPeXDQ4RIBxvJSNMSgSdi4kN5sfMHDkrUUeL0IFJNm4tG9Wk1JrnWEApAvRC684hPjOrzfLh4y2TNsXNdOC1mGEA8WUpw7lU5XnccPNBJPO2DtyPf7774L62K6YhbU6LfAf4arDZ4mxiPvJbvtoPUD3SQSQQe0uVMAQTwoHjfUQ_Ii1rNo068nPY2O1TdHF86b8XTWctOmKZAe3XM2rMgoffVB5CTKdx359Nqc0zCMbeAWvz-EMsraccRTTjc8uFw4HGCc82BPl5F2qDUPmIZyQJKP4zd-AoMZVW2nLaxElqQ5QxJ3lpW0iAqw6B4Cuv5-3PCDIVjXRh0uoZzAk1HlcCCxSTmVNnFXfsm_wvMOxj3vriNw6IPcFrBokhfql3KlWWY-OsWKdbSEgPWPrLxrF5yPhJTiX8zSmx47mgUN7W0t8iKoJ8uxPhrLztbn6ee_VEeKZ0CO0vrgaFdLLF7xCjt8ejysnr1Cct1tFO05j2d_zq17gc5VoHMFTHlts82I6Wph4llpeT1IH3hx7A88ore2e9LBLMofsEtsP6ofGdGbTDHOxrtFvwYlWlMaYE-S_kER7cgq-ZW8b0gc3JqEM-lof0yTU-N8wyES_fFU-FEKLWFMpEvXzWIhhnZkcCXPX--EOQ6TLQAl6DZ16HwB_MfIzsR7IzOwqwLABPp_SuVHIQLTcG9eRrb8sCAA8kf7oxn0aHqsP0wmUwMTp_p1org5SVwxlMnl93LR2QmUsKsjCfNF04Ye2plI2Ra_LGdyXGQ8RYUur48-sYnup8DMNUxlEm_cq1Uymw3tMful1thMxuQtZH7VLrIjLRzzCz46kR4gftmKHqF0YsUfKyFKFemTeK_T5y"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://tw.hjwzw.com/List/%E5%B9%BD%E9%9D%9E%E8%8A%BD",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=sodar2&v=219&t=2&li=gda_r20201110&jk=2732870374393474&bg=!29il2PjNAAVxZqjhcVjCu6Z9cLURYAIAAAGnUgAAABdoAQcKAOSxCPiek0xgtmB8oM-Fsg0cU0ONFcZQ58eHiOH8FbjhQDO4K1g84zsmoZPh5ORPNLEQ_aoKTaEVH7J74NyFifBVSs5E2vNQMl4IB1LQiPeXDQ4RIBxvJSNMSgSdi4kN5sfMHDkrUUeL0IFJNm4tG9Wk1JrnWEApAvRC684hPjOrzfLh4y2TNsXNdOC1mGEA8WUpw7lU5XnccPNBJPO2DtyPf7774L62K6YhbU6LfAf4arDZ4mxiPvJbvtoPUD3SQSQQe0uVMAQTwoHjfUQ_Ii1rNo068nPY2O1TdHF86b8XTWctOmKZAe3XM2rMgoffVB5CTKdx359Nqc0zCMbeAWvz-EMsraccRTTjc8uFw4HGCc82BPl5F2qDUPmIZyQJKP4zd-AoMZVW2nLaxElqQ5QxJ3lpW0iAqw6B4Cuv5-3PCDIVjXRh0uoZzAk1HlcCCxSTmVNnFXfsm_wvMOxj3vriNw6IPcFrBokhfql3KlWWY-OsWKdbSEgPWPrLxrF5yPhJTiX8zSmx47mgUN7W0t8iKoJ8uxPhrLztbn6ee_VEeKZ0CO0vrgaFdLLF7xCjt8ejysnr1Cct1tFO05j2d_zq17gc5VoHMFTHlts82I6Wph4llpeT1IH3hx7A88ore2e9LBLMofsEtsP6ofGdGbTDHOxrtFvwYlWlMaYE-S_kER7cgq-ZW8b0gc3JqEM-lof0yTU-N8wyES_fFU-FEKLWFMpEvXzWIhhnZkcCXPX--EOQ6TLQAl6DZ16HwB_MfIzsR7IzOwqwLABPp_SuVHIQLTcG9eRrb8sCAA8kf7oxn0aHqsP0wmUwMTp_p1org5SVwxlMnl93LR2QmUsKsjCfNF04Ye2plI2Ra_LGdyXGQ8RYUur48-sYnup8DMNUxlEm_cq1Uymw3tMful1thMxuQtZH7VLrIjLRzzCz46kR4gftmKHqF0YsUfKyFKFemTeK_T5y"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^$image,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ai": "C4-b53RGuX9qpPNig-AOL1LG4Bera8PNf3qD90KgMmPmq9_QKEAEgsda6I2DJxoGHyKOQGaABs8X30APIAQLgAgCoAwGqBN8BT9CYaOjsfdS3bpAjIa9paNKSsWlc02fb4EiydaBnFDF58KRJgUYJiEfSStWd0SMqquQ-llQdDYSan-HMTcB5G4Fzritcb-778E9luBfBUxAgEgyH4F-Iy_wlwHR2ecFfnZkiTmCrJjdNeXsNIhH_aZDeGo8w9iekUOVlQUmWRdYuZtSai2DpPQf2PfiATbjZp0MMazbNo1eJ3DeMMlg5Q79KROObhNQT3S52jCkrUXfYt09A2YF8khR3LoAqBBAUKv4JXnJqowEfXk1ccVpTmIcxszOf38opN7zUOpZyfMAEhvfD3qUD4AQBoAYCgAe1uogvqAfVyRuoB_DZG6gH8tkbqAeOzhuoB5PYG6gHugaoB-6WsQKoB6a-G6gH7NUb2AcB8gcEELPZFNIIBwiAYRABGB3yCBthZHgtc3Vic3luLTYwOTE0NzE3NjY1OTYyMjCACgPICwHYEwOyFxoKGAgBEhRwdWItNTg3MzQzMzU1OTU2ODAxNQ",
+            "sigh": "oZtfp2KRlx0",
+            "vt": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://tw.hjwzw.com/List/%E5%B9%BD%E9%9D%9E%E8%8A%BD",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://securepubads.g.doubleclick.net/pagead/adview?ai=C4-b53RGuX9qpPNig-AOL1LG4Bera8PNf3qD90KgMmPmq9_QKEAEgsda6I2DJxoGHyKOQGaABs8X30APIAQLgAgCoAwGqBN8BT9CYaOjsfdS3bpAjIa9paNKSsWlc02fb4EiydaBnFDF58KRJgUYJiEfSStWd0SMqquQ-llQdDYSan-HMTcB5G4Fzritcb-778E9luBfBUxAgEgyH4F-Iy_wlwHR2ecFfnZkiTmCrJjdNeXsNIhH_aZDeGo8w9iekUOVlQUmWRdYuZtSai2DpPQf2PfiATbjZp0MMazbNo1eJ3DeMMlg5Q79KROObhNQT3S52jCkrUXfYt09A2YF8khR3LoAqBBAUKv4JXnJqowEfXk1ccVpTmIcxszOf38opN7zUOpZyfMAEhvfD3qUD4AQBoAYCgAe1uogvqAfVyRuoB_DZG6gH8tkbqAeOzhuoB5PYG6gHugaoB-6WsQKoB6a-G6gH7NUb2AcB8gcEELPZFNIIBwiAYRABGB3yCBthZHgtc3Vic3luLTYwOTE0NzE3NjY1OTYyMjCACgPICwHYEwOyFxoKGAgBEhRwdWItNTg3MzQzMzU1OTU2ODAxNQ&sigh=oZtfp2KRlx0&vt=1"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^$image,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ai": "CL1Sv3RGuX9qpPNig-AOL1LG4Bera8PNf3qD90KgMmPmq9_QKEAEgsda6I2DJxoGHyKOQGaABs8X30APIAQLgAgCoAwHIAwiqBN8BT9CYaOjsfdS3bpAjIa9paNKSsWlc02fb4EiydaBnFDF58KRJgUYJiEfSStWd0SMqquQ-llQdDYSan-HMTcB5G4Fzritcb-778E9luBfBUxAgEgyH4F-Iy_wlwHR2ecFfnZkiTmCrJjdNeXsNIhH_aZDeGo8w9iekUOVlQUmWRdYuZtSai2DpPQf2PfiATbjZp0MMazbNo1eJ3DeMMlg5Q79KROObhNQT3S52jCkrUXfYt09A2YF8khR3LoAqBBAUKv4JXnJqowEfXk1ccVpTmIcxszOf38opN7zUOpZyfMAEhvfD3qUD4AQBoAYCgAe1uogvqAfVyRuoB_DZG6gH8tkbqAeOzhuoB5PYG6gHugaoB-6WsQKoB6a-G6gH7NUb2AcB8gcEELPZFNIIBwiAYRABGB3yCBthZHgtc3Vic3luLTYwOTE0NzE3NjY1OTYyMjCACgPICwHYEwOyFxoKGAgBEhRwdWItNTg3MzQzMzU1OTU2ODAxNQ",
+            "sigh": "40V2xVG1CjQ",
+            "tpd": "AGWhJmsUZXThHzEHmfaHPp_qh7YW4ifTRfHzeqscWicridX10A"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://securepubads.g.doubleclick.net/pagead/adview?ai=CL1Sv3RGuX9qpPNig-AOL1LG4Bera8PNf3qD90KgMmPmq9_QKEAEgsda6I2DJxoGHyKOQGaABs8X30APIAQLgAgCoAwHIAwiqBN8BT9CYaOjsfdS3bpAjIa9paNKSsWlc02fb4EiydaBnFDF58KRJgUYJiEfSStWd0SMqquQ-llQdDYSan-HMTcB5G4Fzritcb-778E9luBfBUxAgEgyH4F-Iy_wlwHR2ecFfnZkiTmCrJjdNeXsNIhH_aZDeGo8w9iekUOVlQUmWRdYuZtSai2DpPQf2PfiATbjZp0MMazbNo1eJ3DeMMlg5Q79KROObhNQT3S52jCkrUXfYt09A2YF8khR3LoAqBBAUKv4JXnJqowEfXk1ccVpTmIcxszOf38opN7zUOpZyfMAEhvfD3qUD4AQBoAYCgAe1uogvqAfVyRuoB_DZG6gH8tkbqAeOzhuoB5PYG6gHugaoB-6WsQKoB6a-G6gH7NUb2AcB8gcEELPZFNIIBwiAYRABGB3yCBthZHgtc3Vic3luLTYwOTE0NzE3NjY1OTYyMjCACgPICwHYEwOyFxoKGAgBEhRwdWItNTg3MzQzMzU1OTU2ODAxNQ&sigh=40V2xVG1CjQ&tpd=AGWhJmsUZXThHzEHmfaHPp_qh7YW4ifTRfHzeqscWicridX10A"
+      },
+      {
+        "data": {
+          "filter": "/amp-analytics-",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.ampproject.org/rtv/012010270040000/v0/amp-analytics-0.1.mjs"
+      },
+      {
+        "data": {
+          "filter": "||googletagservices.com^*/osd.js$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cb": "/r20100101"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://tw.hjwzw.com/List/%E5%B9%BD%E9%9D%9E%E8%8A%BD",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101"
+      },
+      {
+        "data": {
+          "filter": "||googleadservices.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "domain": "tw.hjwzw.com",
+            "callback": "_gfp_s_",
+            "client": "ca-pub-4391670409860165",
+            "cookie": "ID=949f96eb77f2479d-22246aebe0c40022:T=1605243353:S=ALNI_Mac9Wxkzkvzc48wrPOZPMJ6evpfYA"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://tw.hjwzw.com/List/%E5%B9%BD%E9%9D%9E%E8%8A%BD",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://partner.googleadservices.com/gampad/cookie.js?domain=tw.hjwzw.com&callback=_gfp_s_&client=ca-pub-4391670409860165&cookie=ID%3D949f96eb77f2479d-22246aebe0c40022%3AT%3D1605243353%3AS%3DALNI_Mac9Wxkzkvzc48wrPOZPMJ6evpfYA"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j87",
+            "a": 1543044809,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "https://tw.hjwzw.com/List/%E5%B9%BD%E9%9D%9E%E8%8A%BD",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "小說,免費小說,文字版,txt下載 | 黃金屋中文",
+            "sd": "30-bit",
+            "sr": "1440x900",
+            "vp": "1200x659",
+            "je": 0,
+            "_u": "AACAAUAB~",
+            "jid": "",
+            "gjid": "",
+            "cid": 414126753.1605243,
+            "tid": "UA-51819300-1",
+            "_gid": 139953942.16052434,
+            "gtm": "2oub41",
+            "z": 112758902
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://tw.hjwzw.com/List/%E5%B9%BD%E9%9D%9E%E8%8A%BD",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j87&a=1543044809&t=pageview&_s=1&dl=https%3A%2F%2Ftw.hjwzw.com%2FList%2F%25E5%25B9%25BD%25E9%259D%259E%25E8%258A%25BD&ul=en-us&de=UTF-8&dt=%E5%B0%8F%E8%AA%AA%2C%E5%85%8D%E8%B2%BB%E5%B0%8F%E8%AA%AA%2C%E6%96%87%E5%AD%97%E7%89%88%2Ctxt%E4%B8%8B%E8%BC%89%20%7C%20%E9%BB%83%E9%87%91%E5%B1%8B%E4%B8%AD%E6%96%87&sd=30-bit&sr=1440x900&vp=1200x659&je=0&_u=AACAAUAB~&jid=&gjid=&cid=414126753.1605243353&tid=UA-51819300-1&_gid=139953942.1605243353&gtm=2oub41&z=112758902"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/analytics.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://tw.hjwzw.com/List/%E5%B9%BD%E9%9D%9E%E8%8A%BD",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com/gtag/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "UA-51819300-1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://tw.hjwzw.com/List/%E5%B9%BD%E9%9D%9E%E8%8A%BD",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=UA-51819300-1"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^$image,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ai": "CFIRN2RGuX7LxJ6HH-AOD96HgAura8PNfhvq34bcMmPmq9_QKEAEgsda6I2DJxoGHyKOQGaABs8X30APIAQLgAgCoAwGqBMMBT9DicsMxwQB3EwFQ7HerHyd-FTqQwJB0Hb76QsdYX8sew2VaCLkeSXKttJroY12ljihm5UnjUp58G5LpQuZhnsZ0VpCcu4iyKUs2SCFjS4mR_3ZjUE6GIG_gAHmE3OXijaqJ3YWE69tyWxfl2LYMS45ybxSnWkzbGObEK8RN1pWLMgzEguBRaz1_mIzYH2K1Vp4XN_mcymvCrWmT6J9OXyXymCmVF5oLsWwKg-R2xipV4WB3qH6Cby_CquXyUnm5IloHwASG98PepQPgBAGgBgKAB7W6iC-oB9XJG6gH8NkbqAfy2RuoB47OG6gHk9gbqAe6BqgH7paxAqgHpr4bqAfs1RvYBwHyBwQQ0Jkg0ggJCIDhgEAQARgd8ggbYWR4LXN1YnN5bi02MDkxNDcxNzY2NTk2MjIwgAoDyAsB2BMDshcaChgIARIUcHViLTU4NzM0MzM1NTk1NjgwMTU",
+            "sigh": "K6DV_FWZUhs",
+            "vt": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://tw.hjwzw.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://securepubads.g.doubleclick.net/pagead/adview?ai=CFIRN2RGuX7LxJ6HH-AOD96HgAura8PNfhvq34bcMmPmq9_QKEAEgsda6I2DJxoGHyKOQGaABs8X30APIAQLgAgCoAwGqBMMBT9DicsMxwQB3EwFQ7HerHyd-FTqQwJB0Hb76QsdYX8sew2VaCLkeSXKttJroY12ljihm5UnjUp58G5LpQuZhnsZ0VpCcu4iyKUs2SCFjS4mR_3ZjUE6GIG_gAHmE3OXijaqJ3YWE69tyWxfl2LYMS45ybxSnWkzbGObEK8RN1pWLMgzEguBRaz1_mIzYH2K1Vp4XN_mcymvCrWmT6J9OXyXymCmVF5oLsWwKg-R2xipV4WB3qH6Cby_CquXyUnm5IloHwASG98PepQPgBAGgBgKAB7W6iC-oB9XJG6gH8NkbqAfy2RuoB47OG6gHk9gbqAe6BqgH7paxAqgHpr4bqAfs1RvYBwHyBwQQ0Jkg0ggJCIDhgEAQARgd8ggbYWR4LXN1YnN5bi02MDkxNDcxNzY2NTk2MjIwgAoDyAsB2BMDshcaChgIARIUcHViLTU4NzM0MzM1NTk1NjgwMTU&sigh=K6DV_FWZUhs&vt=1"
+      },
+      {
+        "data": {
+          "filter": "/gen_204?$image,other,ping,script",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "sodar2",
+            "v": 219,
+            "t": 2,
+            "li": "gda_r20201110",
+            "jk": 699036529389120,
+            "bg": "!AwClACDNAAVGySeIRlgMvLR5ayWMZQIAAACEUgAAABRoAQcKAGRWySvudLJhmSNbja_69_qNHmX3zeT8qM8Bpwl1mnMl6iRXjsW0Pt1Worc4BeDjjGhc4_s1x-1hhconrUmlPWXBtgPjqWbYa4yqaXCm3DSzfeVZRWNck8MTXrT8LYjurDXaA0gUmQHsK6Ggh_h2pwcvNxRo0FpcYpZLYBXPl_JVZwaYf8xLa86ARHquqUF9Po0XvuDM17WpYtMmJRhQiJ5e8If6e1WbR-TFl5GotkutVOCjt8iZCzfb_-KOFTluEyUh85yT28HJmpDVplf1_tzloiIWHZ7BZajq13txFhE94RMeKePAIs7q8uMO81DgGRATAH6EMJNpyKPPWyQjYJhPj7FbyD_iN7h8FH9sr-GGSq_-789h2HV59yqR5aGEK9zhJ_qixjoE4e606qCrcTlyI4Ns0s1st5NQ7fnJvc7zvOeyzpy9Z5XiOX-GqKN1HptnqGqQQlkXM5GgxP8ktO211PXa6Hw6RVXxZVypYbNnGaaiSsiTBMfyw67kDcXw8WMZU0dUIT8OvhCI44Fel32Y4t16xx5r4Y9xCjoCmXLoOj_y0ggC4Gz0ywxvTIZjtgC3euzRlNx-VC38aWivbnDga9xfHA7JJJa98c93e91iLn3tEAIXHeOGioEhDo9uoQJ8H51M-kqafK4sRhfC9ze0L0oI3AmKkcORPJsTEgzM3DiP86VtnUO7NUTuvPWgV7FE5Au2Zf7jXEyrwa6XZbobuJoG4fFTWZvEp94U1mzwZevNdN3oIq97nTx-yxUAEgsNF6ibzF5TyH-Wh9n7KUnIBea4"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://tw.hjwzw.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=sodar2&v=219&t=2&li=gda_r20201110&jk=699036529389120&bg=!AwClACDNAAVGySeIRlgMvLR5ayWMZQIAAACEUgAAABRoAQcKAGRWySvudLJhmSNbja_69_qNHmX3zeT8qM8Bpwl1mnMl6iRXjsW0Pt1Worc4BeDjjGhc4_s1x-1hhconrUmlPWXBtgPjqWbYa4yqaXCm3DSzfeVZRWNck8MTXrT8LYjurDXaA0gUmQHsK6Ggh_h2pwcvNxRo0FpcYpZLYBXPl_JVZwaYf8xLa86ARHquqUF9Po0XvuDM17WpYtMmJRhQiJ5e8If6e1WbR-TFl5GotkutVOCjt8iZCzfb_-KOFTluEyUh85yT28HJmpDVplf1_tzloiIWHZ7BZajq13txFhE94RMeKePAIs7q8uMO81DgGRATAH6EMJNpyKPPWyQjYJhPj7FbyD_iN7h8FH9sr-GGSq_-789h2HV59yqR5aGEK9zhJ_qixjoE4e606qCrcTlyI4Ns0s1st5NQ7fnJvc7zvOeyzpy9Z5XiOX-GqKN1HptnqGqQQlkXM5GgxP8ktO211PXa6Hw6RVXxZVypYbNnGaaiSsiTBMfyw67kDcXw8WMZU0dUIT8OvhCI44Fel32Y4t16xx5r4Y9xCjoCmXLoOj_y0ggC4Gz0ywxvTIZjtgC3euzRlNx-VC38aWivbnDga9xfHA7JJJa98c93e91iLn3tEAIXHeOGioEhDo9uoQJ8H51M-kqafK4sRhfC9ze0L0oI3AmKkcORPJsTEgzM3DiP86VtnUO7NUTuvPWgV7FE5Au2Zf7jXEyrwa6XZbobuJoG4fFTWZvEp94U1mzwZevNdN3oIq97nTx-yxUAEgsNF6ibzF5TyH-Wh9n7KUnIBea4"
+      },
+      {
+        "data": {
+          "filter": "||csi.gstatic.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "s": "ampad",
+            "ctx": 2,
+            "puid": "1~1605243355245",
+            "qqid": "CPLB_b7d_uwCFaEjfgodg3sILA",
+            "rt": "any.link.9.46.i.15.1f.11.13sx.13px~any.script.b.47.2.1m.0.0.3sz.3qq~any.script.c.3n.n.j.0.0.lf2.lck~any.script.d.2z.2.h.0.0.1rs.11i~any.script.e.46.2.1o.0.0.a5g.a37~any.img.18.1c.1.11.0.0.i4l.hzz~any.img.1a.18.1.10.0.0.2q7.2na~any.img.1a.16.2.x.0.0.ft.9k~any.img.1a.3x.58.0.0.0.0.0~any.img.1a.1h.2r.0.0.0.0.0",
+            "met.a4a": "dcl.2~ol.~nvs.1605243354188~ini.1605243355246"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://tw.hjwzw.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://csi.gstatic.com/csi?s=ampad&ctx=2&puid=1~1605243355245&qqid=CPLB_b7d_uwCFaEjfgodg3sILA&rt=any.link.9.46.i.15.1f.11.13sx.13px~any.script.b.47.2.1m.0.0.3sz.3qq~any.script.c.3n.n.j.0.0.lf2.lck~any.script.d.2z.2.h.0.0.1rs.11i~any.script.e.46.2.1o.0.0.a5g.a37~any.img.18.1c.1.11.0.0.i4l.hzz~any.img.1a.18.1.10.0.0.2q7.2na~any.img.1a.16.2.x.0.0.ft.9k~any.img.1a.3x.58.0.0.0.0.0~any.img.1a.1h.2r.0.0.0.0.0&met.a4a=dcl.2~ol.~nvs.1605243354188~ini.1605243355246"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^$image,third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://tw.hjwzw.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/drt/si"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^$image,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ai": "CR3702RGuX7LxJ6HH-AOD96HgAura8PNfhvq34bcMmPmq9_QKEAEgsda6I2DJxoGHyKOQGaABs8X30APIAQLgAgCoAwHIAwiqBMMBT9DicsMxwQB3EwFQ7HerHyd-FTqQwJB0Hb76QsdYX8sew2VaCLkeSXKttJroY12ljihm5UnjUp58G5LpQuZhnsZ0VpCcu4iyKUs2SCFjS4mR_3ZjUE6GIG_gAHmE3OXijaqJ3YWE69tyWxfl2LYMS45ybxSnWkzbGObEK8RN1pWLMgzEguBRaz1_mIzYH2K1Vp4XN_mcymvCrWmT6J9OXyXymCmVF5oLsWwKg-R2xipV4WB3qH6Cby_CquXyUnm5IloHwASG98PepQPgBAGgBgKAB7W6iC-oB9XJG6gH8NkbqAfy2RuoB47OG6gHk9gbqAe6BqgH7paxAqgHpr4bqAfs1RvYBwHyBwQQ0Jkg0ggJCIDhgEAQARgd8ggbYWR4LXN1YnN5bi02MDkxNDcxNzY2NTk2MjIwgAoDyAsB2BMDshcaChgIARIUcHViLTU4NzM0MzM1NTk1NjgwMTU",
+            "sigh": "SrkwU3SqU28",
+            "tpd": "AGWhJmv3Khs7QyBcFQG4ETGzTqHY6NXjl4YwZBNzSssyBajBvQ"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://securepubads.g.doubleclick.net/pagead/adview?ai=CR3702RGuX7LxJ6HH-AOD96HgAura8PNfhvq34bcMmPmq9_QKEAEgsda6I2DJxoGHyKOQGaABs8X30APIAQLgAgCoAwHIAwiqBMMBT9DicsMxwQB3EwFQ7HerHyd-FTqQwJB0Hb76QsdYX8sew2VaCLkeSXKttJroY12ljihm5UnjUp58G5LpQuZhnsZ0VpCcu4iyKUs2SCFjS4mR_3ZjUE6GIG_gAHmE3OXijaqJ3YWE69tyWxfl2LYMS45ybxSnWkzbGObEK8RN1pWLMgzEguBRaz1_mIzYH2K1Vp4XN_mcymvCrWmT6J9OXyXymCmVF5oLsWwKg-R2xipV4WB3qH6Cby_CquXyUnm5IloHwASG98PepQPgBAGgBgKAB7W6iC-oB9XJG6gH8NkbqAfy2RuoB47OG6gHk9gbqAe6BqgH7paxAqgHpr4bqAfs1RvYBwHyBwQQ0Jkg0ggJCIDhgEAQARgd8ggbYWR4LXN1YnN5bi02MDkxNDcxNzY2NTk2MjIwgAoDyAsB2BMDshcaChgIARIUcHViLTU4NzM0MzM1NTk1NjgwMTU&sigh=SrkwU3SqU28&tpd=AGWhJmv3Khs7QyBcFQG4ETGzTqHY6NXjl4YwZBNzSssyBajBvQ"
+      },
+      {
+        "data": {
+          "filter": "/amp-analytics-",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.ampproject.org/rtv/222010270040000/v0/amp-analytics-0.1.mjs"
+      },
+      {
+        "data": {
+          "filter": "||googletagservices.com^*/osd.js$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cb": "/r20100101"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://tw.hjwzw.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101"
+      },
+      {
+        "data": {
+          "filter": "||googleadservices.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "domain": "tw.hjwzw.com",
+            "callback": "_gfp_s_",
+            "client": "ca-pub-4391670409860165"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://tw.hjwzw.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://partner.googleadservices.com/gampad/cookie.js?domain=tw.hjwzw.com&callback=_gfp_s_&client=ca-pub-4391670409860165"
+      },
+      {
+        "data": {
+          "filter": "/collect?*&cid=",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j87",
+            "a": 132469038,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "https://tw.hjwzw.com/",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "黃金屋中文-免費小說,文字版,txt下載 | www.hjwzw.com",
+            "sd": "30-bit",
+            "sr": "1440x900",
+            "vp": "1200x659",
+            "je": 0,
+            "_u": "IEBAAUABAAAAAC~",
+            "jid": 602373448,
+            "gjid": 127549483,
+            "cid": 414126753.1605243,
+            "tid": "UA-51819300-1",
+            "_gid": 139953942.16052434,
+            "_r": 1,
+            "gtm": "2oub41",
+            "z": 1671117286
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://tw.hjwzw.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j87&a=132469038&t=pageview&_s=1&dl=https%3A%2F%2Ftw.hjwzw.com%2F&ul=en-us&de=UTF-8&dt=%E9%BB%83%E9%87%91%E5%B1%8B%E4%B8%AD%E6%96%87-%E5%85%8D%E8%B2%BB%E5%B0%8F%E8%AA%AA%2C%E6%96%87%E5%AD%97%E7%89%88%2Ctxt%E4%B8%8B%E8%BC%89%20%7C%20www.hjwzw.com&sd=30-bit&sr=1440x900&vp=1200x659&je=0&_u=IEBAAUABAAAAAC~&jid=602373448&gjid=127549483&cid=414126753.1605243353&tid=UA-51819300-1&_gid=139953942.1605243353&_r=1&gtm=2oub41&z=1671117286"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/analytics.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://tw.hjwzw.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com/gtag/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "UA-51819300-1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://tw.hjwzw.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=UA-51819300-1"
+      }
+    ]
+  }
+}

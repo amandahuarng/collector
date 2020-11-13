@@ -1,12 +1,12 @@
 {
   "title": "Blacklight Inspection",
-  "uri_ins": "http://hotmo.org",
-  "uri_dest": "chrome-error://chromewebdata/",
+  "uri_ins": "http://faloo.com",
+  "uri_dest": "http://faloo.com/Sorry.htm?aspxerrorpath=/index.aspx",
   "uri_redirects": [
-    "http://hotmo.org/"
+    "http://faloo.com/"
   ],
   "secure_connection": {},
-  "host": "hotmo.org",
+  "host": "faloo.com",
   "config": {
     "clearCache": true,
     "captureHar": true,
@@ -32,15 +32,15 @@
     },
     "node_version": "v14.14.0"
   },
-  "start_time": "2020-11-13T02:19:48.434Z",
-  "end_time": "2020-11-13T02:19:55.923Z",
+  "start_time": "2020-11-13T04:53:27.014Z",
+  "end_time": "2020-11-13T04:53:38.007Z",
   "browsing_history": [
-    "chrome-error://chromewebdata/"
+    "http://faloo.com/Sorry.htm?aspxerrorpath=/index.aspx"
   ],
   "hosts": {
     "requests": {
       "first_party": [
-        "hotmo.org"
+        "faloo.com"
       ],
       "third_party": []
     }

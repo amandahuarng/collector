@@ -4,6 +4,7 @@ const {join} = require("path");
 const fs = require("fs");
 const fsExtra = require('fs-extra')
 
+
 module.exports.scrapeSource = scrapeSource;
 async function scrapeSource(url) {
   const EMULATE_DEVICE = false;
@@ -28,32 +29,24 @@ async function scrapeSource(url) {
     console.log(
       `For captured data please look in ${join(__dirname, "demo-dir")}`
     );
-
-    const pathToFile = join(__dirname, "demo-dir", "inspection.json")
-    const folderName = join(__dirname, "compiled", URL)
-    if (fs.existsSync(pathToFile)) {
-      if (!fs.existsSync(folderName)) { // if the folder exists 
-        fs.mkdirSync(folderName)
-      }
-      const pathToNewDestination = join(folderName, "inspection.json")
-      fs.copyFile(pathToFile, pathToNewDestination, function (err) {
-        if (err) {
-          throw err
-        } else {
-          console.log("Successfully copied and moved the file!")
-        }
-      })
-    }
-    else {
-      console.log("could not find path: ", pathToFile)
-    }
-    const dir = join(__dirname, "demo-dir")
-    fsExtra.emptyDirSync(dir)
-    URL = null
-    return null;
   }
-
-
+  const pathToFile = join(__dirname, "demo-dir", "inspection.json")
+  const folderName = join(__dirname, "compiled", URL)
+  if (fs.existsSync(pathToFile)) {
+    if (!fs.existsSync(folderName)) { // if the folder exists 
+      fs.mkdirSync(folderName)
+    }
+    const pathToNewDestination = join(folderName, "inspection.json")
+    fs.copyFileSync(pathToFile, pathToNewDestination, fs.constants.COPYFILE_EXCL);
+    console.log("Successfully copied and moved to: ", pathToNewDestination)
+  }
+  else {
+    console.log("could not find path: ", pathToFile)
+  }
+  const dir = join(__dirname, "demo-dir")
+  fsExtra.emptyDirSync(dir)
+  URL = null
+  return null;
 
 }
 

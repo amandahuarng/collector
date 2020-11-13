@@ -1,0 +1,458 @@
+{
+  "title": "Blacklight Inspection",
+  "uri_ins": "http://shuquge.com",
+  "uri_dest": "http://www.shuquge.com/",
+  "uri_redirects": [
+    "http://shuquge.com/"
+  ],
+  "secure_connection": {},
+  "host": "shuquge.com",
+  "config": {
+    "clearCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "emulateDevice": false,
+    "numPages": 2
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/87.0.4272.0",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4272.0 Safari/537.36",
+    "platform": {
+      "name": "Darwin",
+      "version": "19.6.0"
+    }
+  },
+  "script": {
+    "host": "Amandas-MBP-3.lan",
+    "version": {
+      "npm": "2.1.11",
+      "commit": null
+    },
+    "node_version": "v14.14.0"
+  },
+  "start_time": "2020-11-13T04:54:17.601Z",
+  "end_time": "2020-11-13T04:54:49.137Z",
+  "browsing_history": [
+    "http://www.shuquge.com/",
+    "http://www.shuquge.com/txt/75280/index.html",
+    "http://www.shuquge.com/txt/91509/index.html"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "shuquge.com",
+        "www.shuquge.com"
+      ],
+      "third_party": [
+        "apps.bdimg.com",
+        "hm.baidu.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "SENSOR": {
+        "https://hm.baidu.com/hm.js?3806e321b1f2fd3d61de33e5c1302fa5": [
+          "orientationchange"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "HMACCOUNT_BFESS",
+        "value": "AC2693ED90AA08FF",
+        "domain": "hm.baidu.com",
+        "path": "/",
+        "expires": "2038-01-18T00:00:00.702Z",
+        "size": 31,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "Hm_lvt_3806e321b1f2fd3d61de33e5c1302fa5",
+        "value": "1605243282",
+        "domain": "shuquge.com",
+        "path": "/",
+        "expires": "2021-11-13T04:54:46.000Z",
+        "size": 49,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "Hm_lpvt_3806e321b1f2fd3d61de33e5c1302fa5",
+        "value": "1605243286",
+        "domain": "shuquge.com",
+        "path": "/",
+        "expires": -1,
+        "size": 50,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cc": 1,
+            "ck": 1,
+            "cl": "30-bit",
+            "ds": "1440x900",
+            "vl": 659,
+            "et": 0,
+            "ja": 0,
+            "ln": "en-us",
+            "lo": 0,
+            "lt": 1605243282,
+            "rnd": 1439790953,
+            "si": "3806e321b1f2fd3d61de33e5c1302fa5",
+            "v": "1.2.80",
+            "lv": 2,
+            "sn": 28996,
+            "r": 0,
+            "ww": 1200,
+            "ct": "!!",
+            "u": "http://www.shuquge.com/txt/91509/index.html",
+            "tt": "抗日之全能兵王_抗日之全能兵王最新章节_抗日之全能兵王无弹窗_抗日之全能兵王笔趣阁_书趣阁_笔趣阁"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://www.shuquge.com/txt/91509/index.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.gif?cc=1&ck=1&cl=30-bit&ds=1440x900&vl=659&et=0&ja=0&ln=en-us&lo=0&lt=1605243282&rnd=1439790953&si=3806e321b1f2fd3d61de33e5c1302fa5&v=1.2.80&lv=2&sn=28996&r=0&ww=1200&ct=!!&u=http%3A%2F%2Fwww.shuquge.com%2Ftxt%2F91509%2Findex.html&tt=%E6%8A%97%E6%97%A5%E4%B9%8B%E5%85%A8%E8%83%BD%E5%85%B5%E7%8E%8B_%E6%8A%97%E6%97%A5%E4%B9%8B%E5%85%A8%E8%83%BD%E5%85%B5%E7%8E%8B%E6%9C%80%E6%96%B0%E7%AB%A0%E8%8A%82_%E6%8A%97%E6%97%A5%E4%B9%8B%E5%85%A8%E8%83%BD%E5%85%B5%E7%8E%8B%E6%97%A0%E5%BC%B9%E7%AA%97_%E6%8A%97%E6%97%A5%E4%B9%8B%E5%85%A8%E8%83%BD%E5%85%B5%E7%8E%8B%E7%AC%94%E8%B6%A3%E9%98%81_%E4%B9%A6%E8%B6%A3%E9%98%81_%E7%AC%94%E8%B6%A3%E9%98%81"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "hca": "AC2693ED90AA08FF",
+            "cc": 1,
+            "ck": 1,
+            "cl": "30-bit",
+            "ds": "1440x900",
+            "vl": 659,
+            "ep": "2222,2222",
+            "et": 3,
+            "ja": 0,
+            "ln": "en-us",
+            "lo": 0,
+            "lt": 1605243282,
+            "rnd": 1384151523,
+            "si": "3806e321b1f2fd3d61de33e5c1302fa5",
+            "v": "1.2.80",
+            "lv": 2,
+            "sn": 28993,
+            "r": 0,
+            "ww": 1200,
+            "u": "http://www.shuquge.com/txt/75280/index.html"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://www.shuquge.com/txt/91509/index.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.gif?hca=AC2693ED90AA08FF&cc=1&ck=1&cl=30-bit&ds=1440x900&vl=659&ep=2222%2C2222&et=3&ja=0&ln=en-us&lo=0&lt=1605243282&rnd=1384151523&si=3806e321b1f2fd3d61de33e5c1302fa5&v=1.2.80&lv=2&sn=28993&r=0&ww=1200&u=http%3A%2F%2Fwww.shuquge.com%2Ftxt%2F75280%2Findex.html"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "3806e321b1f2fd3d61de33e5c1302fa5": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://www.shuquge.com/txt/91509/index.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.js?3806e321b1f2fd3d61de33e5c1302fa5"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "hca": "AC2693ED90AA08FF",
+            "cc": 1,
+            "ck": 1,
+            "cl": "30-bit",
+            "ds": "1440x900",
+            "vl": 659,
+            "ep": "2222,2222",
+            "et": 3,
+            "ja": 0,
+            "ln": "en-us",
+            "lo": 0,
+            "lt": 1605243282,
+            "rnd": 1384151523,
+            "si": "3806e321b1f2fd3d61de33e5c1302fa5",
+            "v": "1.2.80",
+            "lv": 2,
+            "sn": 28993,
+            "r": 0,
+            "ww": 1200,
+            "u": "http://www.shuquge.com/txt/75280/index.html"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://www.shuquge.com/txt/75280/index.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.gif?hca=AC2693ED90AA08FF&cc=1&ck=1&cl=30-bit&ds=1440x900&vl=659&ep=2222%2C2222&et=3&ja=0&ln=en-us&lo=0&lt=1605243282&rnd=1384151523&si=3806e321b1f2fd3d61de33e5c1302fa5&v=1.2.80&lv=2&sn=28993&r=0&ww=1200&u=http%3A%2F%2Fwww.shuquge.com%2Ftxt%2F75280%2Findex.html"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cc": 1,
+            "ck": 1,
+            "cl": "30-bit",
+            "ds": "1440x900",
+            "vl": 659,
+            "et": 0,
+            "ja": 0,
+            "ln": "en-us",
+            "lo": 0,
+            "lt": 1605243282,
+            "rnd": 1647218399,
+            "si": "3806e321b1f2fd3d61de33e5c1302fa5",
+            "v": "1.2.80",
+            "lv": 2,
+            "sn": 28993,
+            "r": 0,
+            "ww": 1200,
+            "ct": "!!",
+            "u": "http://www.shuquge.com/txt/75280/index.html",
+            "tt": "永恒圣王_永恒圣王最新章节_永恒圣王无弹窗_永恒圣王笔趣阁_书趣阁_笔趣阁"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://www.shuquge.com/txt/75280/index.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.gif?cc=1&ck=1&cl=30-bit&ds=1440x900&vl=659&et=0&ja=0&ln=en-us&lo=0&lt=1605243282&rnd=1647218399&si=3806e321b1f2fd3d61de33e5c1302fa5&v=1.2.80&lv=2&sn=28993&r=0&ww=1200&ct=!!&u=http%3A%2F%2Fwww.shuquge.com%2Ftxt%2F75280%2Findex.html&tt=%E6%B0%B8%E6%81%92%E5%9C%A3%E7%8E%8B_%E6%B0%B8%E6%81%92%E5%9C%A3%E7%8E%8B%E6%9C%80%E6%96%B0%E7%AB%A0%E8%8A%82_%E6%B0%B8%E6%81%92%E5%9C%A3%E7%8E%8B%E6%97%A0%E5%BC%B9%E7%AA%97_%E6%B0%B8%E6%81%92%E5%9C%A3%E7%8E%8B%E7%AC%94%E8%B6%A3%E9%98%81_%E4%B9%A6%E8%B6%A3%E9%98%81_%E7%AC%94%E8%B6%A3%E9%98%81"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "hca": "AC2693ED90AA08FF",
+            "cc": 1,
+            "ck": 1,
+            "cl": "30-bit",
+            "ds": "1440x900",
+            "vl": 659,
+            "ep": "246,246",
+            "et": 3,
+            "ja": 0,
+            "ln": "en-us",
+            "lo": 0,
+            "rnd": 1497134200,
+            "si": "3806e321b1f2fd3d61de33e5c1302fa5",
+            "v": "1.2.80",
+            "lv": 1,
+            "sn": 28992,
+            "r": 0,
+            "ww": 1200,
+            "u": "http://www.shuquge.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://www.shuquge.com/txt/75280/index.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.gif?hca=AC2693ED90AA08FF&cc=1&ck=1&cl=30-bit&ds=1440x900&vl=659&ep=246%2C246&et=3&ja=0&ln=en-us&lo=0&rnd=1497134200&si=3806e321b1f2fd3d61de33e5c1302fa5&v=1.2.80&lv=1&sn=28992&r=0&ww=1200&u=http%3A%2F%2Fwww.shuquge.com%2F"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cc": 1,
+            "ck": 1,
+            "cl": "30-bit",
+            "ds": "1440x900",
+            "vl": 659,
+            "et": 0,
+            "ja": 0,
+            "ln": "en-us",
+            "lo": 0,
+            "rnd": 1070691716,
+            "si": "3806e321b1f2fd3d61de33e5c1302fa5",
+            "v": "1.2.80",
+            "lv": 1,
+            "sn": 28992,
+            "r": 0,
+            "ww": 1200,
+            "ct": "!!",
+            "u": "http://www.shuquge.com/",
+            "tt": "书趣阁_笔趣阁"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://www.shuquge.com/txt/75280/index.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.gif?cc=1&ck=1&cl=30-bit&ds=1440x900&vl=659&et=0&ja=0&ln=en-us&lo=0&rnd=1070691716&si=3806e321b1f2fd3d61de33e5c1302fa5&v=1.2.80&lv=1&sn=28992&r=0&ww=1200&ct=!!&u=http%3A%2F%2Fwww.shuquge.com%2F&tt=%E4%B9%A6%E8%B6%A3%E9%98%81_%E7%AC%94%E8%B6%A3%E9%98%81"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "3806e321b1f2fd3d61de33e5c1302fa5": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://www.shuquge.com/txt/75280/index.html",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.js?3806e321b1f2fd3d61de33e5c1302fa5"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "hca": "AC2693ED90AA08FF",
+            "cc": 1,
+            "ck": 1,
+            "cl": "30-bit",
+            "ds": "1440x900",
+            "vl": 659,
+            "ep": "246,246",
+            "et": 3,
+            "ja": 0,
+            "ln": "en-us",
+            "lo": 0,
+            "rnd": 1497134200,
+            "si": "3806e321b1f2fd3d61de33e5c1302fa5",
+            "v": "1.2.80",
+            "lv": 1,
+            "sn": 28992,
+            "r": 0,
+            "ww": 1200,
+            "u": "http://www.shuquge.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://www.shuquge.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.gif?hca=AC2693ED90AA08FF&cc=1&ck=1&cl=30-bit&ds=1440x900&vl=659&ep=246%2C246&et=3&ja=0&ln=en-us&lo=0&rnd=1497134200&si=3806e321b1f2fd3d61de33e5c1302fa5&v=1.2.80&lv=1&sn=28992&r=0&ww=1200&u=http%3A%2F%2Fwww.shuquge.com%2F"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cc": 1,
+            "ck": 1,
+            "cl": "30-bit",
+            "ds": "1440x900",
+            "vl": 659,
+            "et": 0,
+            "ja": 0,
+            "ln": "en-us",
+            "lo": 0,
+            "rnd": 1070691716,
+            "si": "3806e321b1f2fd3d61de33e5c1302fa5",
+            "v": "1.2.80",
+            "lv": 1,
+            "sn": 28992,
+            "r": 0,
+            "ww": 1200,
+            "ct": "!!",
+            "u": "http://www.shuquge.com/",
+            "tt": "书趣阁_笔趣阁"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://www.shuquge.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.gif?cc=1&ck=1&cl=30-bit&ds=1440x900&vl=659&et=0&ja=0&ln=en-us&lo=0&rnd=1070691716&si=3806e321b1f2fd3d61de33e5c1302fa5&v=1.2.80&lv=1&sn=28992&r=0&ww=1200&ct=!!&u=http%3A%2F%2Fwww.shuquge.com%2F&tt=%E4%B9%A6%E8%B6%A3%E9%98%81_%E7%AC%94%E8%B6%A3%E9%98%81"
+      },
+      {
+        "data": {
+          "filter": "||hm.baidu.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "3806e321b1f2fd3d61de33e5c1302fa5": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://www.shuquge.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://hm.baidu.com/hm.js?3806e321b1f2fd3d61de33e5c1302fa5"
+      }
+    ]
+  }
+}

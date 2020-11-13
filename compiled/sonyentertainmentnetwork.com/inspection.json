@@ -1,12 +1,10 @@
 {
   "title": "Blacklight Inspection",
-  "uri_ins": "http://sefon.cc",
-  "uri_dest": "https://sefon.cc/",
-  "uri_redirects": [
-    "http://sefon.cc/"
-  ],
+  "uri_ins": "http://sonyentertainmentnetwork.com",
+  "uri_dest": "http://sonyentertainmentnetwork.com/",
+  "uri_redirects": [],
   "secure_connection": {},
-  "host": "sefon.cc",
+  "host": "sonyentertainmentnetwork.com",
   "config": {
     "clearCache": true,
     "captureHar": true,
@@ -32,15 +30,15 @@
     },
     "node_version": "v14.14.0"
   },
-  "start_time": "2020-11-13T02:20:19.032Z",
-  "end_time": "2020-11-13T02:20:32.199Z",
+  "start_time": "2020-11-13T04:48:40.954Z",
+  "end_time": "2020-11-13T04:48:51.942Z",
   "browsing_history": [
-    "https://sefon.cc/"
+    "http://sonyentertainmentnetwork.com/"
   ],
   "hosts": {
     "requests": {
       "first_party": [
-        "sefon.cc"
+        "sonyentertainmentnetwork.com"
       ],
       "third_party": []
     }
@@ -57,23 +55,7 @@
       "canvas_font": {},
       "text_measure": {}
     },
-    "cookies": [
-      {
-        "name": "__cfduid",
-        "value": "d0fc8dcb916139a42f7df2ec1aa62c3c51605234029",
-        "domain": "sefon.cc",
-        "path": "/",
-        "expires": "2020-12-13T02:20:29.205Z",
-        "size": 51,
-        "httpOnly": true,
-        "secure": false,
-        "session": false,
-        "sameSite": "Lax",
-        "priority": "Medium",
-        "type": "http",
-        "third_party": false
-      }
-    ],
+    "cookies": [],
     "fb_pixel_events": [],
     "key_logging": {},
     "session_recorders": {},

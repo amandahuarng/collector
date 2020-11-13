@@ -1,0 +1,1669 @@
+{
+  "title": "Blacklight Inspection",
+  "uri_ins": "http://lelum.pl",
+  "uri_dest": "https://lelum.pl/",
+  "uri_redirects": [
+    "http://lelum.pl/"
+  ],
+  "secure_connection": {},
+  "host": "lelum.pl",
+  "config": {
+    "clearCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "emulateDevice": false,
+    "numPages": 2
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "Chrome/87.0.4272.0",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4272.0 Safari/537.36",
+    "platform": {
+      "name": "Darwin",
+      "version": "19.6.0"
+    }
+  },
+  "script": {
+    "host": "Amandas-MBP-3.lan",
+    "version": {
+      "npm": "2.1.11",
+      "commit": null
+    },
+    "node_version": "v14.14.0"
+  },
+  "start_time": "2020-11-13T04:59:53.033Z",
+  "end_time": "2020-11-13T05:00:22.930Z",
+  "browsing_history": [
+    "https://lelum.pl/",
+    "https://lelum.pl/category/moda/jak-sie-ubrac-moda/",
+    "https://lelum.pl/category/zwiazki/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "lelum.pl"
+      ],
+      "third_party": [
+        "securepubads.g.doubleclick.net",
+        "fonts.googleapis.com",
+        "ajax.googleapis.com",
+        "pagead2.googlesyndication.com",
+        "www.googletagmanager.com",
+        "www.statsforads.com",
+        "script.crazyegg.com",
+        "cdn.onesignal.com",
+        "cmp.optad360.io",
+        "connect.facebook.net",
+        "get.optad360.io",
+        "mob.vendimob.pl",
+        "static.hotjar.com",
+        "gapl.hit.gemius.pl",
+        "tblr.pl",
+        "fonts.gstatic.com",
+        "www.google-analytics.com",
+        "stat.optad360.mgr.consensu.org",
+        "www.facebook.com",
+        "onesignal.com",
+        "tpc.googlesyndication.com",
+        "stats.g.doubleclick.net",
+        "www.google.com",
+        "cdn.jsdelivr.net",
+        "ls.hit.gemius.pl",
+        "optad360.mgr.consensu.org",
+        "islay01.pl",
+        "adservice.google.com",
+        "14023d27be27321ae78294b437f537e5.safeframe.googlesyndication.com",
+        "www.googletagservices.com",
+        "serving.stat-rock.com",
+        "script.4dex.io",
+        "ib.adnxs.com",
+        "adx.adform.net",
+        "vid.springserve.com",
+        "vpaid.springserve.com",
+        "vpaid.pubmatic.com",
+        "vid-io-iad.springserve.com",
+        "islay00.pl",
+        "7b94ded4266a8442e001fe50be174f4d.safeframe.googlesyndication.com",
+        "ads.pubmatic.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://islay00.pl/analyzer/collector.min.js?id=CBA32DCC-8701-45FB-9C7C-89BF4AED7CBE&db=ib87&x=1605243617902": [
+          "scroll"
+        ],
+        "https://get.optad360.io/sf/prebid4.10.1.js": [
+          "mousemove"
+        ],
+        "https://mob.vendimob.pl/rp/hmzb450n2kmliavs/1": [
+          "click"
+        ],
+        "https://get.optad360.io/sf/5703e89c-2c3c-11e8-a651-bca8a6ac7f92/plugin.min.js": [
+          "scroll"
+        ],
+        "https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js?ver=1.12.4": [
+          "mousemove",
+          "click",
+          "scroll"
+        ],
+        "https://lelum.pl/wp-content/plugins/bj-lazy-load/js/bj-lazy-load.min.js?ver=2": [
+          "scroll"
+        ],
+        "https://gapl.hit.gemius.pl/xgemius.js": [
+          "mousedown"
+        ],
+        "https://islay01.pl/analyzer/collector.min.js?id=CBA32DCC-8701-45FB-9C7C-89BF4AED7CBE&db=ib87&x=1605243611316": [
+          "scroll"
+        ]
+      },
+      "TOUCH": {
+        "https://lelum.pl/wp-content/themes/PikioB/js/tagdiv_theme.min.js?ver=4.2": [
+          "touchmove"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "_ga",
+        "value": "GA1.2.493210401.1605243606",
+        "domain": "lelum.pl",
+        "path": "/",
+        "expires": "2022-11-13T05:00:17.000Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gid",
+        "value": "GA1.2.321557368.1605243606",
+        "domain": "lelum.pl",
+        "path": "/",
+        "expires": "2020-11-14T05:00:17.000Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gat_gtag_UA_44038256_5",
+        "value": "1",
+        "domain": "lelum.pl",
+        "path": "/",
+        "expires": "2020-11-13T05:01:06.000Z",
+        "size": 24,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "TDDC",
+        "value": "1",
+        "domain": "lelum.pl",
+        "path": "/",
+        "expires": "2020-11-14T05:00:06.000Z",
+        "size": 5,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "__gfp_64b",
+        "value": "WQmMo8tFQCU5ZvPv0D2TNZbmpE.XxaYObqI5SLiGLCr.N7|1605243607",
+        "domain": "lelum.pl",
+        "path": "/",
+        "expires": "2023-08-10T05:00:09.000Z",
+        "size": 66,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "__oaue",
+        "value": "undefined",
+        "domain": "lelum.pl",
+        "path": "/",
+        "expires": "2020-11-20T05:00:17.459Z",
+        "size": 15,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "priority": "Medium",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "IDE",
+        "value": "AHWqTUlQR-mdbqoLjXXtcUIa5gJ1h94FMyi_CgE9lKXyuB00-29jJa-y6wwBuzY6",
+        "domain": "doubleclick.net",
+        "path": "/",
+        "expires": "2022-11-13T05:00:12.244Z",
+        "size": 67,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "CMID",
+        "value": "X64S3KUtcYmKA2BVLEQOeQAA",
+        "domain": "casalemedia.com",
+        "path": "/",
+        "expires": "2021-11-13T05:00:16.839Z",
+        "size": 28,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "CMPS",
+        "value": "2527",
+        "domain": "casalemedia.com",
+        "path": "/",
+        "expires": "2021-02-11T05:00:16.839Z",
+        "size": 8,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "uuid2",
+        "value": "3198601669919767879",
+        "domain": "adnxs.com",
+        "path": "/",
+        "expires": "2021-02-11T05:00:21.504Z",
+        "size": 24,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "CMPRO",
+        "value": "424",
+        "domain": "casalemedia.com",
+        "path": "/",
+        "expires": "2021-02-11T05:00:16.839Z",
+        "size": 8,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "CMRUM3",
+        "value": "2d5fae12dc2760",
+        "domain": "casalemedia.com",
+        "path": "/",
+        "expires": "2021-11-13T05:00:16.839Z",
+        "size": 20,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ssid",
+        "value": "9165331c-fa89-42bf-945e-91761822e1f5",
+        "domain": "springserve.com",
+        "path": "/",
+        "expires": "2021-11-12T05:00:16.287Z",
+        "size": 40,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "sst",
+        "value": "1605243616235",
+        "domain": "springserve.com",
+        "path": "/",
+        "expires": "2021-11-12T05:00:16.287Z",
+        "size": 16,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__gads",
+        "value": "ID=8ddef7c917710496:T=1605243611:S=ALNI_MYWIN-wcfB2BPF3c5NrPCF3Cw2GEw",
+        "domain": "lelum.pl",
+        "path": "/",
+        "expires": "2021-12-08T05:00:11.000Z",
+        "size": 75,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "CMST",
+        "value": "X64S3F+uEuAA",
+        "domain": "casalemedia.com",
+        "path": "/",
+        "expires": "2020-11-14T05:00:16.839Z",
+        "size": 16,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "Gdyn",
+        "value": "KlSxsRXGQMQGIuq6JEsAlqRWssGML1VcLvnxmGtXPvx7G74nmGRFrIXFcLgnGsRP5CbBGKGGqHj8bGl8le52GQfPgn9TaQG.",
+        "domain": "hit.gemius.pl",
+        "path": "/",
+        "expires": "2026-01-27T00:00:01.070Z",
+        "size": 100,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "i",
+        "value": "15e995c7-e9a2-407c-88cc-0152eb32d291|1605243619",
+        "domain": "openx.net",
+        "path": "/",
+        "expires": "2021-11-13T05:00:20.016Z",
+        "size": 48,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "d",
+        "value": "EFcBCQHuIYEA",
+        "domain": "quantserve.com",
+        "path": "/",
+        "expires": "2021-02-11T05:00:20.056Z",
+        "size": 13,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "mc",
+        "value": "5fae12e4-09ff6-ecbc6-d7048",
+        "domain": "quantserve.com",
+        "path": "/",
+        "expires": "2021-12-14T05:00:20.056Z",
+        "size": 28,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "A3",
+        "value": "d=AQABBOQSrl8CEGCeeBlpDMFf0ePJGR2jqB4FEgEBAQFkr1-3XwAAAAAA_SMAAA&S=AQAAAkJMTCRsCWbZKK3p8rHjXdg",
+        "domain": "yahoo.com",
+        "path": "/",
+        "expires": "2021-11-13T11:00:21.834Z",
+        "size": 96,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "uuid",
+        "value": "7ceb5fae-12e4-4200-84ca-52c99bd0deb3",
+        "domain": "mathtag.com",
+        "path": "/",
+        "expires": "2021-12-14T05:00:22.901Z",
+        "size": 40,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "everest_g_v2",
+        "value": "g_surferid~X64S5AAAAKfISizr",
+        "domain": "everesttech.net",
+        "path": "/",
+        "expires": "2021-11-13T05:00:20.213Z",
+        "size": 39,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "icu",
+        "value": "ChgIjq5aEAoYASABKAEw3qW4_QU4AUABSAEKGAibu10QChgBIAEoATDlpbj9BTgBQAFIARDlpbj9BRgB",
+        "domain": "adnxs.com",
+        "path": "/",
+        "expires": "2021-02-11T05:00:21.504Z",
+        "size": 83,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "type": "unknown",
+        "third_party": true
+      }
+    ],
+    "fb_pixel_events": [],
+    "key_logging": {},
+    "session_recorders": {
+      "static.hotjar.com": [
+        "static.hotjar.com/c/hotjar-1409165.js"
+      ]
+    },
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "/gen_204?$image,other,ping,script",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "sodar2",
+            "v": 219,
+            "t": 2,
+            "li": "gpt_2020111001",
+            "jk": 3458484369934850,
+            "bg": "!GxilGDjNAAVGySeIRlj7nyLZSyEzDAIAAACIUgAAACBoAQcKAS7Qa9ljpk1J3LaIoZP6keiFyoFemKO7EUpgsO3URlaycMSeAinlb1qM--epbDhkwUGmDx6qdW0qe7XMbzVedElsATEnl526K6Ga7hlNS0axfBx3jrkPpk_Bq2_r50s-FlarHAE24BYpnyDIwc379L3qQ-L4fZk--LpSQeBIMIHKin3ftNw9ksY4ubDE9a-0YV_hqR1U3Iu3iN_wUY2bzayh2Cr4D53zmpMnBcLW9U36HdLGnGD3gufuM8-oftv7dXmhttZXmA5N4tqCFjA3cu8uiA_Tb6gKxLztmSPIN0nILu9F8lT07v2kM2FZs40QS6SUVKgC23e4a0bPsKASBgq6cQmroKyyWEGY8yrwE7G9TGZTM5YeMf2ZNaRS7BBnIBbZ3-Pq7Ff6yYK7y6OTFpkB25Va38uU1zVXWtXUnok2BTTS7Fj7Gar8CClvSkFVDIK5rSLxA4iF-HJnj-xirSOlbJhLCqnz_j6Re4vK0TGUyRR9TCm3w9CoRn47EE2BTzFrT2b4XTg4dYrKUx9BImGKTEhexWHFwHst4ZHo_mL9W_3mpHfYSbbVA7jXGnUlc2roWS1J_bxK8UA1wJgv13Dq9YsE4sT2D4RwDEXdvINQ8tHTSjBEaxJbINCwZPJilyO1M6pE50Z5d9BQhO8PYev9DS6rQBEvJtKyMwqnhqm3Yw6fjq7zb8JBaY9fmfM3FBAps7NCHvSjQlU4e79VAgNPxsDyvw94zNSHAFkE9wCqcYpVYgeVHWSmFDY4Jt2QKcIGuO4rFj8H_qNH-gI2vQXMzZu3wVJxaHOujOyz4cicRYOY38fpQ7kwi_3MnAJI7zeBWJjRLsgXso5uYgnpvRNIo25sG_uZ01UewKM79td703ca4DaZPwTkUt5Fgf3IYkyFxQ5orfa0mnFSmjP0dJbiqIjKakU8ut0Q_8NgMRHiwaAENzIm3WP9Bb27Ld__cDrgGpaSkjzyWW8f_uB0F8b6Yxtg3v8tktQ84CjlPvxnfZJlt2SZ4STOF6VVPy0fYj7zao7vSuLT2YReTOY"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/category/zwiazki/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=sodar2&v=219&t=2&li=gpt_2020111001&jk=3458484369934850&bg=!GxilGDjNAAVGySeIRlj7nyLZSyEzDAIAAACIUgAAACBoAQcKAS7Qa9ljpk1J3LaIoZP6keiFyoFemKO7EUpgsO3URlaycMSeAinlb1qM--epbDhkwUGmDx6qdW0qe7XMbzVedElsATEnl526K6Ga7hlNS0axfBx3jrkPpk_Bq2_r50s-FlarHAE24BYpnyDIwc379L3qQ-L4fZk--LpSQeBIMIHKin3ftNw9ksY4ubDE9a-0YV_hqR1U3Iu3iN_wUY2bzayh2Cr4D53zmpMnBcLW9U36HdLGnGD3gufuM8-oftv7dXmhttZXmA5N4tqCFjA3cu8uiA_Tb6gKxLztmSPIN0nILu9F8lT07v2kM2FZs40QS6SUVKgC23e4a0bPsKASBgq6cQmroKyyWEGY8yrwE7G9TGZTM5YeMf2ZNaRS7BBnIBbZ3-Pq7Ff6yYK7y6OTFpkB25Va38uU1zVXWtXUnok2BTTS7Fj7Gar8CClvSkFVDIK5rSLxA4iF-HJnj-xirSOlbJhLCqnz_j6Re4vK0TGUyRR9TCm3w9CoRn47EE2BTzFrT2b4XTg4dYrKUx9BImGKTEhexWHFwHst4ZHo_mL9W_3mpHfYSbbVA7jXGnUlc2roWS1J_bxK8UA1wJgv13Dq9YsE4sT2D4RwDEXdvINQ8tHTSjBEaxJbINCwZPJilyO1M6pE50Z5d9BQhO8PYev9DS6rQBEvJtKyMwqnhqm3Yw6fjq7zb8JBaY9fmfM3FBAps7NCHvSjQlU4e79VAgNPxsDyvw94zNSHAFkE9wCqcYpVYgeVHWSmFDY4Jt2QKcIGuO4rFj8H_qNH-gI2vQXMzZu3wVJxaHOujOyz4cicRYOY38fpQ7kwi_3MnAJI7zeBWJjRLsgXso5uYgnpvRNIo25sG_uZ01UewKM79td703ca4DaZPwTkUt5Fgf3IYkyFxQ5orfa0mnFSmjP0dJbiqIjKakU8ut0Q_8NgMRHiwaAENzIm3WP9Bb27Ld__cDrgGpaSkjzyWW8f_uB0F8b6Yxtg3v8tktQ84CjlPvxnfZJlt2SZ4STOF6VVPy0fYj7zao7vSuLT2YReTOY"
+      },
+      {
+        "data": {
+          "filter": "||googletagservices.com^*/osd.js$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cb": "/r20100101"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/category/zwiazki/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101"
+      },
+      {
+        "data": {
+          "filter": "||onesignal.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/category/zwiazki/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://onesignal.com/sdks/OneSignalSDKStyles.css?v=2"
+      },
+      {
+        "data": {
+          "filter": "||crazyegg.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/category/zwiazki/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://script.crazyegg.com/pages/versioned/common-scripts/11.1.149.js"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j87",
+            "a": 953832242,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "https://lelum.pl/category/zwiazki/",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "Związki Archives - Lelum.pl",
+            "sd": "30-bit",
+            "sr": "1440x900",
+            "vp": "1200x659",
+            "je": 0,
+            "_u": "AACAAUAB~",
+            "jid": "",
+            "gjid": "",
+            "cid": 493210401.16052437,
+            "tid": "UA-44038256-5",
+            "_gid": 321557368.16052437,
+            "gtm": "2oub41",
+            "z": 232144387
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/category/zwiazki/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j87&a=953832242&t=pageview&_s=1&dl=https%3A%2F%2Flelum.pl%2Fcategory%2Fzwiazki%2F&ul=en-us&de=UTF-8&dt=Zwi%C4%85zki%20Archives%20-%20Lelum.pl&sd=30-bit&sr=1440x900&vp=1200x659&je=0&_u=AACAAUAB~&jid=&gjid=&cid=493210401.1605243606&tid=UA-44038256-5&_gid=321557368.1605243606&gtm=2oub41&z=232144387"
+      },
+      {
+        "data": {
+          "filter": "||gemius.pl^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "l": 100,
+            "id": ".c2biStZyJyKVsyUtrSqLJaGXmedXWMct7R8zVUtLPT.C7",
+            "et": "view",
+            "hsrc": 1,
+            "initsonar": 1,
+            "extra": "",
+            "eventid": 0,
+            "fr": 1,
+            "tz": 480,
+            "fv": "-",
+            "href": "https://lelum.pl/category/zwiazki/",
+            "ref": "",
+            "screen": "1440x900r2000",
+            "col": 30,
+            "window": "1200x703",
+            "ltime": 315,
+            "lsdata": "xGWGmJKrLXWHwYytmAY4DWu7QkhLJudRfGhkMwyCsLz.c73B8a7co_kohFxrJV9IyRZGVhu8IUCHNLy7VBuroy3jTufI/zPuZQy9WJH46w/",
+            "fpdata": "WQmMo8tFQCU5ZvPv0D2TNZbmpE.XxaYObqI5SLiGLCr.N7",
+            "vis": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/category/zwiazki/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://gapl.hit.gemius.pl/_1605243617697/rexdot.js?l=100&id=.c2biStZyJyKVsyUtrSqLJaGXmedXWMct7R8zVUtLPT.C7&et=view&hsrc=1&initsonar=1&extra=&eventid=0&fr=1&tz=480&fv=-&href=https%3A%2F%2Flelum.pl%2Fcategory%2Fzwiazki%2F&ref=&screen=1440x900r2000&col=30&window=1200x703&ltime=315&lsdata=xGWGmJKrLXWHwYytmAY4DWu7QkhLJudRfGhkMwyCsLz.c73B8a7co_kohFxrJV9IyRZGVhu8IUCHNLy7VBuroy3jTufI/zPuZQy9WJH46w/&fpdata=WQmMo8tFQCU5ZvPv0D2TNZbmpE.XxaYObqI5SLiGLCr.N7&vis=1"
+      },
+      {
+        "data": {
+          "filter": "||onesignal.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "callback": "__jp0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/category/zwiazki/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://onesignal.com/api/v1/sync/a902a572-005f-4efa-a564-ab3a180191aa/web?callback=__jp0"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/analytics.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/category/zwiazki/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||crazyegg.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "t": 5350812
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/category/zwiazki/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://script.crazyegg.com/pages/data-scripts/0085/2169.json?t=5350812"
+      },
+      {
+        "data": {
+          "filter": "||gemius.pl^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "gst": "parent",
+            "href": "lelum.pl",
+            "gsver": 319,
+            "v": 445956
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/category/zwiazki/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://gapl.hit.gemius.pl/gsconf.js?gst=parent&href=lelum.pl&gsver=319&v=445956"
+      },
+      {
+        "data": {
+          "filter": "||gemius.pl^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "about:blank",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ls.hit.gemius.pl/lsget.html"
+      },
+      {
+        "data": {
+          "filter": "||onesignal.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 151104
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/category/zwiazki/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.onesignal.com/sdks/OneSignalPageSDKES6.js?v=151104"
+      },
+      {
+        "data": {
+          "filter": "||gemius.pl^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/category/zwiazki/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://gapl.hit.gemius.pl/xgemius.js"
+      },
+      {
+        "data": {
+          "filter": "||hotjar.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sv": 6
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/category/zwiazki/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.hotjar.com/c/hotjar-1409165.js?sv=6"
+      },
+      {
+        "data": {
+          "filter": "/gtm.js",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-WJMGC4Z"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/category/zwiazki/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WJMGC4Z"
+      },
+      {
+        "data": {
+          "filter": "/gtm.js",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-N23TLCT"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/category/zwiazki/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-N23TLCT"
+      },
+      {
+        "data": {
+          "filter": "||onesignal.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/category/zwiazki/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.onesignal.com/sdks/OneSignalSDK.js"
+      },
+      {
+        "data": {
+          "filter": "||crazyegg.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/category/zwiazki/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://script.crazyegg.com/pages/scripts/0085/2169.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com/gtag/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "UA-44038256-5"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/category/zwiazki/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=UA-44038256-5"
+      },
+      {
+        "data": {
+          "filter": "||ib.adnxs.com^",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/category/moda/jak-sie-ubrac-moda/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ib.adnxs.com/ut/v3/prebid"
+      },
+      {
+        "data": {
+          "filter": "||adform.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "rp": 4,
+            "bWlkPTc0MzE4MiZ0cmFuc2FjdGlvbklkPWUzZGMxZjJhLThkZmQtNDkzOS04YTA4LTEzOGI4YmIxNDc5YSZyY3VyPVBMTg%3D%3D": null,
+            "pt": "gross",
+            "stid": "8287b47b-67d8-4d02-9db3-2def91e57741",
+            "gdpr": 0,
+            "gdpr_consent": "undefined",
+            "fd": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/category/moda/jak-sie-ubrac-moda/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://adx.adform.net/adx/?rp=4&bWlkPTc0MzE4MiZ0cmFuc2FjdGlvbklkPWUzZGMxZjJhLThkZmQtNDkzOS04YTA4LTEzOGI4YmIxNDc5YSZyY3VyPVBMTg%3D%3D&pt=gross&stid=8287b47b-67d8-4d02-9db3-2def91e57741&gdpr=0&gdpr_consent=undefined&fd=1"
+      },
+      {
+        "data": {
+          "filter": "||ib.adnxs.com^",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/category/moda/jak-sie-ubrac-moda/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ib.adnxs.com/ut/v3/prebid"
+      },
+      {
+        "data": {
+          "filter": "/gen_204?$image,other,ping,script",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "sodar2",
+            "v": 219,
+            "t": 2,
+            "li": "gpt_2020111001",
+            "jk": 3467321462315697,
+            "bg": "!09Cl0PDNAAVGySeIRliu73Fl2ZVgHgIAAACkUgAAACVoAQcKAIvzUx6Ri_nh4otV4_7b8dVQmC3njJpv2t45qLPo5c8LN76tQdJqbPVlbfG4pQ8EBy8iKoDcliDQ5lOMMSoeb9eKNu8k-sDxK5tdMAt2NZamnhcoEkM9KSOQNP3241gNoZLaGO33z6t-Ey3EjxwwWPDqZ1PhSRWGHD3VnDhe5xOMHX0px0gHrHXO6YZMmQHgKS8_l-g9MyZ2gTpCC3M1QhL51hra5Gapaj7Oqp6C_tYDOsHldCtknifhuYHCPy2nPi8FdT8vAFBwTndlC8t5rSbh7hV9UZ4OcZEB6J5enbPuLW3W_iux2JcggU1m4AQXDGn6uPMnd7GJnOO4HPeEfQq1-mwkmOwRjXRVZYAhDO426hNzsNabeMO3Cota8h8VwAjilDxIFbjXH_1Xys-8ESqZ8ONJ4nKiU0MqpY3Wf0Oi3Qhmj-B0A1ihE08l8k1si8eOst6oZ93lp9UbNd8lLPN-ArPglC2Sy9ciWk9c328A0qK9ip5zArRs0s6JydkvXeQy9sCVQr1aR_N6SMxzkwe3jCiI255SuH-pV-RSirqZpU_sS0eV47hhpg9_3DBQUo6fVafuGOpKU2XehWLMlgwmX15KqRGUNQLzDBXrztVA1OedkvsGPHlYdLaRv0y650Ce5RNRPqv0sk5tOduUpyf9CTjrRoPxhxIlw0vcaODISqpLC8xUlFkqNlQjmsaieb1oz9hoYoxVBXQ21E2tzdw0VxGWvxVJcX9auEYRh6mBoFbBSLGRczX_X026YiITlEJZIDQEWtERVOP60zrslbfDHOi2et-zp2ou4PQDf2rtRUCh7fWkRw8ARp8qpv5z"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/category/moda/jak-sie-ubrac-moda/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=sodar2&v=219&t=2&li=gpt_2020111001&jk=3467321462315697&bg=!09Cl0PDNAAVGySeIRliu73Fl2ZVgHgIAAACkUgAAACVoAQcKAIvzUx6Ri_nh4otV4_7b8dVQmC3njJpv2t45qLPo5c8LN76tQdJqbPVlbfG4pQ8EBy8iKoDcliDQ5lOMMSoeb9eKNu8k-sDxK5tdMAt2NZamnhcoEkM9KSOQNP3241gNoZLaGO33z6t-Ey3EjxwwWPDqZ1PhSRWGHD3VnDhe5xOMHX0px0gHrHXO6YZMmQHgKS8_l-g9MyZ2gTpCC3M1QhL51hra5Gapaj7Oqp6C_tYDOsHldCtknifhuYHCPy2nPi8FdT8vAFBwTndlC8t5rSbh7hV9UZ4OcZEB6J5enbPuLW3W_iux2JcggU1m4AQXDGn6uPMnd7GJnOO4HPeEfQq1-mwkmOwRjXRVZYAhDO426hNzsNabeMO3Cota8h8VwAjilDxIFbjXH_1Xys-8ESqZ8ONJ4nKiU0MqpY3Wf0Oi3Qhmj-B0A1ihE08l8k1si8eOst6oZ93lp9UbNd8lLPN-ArPglC2Sy9ciWk9c328A0qK9ip5zArRs0s6JydkvXeQy9sCVQr1aR_N6SMxzkwe3jCiI255SuH-pV-RSirqZpU_sS0eV47hhpg9_3DBQUo6fVafuGOpKU2XehWLMlgwmX15KqRGUNQLzDBXrztVA1OedkvsGPHlYdLaRv0y650Ce5RNRPqv0sk5tOduUpyf9CTjrRoPxhxIlw0vcaODISqpLC8xUlFkqNlQjmsaieb1oz9hoYoxVBXQ21E2tzdw0VxGWvxVJcX9auEYRh6mBoFbBSLGRczX_X026YiITlEJZIDQEWtERVOP60zrslbfDHOi2et-zp2ou4PQDf2rtRUCh7fWkRw8ARp8qpv5z"
+      },
+      {
+        "data": {
+          "filter": "||googletagservices.com^*/osd.js$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cb": "/r20100101"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/category/moda/jak-sie-ubrac-moda/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101"
+      },
+      {
+        "data": {
+          "filter": "||onesignal.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/category/moda/jak-sie-ubrac-moda/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://onesignal.com/sdks/OneSignalSDKStyles.css?v=2"
+      },
+      {
+        "data": {
+          "filter": "||crazyegg.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/category/moda/jak-sie-ubrac-moda/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://script.crazyegg.com/pages/versioned/common-scripts/11.1.149.js"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j87",
+            "a": 1886702077,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "https://lelum.pl/category/moda/jak-sie-ubrac-moda/",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "Jak się ubrać? Archives - Lelum.pl",
+            "sd": "30-bit",
+            "sr": "1440x900",
+            "vp": "1200x659",
+            "je": 0,
+            "_u": "AACAAUAB~",
+            "jid": "",
+            "gjid": "",
+            "cid": 493210401.16052437,
+            "tid": "UA-44038256-5",
+            "_gid": 321557368.16052437,
+            "gtm": "2oub41",
+            "z": 1438877240
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/category/moda/jak-sie-ubrac-moda/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j87&a=1886702077&t=pageview&_s=1&dl=https%3A%2F%2Flelum.pl%2Fcategory%2Fmoda%2Fjak-sie-ubrac-moda%2F&ul=en-us&de=UTF-8&dt=Jak%20si%C4%99%20ubra%C4%87%3F%20Archives%20-%20Lelum.pl&sd=30-bit&sr=1440x900&vp=1200x659&je=0&_u=AACAAUAB~&jid=&gjid=&cid=493210401.1605243606&tid=UA-44038256-5&_gid=321557368.1605243606&gtm=2oub41&z=1438877240"
+      },
+      {
+        "data": {
+          "filter": "||gemius.pl^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "l": 100,
+            "id": ".c2biStZyJyKVsyUtrSqLJaGXmedXWMct7R8zVUtLPT.C7",
+            "et": "view",
+            "hsrc": 1,
+            "initsonar": 1,
+            "extra": "",
+            "eventid": 0,
+            "fr": 1,
+            "tz": 480,
+            "fv": "-",
+            "href": "https://lelum.pl/category/moda/jak-sie-ubrac-moda/",
+            "ref": "",
+            "screen": "1440x900r2000",
+            "col": 30,
+            "window": "1200x703",
+            "ltime": 312,
+            "lsdata": "xGWGmJKrLXWHwYytmAY4DWu7QkhLJudRfGhkMwyCsLz.c73B8a7co_kohFxrJV9IyRZGVhu8IUCHNLy7VBuroy3jTufI/zPuZQy9WJH46w/",
+            "fpdata": "WQmMo8tFQCU5ZvPv0D2TNZbmpE.XxaYObqI5SLiGLCr.N7",
+            "vis": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/category/moda/jak-sie-ubrac-moda/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://gapl.hit.gemius.pl/_1605243611281/rexdot.js?l=100&id=.c2biStZyJyKVsyUtrSqLJaGXmedXWMct7R8zVUtLPT.C7&et=view&hsrc=1&initsonar=1&extra=&eventid=0&fr=1&tz=480&fv=-&href=https%3A%2F%2Flelum.pl%2Fcategory%2Fmoda%2Fjak-sie-ubrac-moda%2F&ref=&screen=1440x900r2000&col=30&window=1200x703&ltime=312&lsdata=xGWGmJKrLXWHwYytmAY4DWu7QkhLJudRfGhkMwyCsLz.c73B8a7co_kohFxrJV9IyRZGVhu8IUCHNLy7VBuroy3jTufI/zPuZQy9WJH46w/&fpdata=WQmMo8tFQCU5ZvPv0D2TNZbmpE.XxaYObqI5SLiGLCr.N7&vis=1"
+      },
+      {
+        "data": {
+          "filter": "||onesignal.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "callback": "__jp0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/category/moda/jak-sie-ubrac-moda/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://onesignal.com/api/v1/sync/a902a572-005f-4efa-a564-ab3a180191aa/web?callback=__jp0"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/analytics.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/category/moda/jak-sie-ubrac-moda/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||crazyegg.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "t": 5350812
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/category/moda/jak-sie-ubrac-moda/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://script.crazyegg.com/pages/data-scripts/0085/2169.json?t=5350812"
+      },
+      {
+        "data": {
+          "filter": "||gemius.pl^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "gst": "parent",
+            "href": "lelum.pl",
+            "gsver": 319,
+            "v": 445956
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/category/moda/jak-sie-ubrac-moda/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://gapl.hit.gemius.pl/gsconf.js?gst=parent&href=lelum.pl&gsver=319&v=445956"
+      },
+      {
+        "data": {
+          "filter": "||gemius.pl^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "about:blank",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ls.hit.gemius.pl/lsget.html"
+      },
+      {
+        "data": {
+          "filter": "||onesignal.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 151104
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/category/moda/jak-sie-ubrac-moda/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.onesignal.com/sdks/OneSignalPageSDKES6.js?v=151104"
+      },
+      {
+        "data": {
+          "filter": "||gemius.pl^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/category/moda/jak-sie-ubrac-moda/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://gapl.hit.gemius.pl/xgemius.js"
+      },
+      {
+        "data": {
+          "filter": "||hotjar.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sv": 6
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/category/moda/jak-sie-ubrac-moda/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.hotjar.com/c/hotjar-1409165.js?sv=6"
+      },
+      {
+        "data": {
+          "filter": "/gtm.js",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-WJMGC4Z"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/category/moda/jak-sie-ubrac-moda/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WJMGC4Z"
+      },
+      {
+        "data": {
+          "filter": "/gtm.js",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-N23TLCT"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/category/moda/jak-sie-ubrac-moda/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-N23TLCT"
+      },
+      {
+        "data": {
+          "filter": "||onesignal.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/category/moda/jak-sie-ubrac-moda/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.onesignal.com/sdks/OneSignalSDK.js"
+      },
+      {
+        "data": {
+          "filter": "||crazyegg.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/category/moda/jak-sie-ubrac-moda/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://script.crazyegg.com/pages/scripts/0085/2169.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com/gtag/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "UA-44038256-5"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/category/moda/jak-sie-ubrac-moda/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=UA-44038256-5"
+      },
+      {
+        "data": {
+          "filter": "||gemius.pl^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "l": 100,
+            "id": "pyOVTbNfbW_.QwNU6ENn.XYX.h3NJKLLd3zGREzrvRH.M7",
+            "et": "view",
+            "hsrc": 1,
+            "initsonar": 1,
+            "extra": "",
+            "eventid": 0,
+            "fr": 1,
+            "tz": 480,
+            "fv": "-",
+            "href": "https://lelum.pl/",
+            "ref": "",
+            "screen": "1440x900r2000",
+            "col": 30,
+            "window": "1200x659",
+            "ltime": 1080,
+            "lsdata": "OuksevjBeGotj6TvtqVAcOqNETezK..NlB4O7cJm21z.z7E3hkq7LRKNGZFHBXMjRVrhaeZmGVZIao.LfhdqdX4qZpF8/rM.gPjerbM0Mv/",
+            "fpdata": "WQmMo8tFQCU5ZvPv0D2TNZbmpE.XxaYObqI5SLiGLCr.N7",
+            "vis": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://gapl.hit.gemius.pl/__/_1605243609125/rexdot.js?l=100&id=pyOVTbNfbW_.QwNU6ENn.XYX.h3NJKLLd3zGREzrvRH.M7&et=view&hsrc=1&initsonar=1&extra=&eventid=0&fr=1&tz=480&fv=-&href=https%3A%2F%2Flelum.pl%2F&ref=&screen=1440x900r2000&col=30&window=1200x659&ltime=1080&lsdata=OuksevjBeGotj6TvtqVAcOqNETezK..NlB4O7cJm21z.z7E3hkq7LRKNGZFHBXMjRVrhaeZmGVZIao.LfhdqdX4qZpF8/rM.gPjerbM0Mv/&fpdata=WQmMo8tFQCU5ZvPv0D2TNZbmpE.XxaYObqI5SLiGLCr.N7&vis=1"
+      },
+      {
+        "data": {
+          "filter": "||gemius.pl^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "l": 100,
+            "id": "pyOVTbNfbW_.QwNU6ENn.XYX.h3NJKLLd3zGREzrvRH.M7",
+            "et": "view",
+            "hsrc": 1,
+            "initsonar": 1,
+            "extra": "",
+            "eventid": 0,
+            "fr": 1,
+            "tz": 480,
+            "fv": "-",
+            "href": "https://lelum.pl/",
+            "ref": "",
+            "screen": "1440x900r2000",
+            "col": 30,
+            "window": "1200x659",
+            "ltime": 1080,
+            "lsdata": "OuksevjBeGotj6TvtqVAcOqNETezK..NlB4O7cJm21z.z7E3hkq7LRKNGZFHBXMjRVrhaeZmGVZIao.LfhdqdX4qZpF8/rM.gPjerbM0Mv/",
+            "fpdata": "WQmMo8tFQCU5ZvPv0D2TNZbmpE.XxaYObqI5SLiGLCr.N7",
+            "vis": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://gapl.hit.gemius.pl/_1605243609125/rexdot.js?l=100&id=pyOVTbNfbW_.QwNU6ENn.XYX.h3NJKLLd3zGREzrvRH.M7&et=view&hsrc=1&initsonar=1&extra=&eventid=0&fr=1&tz=480&fv=-&href=https%3A%2F%2Flelum.pl%2F&ref=&screen=1440x900r2000&col=30&window=1200x659&ltime=1080&lsdata=OuksevjBeGotj6TvtqVAcOqNETezK..NlB4O7cJm21z.z7E3hkq7LRKNGZFHBXMjRVrhaeZmGVZIao.LfhdqdX4qZpF8/rM.gPjerbM0Mv/&fpdata=WQmMo8tFQCU5ZvPv0D2TNZbmpE.XxaYObqI5SLiGLCr.N7&vis=1"
+      },
+      {
+        "data": {
+          "filter": "||onesignal.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://onesignal.com/sdks/OneSignalSDKStyles.css?v=2"
+      },
+      {
+        "data": {
+          "filter": "||gemius.pl^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "gst": "parent",
+            "href": "lelum.pl",
+            "gsver": 319,
+            "v": 445956
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://gapl.hit.gemius.pl/gsconf.js?gst=parent&href=lelum.pl&gsver=319&v=445956"
+      },
+      {
+        "data": {
+          "filter": "||gemius.pl^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "about:blank",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ls.hit.gemius.pl/lsget.html"
+      },
+      {
+        "data": {
+          "filter": "||gemius.pl^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "href": "lelum.pl"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://gapl.hit.gemius.pl/fpdata.js?href=lelum.pl"
+      },
+      {
+        "data": {
+          "filter": "||stats.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "t": "dc",
+            "aip": 1,
+            "_r": 3,
+            "v": 1,
+            "_v": "j87",
+            "tid": "UA-44038256-5",
+            "cid": 493210401.16052437,
+            "jid": 413179318,
+            "gjid": 1865832532,
+            "_gid": 321557368.16052437,
+            "_u": "IEBAAUAAAAAAAC~",
+            "z": 273106128
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j87&tid=UA-44038256-5&cid=493210401.1605243606&jid=413179318&gjid=1865832532&_gid=321557368.1605243606&_u=IEBAAUAAAAAAAC~&z=273106128"
+      },
+      {
+        "data": {
+          "filter": "/collect?*&cid=",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j87",
+            "a": 1563821734,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "https://lelum.pl/",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "Lelum.pl - LIFESTYLE • GWIAZDY • MODA • URODA • ROZRYWKA",
+            "sd": "30-bit",
+            "sr": "1440x900",
+            "vp": "1200x659",
+            "je": 0,
+            "_u": "IEBAAUABAAAAAC~",
+            "jid": 413179318,
+            "gjid": 1865832532,
+            "cid": 493210401.16052437,
+            "tid": "UA-44038256-5",
+            "_gid": 321557368.16052437,
+            "_r": 1,
+            "gtm": "2oub41",
+            "z": 994424122
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j87&a=1563821734&t=pageview&_s=1&dl=https%3A%2F%2Flelum.pl%2F&ul=en-us&de=UTF-8&dt=Lelum.pl%20-%20LIFESTYLE%20%E2%80%A2%20GWIAZDY%20%E2%80%A2%20MODA%20%E2%80%A2%20URODA%20%E2%80%A2%20ROZRYWKA&sd=30-bit&sr=1440x900&vp=1200x659&je=0&_u=IEBAAUABAAAAAC~&jid=413179318&gjid=1865832532&cid=493210401.1605243606&tid=UA-44038256-5&_gid=321557368.1605243606&_r=1&gtm=2oub41&z=994424122"
+      },
+      {
+        "data": {
+          "filter": "||onesignal.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "callback": "__jp0"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://onesignal.com/api/v1/sync/a902a572-005f-4efa-a564-ab3a180191aa/web?callback=__jp0"
+      },
+      {
+        "data": {
+          "filter": "||crazyegg.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://script.crazyegg.com/pages/versioned/common-scripts/11.1.149.js"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/analytics.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||onesignal.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 151104
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.onesignal.com/sdks/OneSignalPageSDKES6.js?v=151104"
+      },
+      {
+        "data": {
+          "filter": "||crazyegg.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "t": 5350812
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://script.crazyegg.com/pages/data-scripts/0085/2169.json?t=5350812"
+      },
+      {
+        "data": {
+          "filter": "||gemius.pl^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://gapl.hit.gemius.pl/xgemius.js"
+      },
+      {
+        "data": {
+          "filter": "||hotjar.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sv": 6
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.hotjar.com/c/hotjar-1409165.js?sv=6"
+      },
+      {
+        "data": {
+          "filter": "/gtm.js",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-WJMGC4Z"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WJMGC4Z"
+      },
+      {
+        "data": {
+          "filter": "/gtm.js",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-N23TLCT"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-N23TLCT"
+      },
+      {
+        "data": {
+          "filter": "||onesignal.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.onesignal.com/sdks/OneSignalSDK.js"
+      },
+      {
+        "data": {
+          "filter": "||crazyegg.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://script.crazyegg.com/pages/scripts/0085/2169.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com/gtag/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "UA-44038256-5"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lelum.pl/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=UA-44038256-5"
+      }
+    ]
+  }
+}

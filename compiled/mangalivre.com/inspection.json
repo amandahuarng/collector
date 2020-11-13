@@ -1,12 +1,10 @@
 {
   "title": "Blacklight Inspection",
-  "uri_ins": "http://sefon.pro",
-  "uri_dest": "https://sefon.pro/",
-  "uri_redirects": [
-    "http://sefon.pro/"
-  ],
+  "uri_ins": "http://mangalivre.com",
+  "uri_dest": "http://mangalivre.com/",
+  "uri_redirects": [],
   "secure_connection": {},
-  "host": "sefon.pro",
+  "host": "mangalivre.com",
   "config": {
     "clearCache": true,
     "captureHar": true,
@@ -32,15 +30,15 @@
     },
     "node_version": "v14.14.0"
   },
-  "start_time": "2020-11-13T02:19:55.939Z",
-  "end_time": "2020-11-13T02:20:10.655Z",
+  "start_time": "2020-11-13T04:44:48.780Z",
+  "end_time": "2020-11-13T04:44:55.423Z",
   "browsing_history": [
-    "https://sefon.pro/"
+    "http://mangalivre.com/"
   ],
   "hosts": {
     "requests": {
       "first_party": [
-        "sefon.pro"
+        "mangalivre.com"
       ],
       "third_party": []
     }
@@ -57,7 +55,17 @@
       "canvas_font": {},
       "text_measure": {}
     },
-    "cookies": [],
+    "cookies": [
+      {
+        "domain": "mangalivre.com",
+        "name": "__cfduid",
+        "path": "/",
+        "script": "http://mangalivre.com/",
+        "type": "http",
+        "value": "d832b7ef024f77ed38027a15ebe8cc4bc1605242693",
+        "third_party": false
+      }
+    ],
     "fb_pixel_events": [],
     "key_logging": {},
     "session_recorders": {},
