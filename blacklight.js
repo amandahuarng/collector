@@ -2,6 +2,8 @@ const { collector } = require("@themarkup/blacklight-collector");
 const path = require("path");
 const {join} = require("path");
 const fs = require("fs");
+const fsExtra = require('fs-extra')
+
 module.exports.scrapeSource = scrapeSource;
 async function scrapeSource(url) {
   const EMULATE_DEVICE = false;
@@ -10,8 +12,7 @@ async function scrapeSource(url) {
 
   // The URL to test
   let URL = url;
-  console.log(url)
-  //console.log(URL)
+  console.log("begin running:", url)
   const defaultConfig = {
     inUrl: `http://${URL}`,
     numPages: 2,
@@ -46,8 +47,8 @@ async function scrapeSource(url) {
     else {
       console.log("could not find path: ", pathToFile)
     }
-
-
+    const dir = join(__dirname, "demo-dir")
+    fsExtra.emptyDirSync(dir)
     URL = null
     return null;
   }
